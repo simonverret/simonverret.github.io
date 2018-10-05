@@ -1,0 +1,436 @@
+/**
+ * Site header
+ */
+.site-header {
+  font: 1.0*$base-font-weight #{$base-font-size}/#{$base-line-height} $body-font-family;
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.95;
+
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+
+  background-color: $background-color;
+  
+  z-index: 1000;
+  //position:fixed;
+  // Positioning context for the mobile navigation icon
+  //position: relative;
+}
+
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 0.5*$base-font-weight;
+  line-height: $base-line-height * $base-font-size * 2.5;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: #000;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.5;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        fill: $grey-color-dark;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+  font:  $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  border-top: 2px solid $grey-color-light;
+  padding: $spacing-unit 0;
+}
+
+// .footer-heading {
+//   @include relative-font-size(1.125);
+//   margin-bottom: $spacing-unit / 2;
+// }
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+// .footer-col-wrapper {
+//   @include relative-font-size(0.9375);
+//   color: $grey-color;
+//   margin-left: -$spacing-unit / 2;
+//   @extend %clearfix;
+// }
+
+// .footer-col {
+//   float: center;
+//   margin-bottom: $spacing-unit / 2;
+//   padding-left: $spacing-unit / 2;
+// }
+
+// .footer-col-1 {
+//   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+//   width:         calc(35% - (#{$spacing-unit} / 2));
+// }
+
+.footer-col-2 {
+  float: center;
+}
+
+// .footer-col-2 {
+//   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+//   width:         calc(20% - (#{$spacing-unit} / 2));
+// }
+
+// .footer-col-3 {
+//   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+//   width:         calc(45% - (#{$spacing-unit} / 2));
+// }
+
+// @include media-query($on-laptop) {
+//   .footer-col-1,
+//   .footer-col-2 {
+//     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+//     width:         calc(50% - (#{$spacing-unit} / 2));
+//   }
+
+//   .footer-col-3 {
+//     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//     width:         calc(100% - (#{$spacing-unit} / 2));
+//   }
+// }
+
+// @include media-query($on-palm) {
+//   .footer-col {
+//     float: none;
+//     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//     width:         calc(100% - (#{$spacing-unit} / 2));
+//   }
+// }
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: 2*$spacing-unit 0;
+  flex: 1;
+}
+
+.page-heading {
+  @include relative-font-size(1.625);
+}
+
+.post-list-heading {
+  @include relative-font-size(1.625);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  @include relative-font-size(2.0);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(1.625);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.25);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.125);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.125);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+
+
+
+
+/*
+my custom
+*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.narrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%
+}
+
+
+
+/** 
+ * Portfolio grid **********************************************************
+*/
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.project {
+width: 33.33%;
+height: 250px;
+float: left;
+vertical-align: middle;
+box-sizing: border-box;
+padding: 10px;
+}
+.thumbnail{
+width: 100%;
+height: 230px;
+overflow: hidden;
+}
+.thumbnail img{
+width: 500px;
+height: auto;
+position: relative;
+left: -25%;
+top: -5%;
+}
+.thumbnail a{
+float: left;
+position: relative;
+width: 100%;
+height: 230px;
+}
+.thumbnail a span {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.4);
+color: $grey-color-light;
+padding: 40px;
+text-align: center;
+}
+.thumbnail a:hover span {
+display: block;
+}
+/** 
+ * Portfolio pages **********************************************************
+*/
+.blankbox{
+background: $background-color;
+}
+.img_row{
+height: 0.3*$content-width;
+width: 100%;
+overflow: hidden;
+box-sizing: border-box;
+padding: 0.01*$content-width;
+}
+.col{ 
+width: 100%;
+height: 100%;
+float: left;
+object-fit: cover;
+box-sizing: border-box;
+padding: 5px;
+}
+.right{
+float: right;
+}
+.left{
+float: left;
+}
+.one {
+width:33.33%;
+}
+.two {
+width: 66.66%;
+}
+.three{
+width: 100%;
+}
+.caption{
+height: 100%;
+color: $text-color;
+text-align: center;
+vertical-align: middle;
+font-size: $base-font-size;
+}
+
+
+
+
+
+/*
+//////////////// COLLAPSIBLES
+*/
+
+.button {
+  font: $body-font-family;
+}
+
+.collapsible {
+  font: $base-font-weight #{$body-font-size}/#{$base-line-height} $body-font-family;
+  background-color: $background-color;
+  color: $grey-color-dark;
+  cursor: pointer;
+  padding: 5px;
+  
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  
+  border-left: 4px solid $grey-color-light;
+  // border-radius: 10px;
+
+  font-size: $body-font-size*1.0;
+}
+
+.active, .collapsible:hover {
+  color: #000;
+}
+
+.content {
+  padding: 12px;
+  display: none;
+  overflow: hidden;
+  border: 0px solid $grey-color-light;
+  // border-radius: 10px;
+  font-size: $body-font-size*0.875;
+  background-color: $grey-color-light;
+}
