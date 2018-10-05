@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Bare dispersion of cuprates"
-date:   2018-09-16 19:43:16 -0400
 categories: cuprates physics
 comments: true
 mathjax: true
