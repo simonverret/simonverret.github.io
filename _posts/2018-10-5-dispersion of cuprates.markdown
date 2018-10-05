@@ -13,7 +13,7 @@ $$ \xi_{\vec k} = -2t(\cos k_x + \cos k_y) - 2t'(\cos (kx+k_y) + \cos (kx+k_y)) 
 
 Of course, such a simple modle does not contain the superconductivity. Plotted as a function of $k_x$ and $ky$, this energy function yields:
 
-<img src="/IMG/CupratesMovie.gif" title="Cuprates in GIF" />
+<img src="/img/CupratesMovie.gif" title="Cuprates in GIF" />
 
 Where the chemical potential $\mu$ changes with time. The Mathemtatica code to produce the above animation is below. On the right, I plot the energy contour $ \xi_{\vec k} = 0$ as a function of $k_x$ and $k_y$, and the spectral weight at the Fermi level $A(\vec k, \epsilon=0)$, which are the same in this case. The spectral weight is given by:
 
