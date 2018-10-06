@@ -9,21 +9,22 @@ order: 5
 
 <h2>Education</h2>
 
-<button class="collapsible"><b> DOCTORATE (PhD) PHYSICS </b></button>
+<button class="collapsible"><b> PhD in PHYSICS </b></button>
 <div class="content">
   <b>2014 - 2018, Université de Sherbrooke</b>
   | With supplementary course in data structures IFT-339 and Algorithms and data structures IFT-436. Published code: <a href="https://physique.usherbrooke.ca/codes_sources/">physique.usherbrooke.ca/codes_sources/</a>oneBuddy.tar.gz
 </div>
 
-<button class="collapsible"><b> MASTER'S (MSc) PHYSICS </b></button>
+<button class="collapsible"><b> MSc in PHYSICS </b></button>
 <div class="content">
   <b>2011 - 2014, Université de Sherbrooke</b>
-  | With supplementary course in Quantum computation PHQ-737
+  | With supplementary course in quantum information and computation, PHQ-737. Two weeks visiting at Harvard University. 
 </div>
 
-<button class="collapsible"><b> BACHELOR'S (B. Sc) PHYSICS </b></button>
+<button class="collapsible"><b> BACHELOR'S DEGREE (B. Sc) in PHYSICS </b></button>
 <div class="content">
   <b>2008 - 2011, Université Laval</b>
+  | Internships at Université Laval and University of Calgary (see below)
 </div>
 <p></p>
 
@@ -40,31 +41,34 @@ order: 5
 <button class="collapsible"><b> OFFICIAL REPORTER, QUANTUM MATERIALS PROGRAM </b></button>
 <div class="content">
   <b>2017, Université de Sherbrooke</b>
-  | Redaction of the official reports for main meetings in San Francisco and Montreal.
+  | Redaction of the official reports for the main meetings of the research program. In San Francisco, November 2017 and in Montreal, may 2018.
 </div>
 
 <button class="collapsible"><b> INVESTIGATION COMMITTEE ON RESEARCH INTEGRITY </b></button>
 <div class="content">
-  <b>March 5th to 9th, 2018, HEC - Université de Montréal</b>
-  | Selected by the University's president to investigate an intellectual property conflict: read complaints, witnesses examination and testimonies and redaction of a report (confidential), under the supervision of a lawyer  specialized in intellectual property.
+  <b>March to August 2017, Université de Sherbrooke</b>
+  | Selected by the University's president to investigate an intellectual property conflict: read complaints, witnesses examination and testimonies and redaction of a report (confidential), under the supervision of a lawyer specialized in intellectual property.
 </div>
 
 <button class="collapsible"><b> COMMITTEE FOR CURRICULUM REVISION </b></button>
 <div class="content">
   <b>2016, Université de Sherbrooke, Physics Department</b>
-  | Selected by the program director to represent grad students during the curriculum revision.
+  | Selected by the program director to represent graduate students during the physics curriculum revision.
 </div>
 
 <button class="collapsible"><b> TEACHING ASSISTANT </b></button>
 <div class="content">
   <b>2015, Université de Sherbrooke</b>
-  | Exercise courses and correcting homework for Advanced Electromagnetism PHQ-421
+  | Blackboard presentation of exercises and correcting homeworks for Advanced Electromagnetism PHQ-421
 </div>
 
 <button class="collapsible"><b> RESEARCH ASSISTANT WITH U.S.R.A. AWARDS. </b></button>
 <div class="content">
-  <b>2009 to 2011, Université Laval, Québec, Canada & University of Calgary, Calgary, Canada</b>
-  | Design, crafting and calibration of an optical integration sphere (radiometry), laser and workplace hazardous materials information system security training. CAD design, integrated circuits programmation (AVR), photolithographic development, soldering and optical alignment.
+  <b>2009 and 2011, Université Laval, Québec, Canada</b>
+  | Design, crafting and calibration of an optical integration sphere (radiometry), laser and workplace hazardous materials information system security training.
+  <br>
+  <b>2010, University of Calgary, Calgary, Canada</b>
+  CAD design, AVR integrated circuits programmation (assembly and C), photolithographic development, soldering and optical alignment.
 </div>
 <p></p>
 
@@ -73,10 +77,10 @@ order: 5
 
 <h2>Languages and softwares</h2>
 <ul>
-<li>French, English spoken & written</li>
-<li>Python, C, C++, Mathematica (Programming)</li>
-<li>LaTeX, Asymptote, Gnuplot (Scientific redaction)</li>
-<li>Illustrator, Photoshop, InDesign (Graphic design)</li>
+<li><b>French, English</b> spoken & written</li>
+<li><b>Python, C, C++, Mathematica</b> (Programming)</li>
+<li><b>LaTeX, Asymptote, Gnuplot</b> (Scientific redaction)</li>
+<li><b>Illustrator, Photoshop, InDesign</b> (Graphic design)</li>
 </ul>
 
 <h2>Volunteering & Activities</h2>
@@ -84,13 +88,13 @@ order: 5
 <li>Organizing lunch seminars, 2016-2017 (Physics Department, Université de Sherbrooke)</li>
 <li>President, RQMP summer school 2015 </li>
 <li>VP Logistics, RQMP summer school 2014</li>
-<li>VP Finances, Physics Games 2014 (Sher/liooke)</li>
-<li>Candidate in the 2011 federal elections, Charlesbourg, Haute Saint-Charles, Quebec</li>
+<li>VP Finances, Physics Games 2014 (Sherbrooke)</li>
+<li>Candidate in the 2011 federal elections, Charlesbourg, Haute Saint-Charles, Québec</li>
 <li>President, Coupe de Science 2011 (Science and Engineering competition)</li>
 <li>VP Human ressources, Coupe de Science 2010 (Science and Engineering competition)</li>
-<li>Graduation committee and student representative, 2009-2011 (physics, Université Laval)</li>
-<li>Capitaine de l’équipe d’improvisation (Cégep de Limoilou 2007-2008)</li>
-<li>Head writer, students journal (Polyvalente de Charlesbourg 2005 et 2006)</li>
+<li>Graduation committee and student representative, 2009-2011 (Physics, Université Laval)</li>
+<li>Captain of improv team (Cégep Limoilou 2007-2008)</li>
+<li>Head writer, students journal (Polyvalente de Charlesbourg 2005-2006)</li>
 </ul>
 
 <br>
@@ -102,7 +106,7 @@ order: 5
 <li>Excellence award (Université Laval, 2009)</li>
 <li>Excellence award (Polyvalente de Charlesbourg, 2006)</li>
 <li>Student excellence (peer voted, Science and Engineering, Université Laval, 2010 and 2011)</li>
-<li>Personality of the year (Univ. Laval, physics students' association, 2009, 2010 and 2011)</li>
+<li>Personality of the year (Université Laval, physics students' association, 2009, 2010 and 2011)</li>
 <li>Personality of the year (Polyvalente de Charlesbourg, 2005)</li>
 </ul>
 

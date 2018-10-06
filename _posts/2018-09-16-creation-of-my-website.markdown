@@ -16,6 +16,6 @@ I created the initial website following
 $ bundle exec jekyll serve --port 4001
 {% endhighlight %}
 
-By default, the code of the theme is implicitely called by Jekyll. To put it explicitely in the site's repository, I downloaded the <a href="https://github.com/jekyll/minima">actual source code</a>. This allowed me to experiment. In order to truly be independent from the theme, however, I had to follow <a href='https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes'>Jekyll's instructions to regular themes</a>
+By default, the code of the theme is implicitly called by Jekyll. To put it explicitly in the site's repository, I downloaded the <a href="https://github.com/jekyll/minima">actual source code</a>. This allowed me to experiment. In order to truly be independent from the theme, however, I had to follow <a href='https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes'>Jekyll's instructions to regular themes</a>
 
 In order to add mathematical expressions, I <a href="http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html">use mathjax</a>, with a few custom <a href="http://docs.mathjax.org/en/latest/tex.html">latex macros</a>.

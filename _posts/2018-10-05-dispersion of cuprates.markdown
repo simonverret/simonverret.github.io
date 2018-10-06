@@ -10,15 +10,15 @@ It is often useful to explore the simplest model describing high temperature sup
 
 $$ \xi_{\vec k} = -2t(\cos k_x + \cos k_y) - 2t'(\cos (kx+k_y) + \cos (kx+k_y)) - \mu$$
 
-Of course, such a simple modle does not contain the superconductivity. Plotted as a function of $k_x$ and $ky$, this energy function yields:
+Of course, such a simple model does not contain superconductivity. As a function of $k_x$ and $k_y$, this energy function yields:
 
 <img src="/img/CupratesMovie.gif" title="Cuprates in GIF" />
 
-Where the chemical potential $\mu$ changes with time. The Mathemtatica code to produce the above animation is below. On the right, I plot the energy contour $ \xi_{\vec k} = 0$ as a function of $k_x$ and $k_y$, and the spectral weight at the Fermi level $A(\vec k, \epsilon=0)$, which are the same in this case. The spectral weight is given by:
+where the chemical potential $\mu$ changes with time. The Mathemtatica code to produce the above animation is given below. On the right, I plot the energy contour $ \xi_{\vec k} = 0$ as a function of $k_x$ and $k_y$, and the spectral weight at the Fermi level $A(\vec k, \epsilon=0)$, which are the same in this case. The spectral weight is given by:
 
 $$ A(\vec k, \epsilon) = -\frac{1}{\pi}\text{Im}\left\{\frac{1}{\epsilon+i0^{+}-\xi(\vec k)}\right\}$$
 
-where $0^+$ is chosen as 0.05.
+where $0^+$ takes the arbitrary value of 0.05.
 
 
 {% highlight mathematica %}

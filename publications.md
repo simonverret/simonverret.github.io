@@ -15,7 +15,7 @@ S.Verret<br>
 Université de Sherbrooke (2018) 119 pages.
 </button>
 <div class="content">
-  My PhD Thesis (French)
+  My PhD Thesis (french)
   | <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
   | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
   | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
@@ -25,12 +25,12 @@ Université de Sherbrooke (2018) 119 pages.
 <button class="collapsible">
 <b><i>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</i></b><br>
 S.Verret, O.Simard, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
-Physical Review B 96, 125139 (2017), 11 pages. <b><i>editor's suggestion</i></b>
+Physical Review B 96, 125139 (2017), 11 pages. <b><i>editors' suggestion</i></b>
 </button>
 <div class="content">
   <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
-  | This paper makes clear predictions for the Seebeck coefficient, the Hall coefficient, and specific heat in certain popular models for the pseudogap of high temperature superconductors. To my knowledge, these predictions have not been confirmed experimentally, which reveals a weakness of these models, as discussed in the paper.
+  | This paper makes clear predictions for the Seebeck coefficient, the Hall coefficient, and specific heat in three models for the pseudogap of high temperature superconductors. To my knowledge, these predictions have not been confirmed experimentally, which reveals a common weakness of these models, as discussed in the paper.
 </div>
 <p></p>
 
@@ -42,7 +42,7 @@ Physical Review B 96, 205132 (2017), 9 pages.
 <div class="content">
   <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
-  | The main work for this paper was done by my colleague Maxime Charlebois. He used the code developped for my paper on subgap structures (just below) to study the Hall effect in incomensurates systems. Togheter with colleague Alexandre Foley, we found a way to efficiently compute the electronic velocity in these systems (appendix of the paper), so that Maxime could compute the Hall resistivity.
+  | The main work for this paper was done by my colleague Maxime Charlebois. He used the code developped for my paper on subgap structures (just below) to study the Hall effect in incomensurate systems. Togheter with colleague Alexandre Foley, we found a way to efficiently compute the electronic velocity in these systems (appendix of the paper) so that Maxime could compute the Hall resistivity.
 </div>
 <p></p>
 
@@ -54,7 +54,7 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <div class="content">
   <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
-  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doupt the last figure, which was first drawn spontaneously on a blackboard in a heated discussion with Maxime Charlebois.
+  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which drawn spontaneously, at first, directly on the blackboard during a heated discussion with Maxime Charlebois.
 </div>
 <p></p>
 
