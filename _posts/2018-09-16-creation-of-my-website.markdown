@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Website creation"
-categories: jekyll website
+categories:
 comments: true
 ---
 

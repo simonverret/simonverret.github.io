@@ -293,103 +293,103 @@ my custom
 
 
 
-/** 
- * Portfolio grid **********************************************************
-*/
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-content: " ";
-display: table;
-}
-.clearfix:after {
-clear: both;
-}
-.project {
-width: 33.33%;
-height: 250px;
-float: left;
-vertical-align: middle;
-box-sizing: border-box;
-padding: 10px;
-}
-.thumbnail{
-width: 100%;
-height: 230px;
-overflow: hidden;
-}
-.thumbnail img{
-width: 500px;
-height: auto;
-position: relative;
-left: -25%;
-top: -5%;
-}
-.thumbnail a{
-float: left;
-position: relative;
-width: 100%;
-height: 230px;
-}
-.thumbnail a span {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-background: rgba(0,0,0,0.4);
-color: $grey-color-light;
-padding: 40px;
-text-align: center;
-}
-.thumbnail a:hover span {
-display: block;
-}
-/** 
- * Portfolio pages **********************************************************
-*/
-.blankbox{
-background: $background-color;
-}
-.img_row{
-height: 0.3*$content-width;
-width: 100%;
-overflow: hidden;
-box-sizing: border-box;
-padding: 0.01*$content-width;
-}
-.col{ 
-width: 100%;
-height: 100%;
-float: left;
-object-fit: cover;
-box-sizing: border-box;
-padding: 5px;
-}
-.right{
-float: right;
-}
-.left{
-float: left;
-}
-.one {
-width:33.33%;
-}
-.two {
-width: 66.66%;
-}
-.three{
-width: 100%;
-}
-.caption{
-height: 100%;
-color: $text-color;
-text-align: center;
-vertical-align: middle;
-font-size: $base-font-size;
-}
+// /** 
+//  * Portfolio grid **********************************************************
+// */
+// // Nicolas Gallagher's micro clearfix hack
+// // http://nicolasgallagher.com/micro-clearfix-hack/
+// .clearfix:before,
+// .clearfix:after {
+// content: " ";
+// display: table;
+// }
+// .clearfix:after {
+// clear: both;
+// }
+// .project {
+// width: 33.33%;
+// height: 250px;
+// float: left;
+// vertical-align: middle;
+// box-sizing: border-box;
+// padding: 10px;
+// }
+// .thumbnail{
+// width: 100%;
+// height: 230px;
+// overflow: hidden;
+// }
+// .thumbnail img{
+// width: 500px;
+// height: auto;
+// position: relative;
+// left: -25%;
+// top: -5%;
+// }
+// .thumbnail a{
+// float: left;
+// position: relative;
+// width: 100%;
+// height: 230px;
+// }
+// .thumbnail a span {
+// display: none;
+// position: absolute;
+// top: 0;
+// left: 0;
+// bottom: 0;
+// right: 0;
+// background: rgba(0,0,0,0.4);
+// color: $grey-color-light;
+// padding: 40px;
+// text-align: center;
+// }
+// .thumbnail a:hover span {
+// display: block;
+// }
+// /** 
+//  * Portfolio pages **********************************************************
+// */
+// .blankbox{
+// background: $background-color;
+// }
+// .img_row{
+// height: 0.3*$content-width;
+// width: 100%;
+// overflow: hidden;
+// box-sizing: border-box;
+// padding: 0.01*$content-width;
+// }
+// .col{ 
+// width: 100%;
+// height: 100%;
+// float: left;
+// object-fit: cover;
+// box-sizing: border-box;
+// padding: 5px;
+// }
+// .right{
+// float: right;
+// }
+// .left{
+// float: left;
+// }
+// .one {
+// width:33.33%;
+// }
+// .two {
+// width: 66.66%;
+// }
+// .three{
+// width: 100%;
+// }
+// .caption{
+// height: 100%;
+// color: $text-color;
+// text-align: center;
+// vertical-align: middle;
+// font-size: $base-font-size;
+// }
 
 
 
@@ -398,6 +398,7 @@ font-size: $base-font-size;
 /*
 //////////////// COLLAPSIBLES
 */
+
 
 .button {
   font: $body-font-family;
@@ -409,28 +410,48 @@ font-size: $base-font-size;
   color: $grey-color-dark;
   cursor: pointer;
   padding: 5px;
-  
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  
-  border-left: 4px solid $grey-color-light;
-  // border-radius: 10px;
-
+  border-left: 4px solid $background-color;
   font-size: $body-font-size*1.0;
 }
 
 .active, .collapsible:hover {
-  color: #000;
+  border-left: 4px solid $grey-color-light;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color:  $grey-color-dark;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  margin-top:  0px;
+}
+
+.active:after {
+  content: "\2212";
 }
 
 .content {
-  padding: 12px;
-  display: none;
+  padding: 0;
+  max-height: 0;
   overflow: hidden;
-  border: 0px solid $grey-color-light;
-  // border-radius: 10px;
+  transition: max-height 0.2s ease-out;
   font-size: $body-font-size*0.875;
   background-color: $grey-color-light;
 }
+
+.cp {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+}
+
+.MathJax {
+  font-size: 1em;
+}
+

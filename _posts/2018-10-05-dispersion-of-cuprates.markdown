@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bare dispersion of cuprates"
-categories: cuprates physics
+categories:
 comments: true
 mathjax: true
 ---

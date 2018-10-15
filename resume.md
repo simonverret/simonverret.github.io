@@ -11,20 +11,26 @@ order: 5
 
 <button class="collapsible"><b> PhD in PHYSICS </b></button>
 <div class="content">
+<p class="cp">
   <b>2014 - 2018, Université de Sherbrooke</b>
   | With supplementary course in data structures IFT-339 and Algorithms and data structures IFT-436. Published code: <a href="https://physique.usherbrooke.ca/codes_sources/">physique.usherbrooke.ca/codes_sources/</a>oneBuddy.tar.gz
+</p>
 </div>
 
 <button class="collapsible"><b> MSc in PHYSICS </b></button>
 <div class="content">
+<p class="cp">
   <b>2011 - 2014, Université de Sherbrooke</b>
   | With supplementary course in quantum information and computation, PHQ-737. Two weeks visiting at Harvard University. 
+</p>
 </div>
 
 <button class="collapsible"><b> BACHELOR'S DEGREE (B. Sc) in PHYSICS </b></button>
 <div class="content">
+<p class="cp">
   <b>2008 - 2011, Université Laval</b>
   | Internships at Université Laval and University of Calgary (see below)
+</p>
 </div>
 <p></p>
 
@@ -34,41 +40,53 @@ order: 5
 
 <button class="collapsible"><b> IVADO/MILA WINTER SCHOOL ON DEEP LEARNING </b></button>
 <div class="content">
+<p class="cp">
   <b>March 5th to 9th, 2018, HEC - Université de Montréal</b>
   | One week training on deep learning: convolutional neural networks (CNN), recurrent neural network (RNN), generative adversarial network (GAN), with tutorials using the PyTorch library.
+</p>
 </div>
 
 <button class="collapsible"><b> OFFICIAL REPORTER, QUANTUM MATERIALS PROGRAM </b></button>
 <div class="content">
+<p class="cp">
   <b>2017, Université de Sherbrooke</b>
   | Redaction of the official reports for the main meetings of the research program. In San Francisco, November 2017 and in Montreal, may 2018.
+</p>
 </div>
 
 <button class="collapsible"><b> INVESTIGATION COMMITTEE ON RESEARCH INTEGRITY </b></button>
 <div class="content">
+<p class="cp">
   <b>March to August 2017, Université de Sherbrooke</b>
   | Selected by the University's president to investigate an intellectual property conflict: read complaints, witnesses examination and testimonies and redaction of a report (confidential), under the supervision of a lawyer specialized in intellectual property.
+</p>
 </div>
 
 <button class="collapsible"><b> COMMITTEE FOR CURRICULUM REVISION </b></button>
 <div class="content">
+<p class="cp">
   <b>2016, Université de Sherbrooke, Physics Department</b>
   | Selected by the program director to represent graduate students during the physics curriculum revision.
+</p>
 </div>
 
 <button class="collapsible"><b> TEACHING ASSISTANT </b></button>
 <div class="content">
+<p class="cp">
   <b>2015, Université de Sherbrooke</b>
   | Blackboard presentation of exercises and correcting homeworks for Advanced Electromagnetism PHQ-421
+</p>
 </div>
 
 <button class="collapsible"><b> RESEARCH ASSISTANT WITH U.S.R.A. AWARDS. </b></button>
 <div class="content">
+<p class="cp">
   <b>2009 and 2011, Université Laval, Québec, Canada</b>
   | Design, crafting and calibration of an optical integration sphere (radiometry), laser and workplace hazardous materials information system security training.
   <br>
   <b>2010, University of Calgary, Calgary, Canada</b>
   CAD design, AVR integrated circuits programmation (assembly and C), photolithographic development, soldering and optical alignment.
+</p>
 </div>
 <p></p>
 
@@ -122,19 +140,5 @@ order: 5
 
 
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+
 
