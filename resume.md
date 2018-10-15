@@ -85,7 +85,7 @@ order: 5
   | Design, crafting and calibration of an optical integration sphere (radiometry), laser and workplace hazardous materials information system security training.
   <br>
   <b>2010, University of Calgary, Calgary, Canada</b>
-  CAD design, AVR integrated circuits programmation (assembly and C), photolithographic development, soldering and optical alignment.
+  CAD design, AVR integrated circuits programming (assembly and C), photolithographic development, soldering and optical alignment.
 </p>
 </div>
 <p></p>
