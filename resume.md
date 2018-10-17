@@ -114,6 +114,9 @@ order: 5
 <li>Graduation committee and student representative, 2009-2011 (Physics, Université Laval)</li>
 <!-- <li>Captain of improv team (Cégep Limoilou 2007-2008)</li> -->
 <!-- <li>Head writer, students journal (Polyvalente de Charlesbourg 2005-2006)</li> -->
+<!-- jeunes entreprise -->
+<!-- defi genie inventif -->
+<!-- opti math, info club, murales cegep, murales comedie musicale -->
 </ul>
 
 <br>
@@ -127,6 +130,7 @@ order: 5
 <li>Student excellence (peer voted, Science and Engineering, Université Laval, 2010 and 2011)</li>
 <!-- <li>Personality of the year (Université Laval, physics students' association, 2009, 2010 and 2011)</li> -->
 <!-- <li>Personality of the year (Polyvalente de Charlesbourg, 2005)</li> -->
+<!-- grands québecois -->
 </ul>
 
 

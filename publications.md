@@ -11,20 +11,6 @@ order: 4
 <h4>PhD and MSc at Université de Sherbrooke (2011-2017)</h4>
 
 <button class="collapsible">
-<b><i>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</i></b><br>
-My PhD Thesis (French), Université de Sherbrooke (2018) 119 pages.
-</button>
-<div class="content">
-<p class="cp">
-  My PhD Thesis (french)
-  | <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
-  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
-  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
-</p>
-</div>
-<p></p>
-
-<button class="collapsible">
 <b><i>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</i></b><br>
 S.Verret, O.Simard, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
 Physical Review B 96, 125139 (2017), 11 pages. <b><i>editors' suggestion</i></b>
@@ -68,13 +54,25 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <p></p>
 
 <button class="collapsible">
-<b><i>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</i></b><br>
-S.Verret, Université de Sherbrooke (2014) 120 pages.
+<b><i>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</i></b><br>
+S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
 </button>
 <div class="content">
 <p class="cp">
-  My MSc Thesis (french)
-  | <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
+  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
+</p>
+</div>
+<p></p>
+
+<button class="collapsible">
+<b><i>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</i></b><br>
+S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
   | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
   
 </p>
@@ -109,7 +107,7 @@ IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
 
 <button class="collapsible">
 <b><i>Whispering gallery mode sensing with a dual frequency comb probe</i></b><br>
-V. Michaud-Belleau, J. Roy, S. Potvin, J.-R. Carrier, S. Verret, M. Charlebois, J. Genest, and C.N. Allen,<br>
+V. Michaud-Belleau, J. Roy, S. Potvin, J.-R. Carrier, L. S. Verret, M. Charlebois, J. Genest, and C.N. Allen,<br>
 Optics Express 20 (3) 3066 (2012), 5 pages.
 </button>
 <div class="content">
@@ -122,7 +120,7 @@ Optics Express 20 (3) 3066 (2012), 5 pages.
 
 <button class="collapsible">
 <b><i>Toward Automatic Label-Free Whispering Gallery Modes Biodetection with a Quantum Dot-Coated Microsphere Population</i></b><br>
-M. Charlebois, A. Paquet, S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
+M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
 Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 </button>
 <div class="content">

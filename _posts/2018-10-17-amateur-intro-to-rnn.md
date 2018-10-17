@@ -7,7 +7,7 @@ comments: true
 mathjax: true
 ---
 
-I write this post to share <a href="https://www.dropbox.com/s/c4ugc9lxbklhcot/181016_verret_introRNN_crmq.pdf?dl=0">the slides of my talk</a> on recurrent neural network (RNN), as presented on October 16, 2018, at the Université de Sherbrooke. As I am not an expert on this subject, so I encourage you to consult better resources available on the web:
+I write this post to share <a href="https://www.dropbox.com/s/c4ugc9lxbklhcot/181016_verret_introRNN_crmq.pdf?dl=0">the slides of my talk</a> on recurrent neural network (RNN), as presented on October 16, 2018, at the Université de Sherbrooke. I am not an expert on this subject, so I encourage you to consult better resources available on the web:
 
 <ul>
 <li><a href = "https://ivado.ca/formations/ecole-ivado-mila-apprentissage-profond/">
