@@ -2,10 +2,11 @@
 layout: page
 title:  "Two level system"
 categories:
-comments: true
 mathjax: true
+comments: true
 ---
 
+<div>
 This page is intented as a reminder of useful formulas of the <a href="https://en.wikipedia.org/wiki/Two-state_quantum_system">two level system</a> in quantum mechanics. In particular Eq. \ref{Ufinalform}. Consider the following $2\times2$ hamiltonian:
 \begin{align}
 H=
@@ -145,7 +146,5 @@ E_+ & 0\\\
 \end{pmatrix}
 }.
 \end{align}
-
-
-
+</div>
 
