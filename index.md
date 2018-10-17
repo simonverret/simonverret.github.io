@@ -8,7 +8,7 @@ order: 1
 
 <div>
 <p>I am a postdoctoral researcher in condensed matter physics at Université de Sherbrooke. I work with professors David Sénéchal, André-Marie Tremblay and Louis Taillefer. My research is focused on high temperature superconductors, in particular phenomenological models of the pseudogap and cluster methods for strongly correlated systems.</p>
-<p>During my PhD, various some researchers' blogs were precious sources for math proofs, short scripts, and understanding some physics concepts. Now that I have some tricks of my own to show, I decided to make this website. Feel free to contact me if you have questions.</p>
+<p>During my PhD, research blogs were precious sources for math proofs, short scripts, and understanding a few physics concepts. Now that I have some tricks of my own to show, I decided to make this website. Feel free to contact me if you have questions.</p>
 <p>Note that a french version of this wesite should be available soon. In the meanwhile, you can watch my PhD defense below (in French).</p>
 </div>
 <br>
