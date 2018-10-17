@@ -12,8 +12,7 @@ order: 4
 
 <button class="collapsible">
 <b><i>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</i></b><br>
-S.Verret<br>
-Université de Sherbrooke (2018) 119 pages.
+My PhD Thesis (French), Université de Sherbrooke (2018) 119 pages.
 </button>
 <div class="content">
 <p class="cp">
@@ -63,14 +62,14 @@ Physical Review B 95, 054518 (2017), 12 pages.
   <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
   | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, but the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
+  | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
 </p>
 </div>
 <p></p>
 
 <button class="collapsible">
 <b><i>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</i></b><br>
-S.Verret<br>
-Université de Sherbrooke (2014) 120 pages.
+S.Verret, Université de Sherbrooke (2014) 120 pages.
 </button>
 <div class="content">
 <p class="cp">

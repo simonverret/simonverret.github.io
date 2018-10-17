@@ -14,7 +14,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2014 - 2018, Université de Sherbrooke</b>
-  | With supplementary course in data structures IFT-339 and Algorithms and data structures IFT-436. Published code: <a href="https://physique.usherbrooke.ca/codes_sources/">physique.usherbrooke.ca/codes_sources/</a>oneBuddy.tar.gz
+  | With supplementary courses in data structures (IFT-339) and Algorithms and data structures (IFT-436). | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
 </p>
 </div>
 
@@ -22,7 +22,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2011 - 2014, Université de Sherbrooke</b>
-  | With supplementary course in quantum information and computation, PHQ-737. Two weeks visiting at Harvard University. 
+  | With supplementary course in quantum information and computation (PHQ-737). Two weeks visiting at Harvard University. 
 </p>
 </div>
 
@@ -43,7 +43,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>March 5th to 9th, 2018, HEC - Université de Montréal</b>
-  | One week training on deep learning: convolutional neural networks (CNN), recurrent neural network (RNN), generative adversarial network (GAN), with tutorials using the PyTorch library.
+  | One week training on deep learning: convolutional neural networks (CNN), recurrent neural network (RNN), generative adversarial network (GAN), with tutorials using the PyTorch library. <a href = "https://ivado.ca/formations/ecole-ivado-mila-apprentissage-profond/">See their website (French)</a>.
 </p>
 </div>
 
@@ -51,7 +51,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2017, Université de Sherbrooke</b>
-  | Redaction of the official reports for the main meetings of the research program. In San Francisco, November 2017 and in Montreal, may 2018.
+  | Redaction of the official reports for two meetings of <a href="https://www.cifar.ca/research/programs/quantum-materials">CIFAR's quantum materials program</a>, one in San Francisco, November 2017, the other in Montreal, May 2018.
 </p>
 </div>
 
@@ -105,28 +105,28 @@ order: 5
 <h2>Volunteering & Activities</h2>
 <ul>
 <li>Organizing lunch seminars, 2016-2017 (Physics Department, Université de Sherbrooke)</li>
-<li>President, RQMP summer school 2015 </li>
-<li>VP Logistics, RQMP summer school 2014</li>
-<li>VP Finances, Physics Games 2014 (Sherbrooke)</li>
+<li>President, <a href="http://rqemp.ca/en/index.html">RQMP summer school</a> 2015 </li>
+<li>VP Logistics, <a href="http://rqemp.ca/en/index.html">RQMP summer school</a> 2014</li>
+<li>VP Finances, <a href="http://jeuxdelaphysique.ca/en/home/">Physics Games</a> 2014 (Sherbrooke)</li>
 <li>Candidate in the 2011 federal elections, Charlesbourg, Haute Saint-Charles, Québec</li>
-<li>President, Coupe de Science 2011 (Science and Engineering competition)</li>
-<li>VP Human ressources, Coupe de Science 2010 (Science and Engineering competition)</li>
+<li>President, <a href="http://www.coupedescience.com/">Coupe de Science</a> 2011 (Science and Engineering competition)</li>
+<li>VP Human ressources, <a href="http://www.coupedescience.com/">Coupe de Science</a> 2010 (Science and Engineering competition)</li>
 <li>Graduation committee and student representative, 2009-2011 (Physics, Université Laval)</li>
-<li>Captain of improv team (Cégep Limoilou 2007-2008)</li>
-<li>Head writer, students journal (Polyvalente de Charlesbourg 2005-2006)</li>
+<!-- <li>Captain of improv team (Cégep Limoilou 2007-2008)</li> -->
+<!-- <li>Head writer, students journal (Polyvalente de Charlesbourg 2005-2006)</li> -->
 </ul>
 
 <br>
 <h2>Notable Distinctions</h2>
 <ul>
-<li>FRQNT doctorate scholarship (2013-2015)</li>
-<li>FRQNT master's scholarship (2011-2012)</li>
+<li>FRQNT PhD scholarship (2013-2015)</li>
+<li>FRQNT MSc scholarship (2011-2012)</li>
 <li>Undergraduate Research Student Award (NSERC, 2009 and 2010)</li>
 <li>Excellence award (Université Laval, 2009)</li>
 <li>Excellence award (Polyvalente de Charlesbourg, 2006)</li>
 <li>Student excellence (peer voted, Science and Engineering, Université Laval, 2010 and 2011)</li>
-<li>Personality of the year (Université Laval, physics students' association, 2009, 2010 and 2011)</li>
-<li>Personality of the year (Polyvalente de Charlesbourg, 2005)</li>
+<!-- <li>Personality of the year (Université Laval, physics students' association, 2009, 2010 and 2011)</li> -->
+<!-- <li>Personality of the year (Polyvalente de Charlesbourg, 2005)</li> -->
 </ul>
 
 
