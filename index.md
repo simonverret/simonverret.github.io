@@ -13,8 +13,9 @@ order: 1
 </div>
 <br>
 
-<div class="center"  class="narrow">
-<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/yXtxbGZ8XJc?rel=0&amp;start=1045" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div class="video-container">
+	<iframe class="center" src="https://www.youtube.com/embed/yXtxbGZ8XJc?rel=0&amp;start=1045" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 <br>
 
