@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: post
 title:  "Two level system"
 categories:
-mathjax: true
 comments: true
+mathjax: true
 ---
 
 <div>
