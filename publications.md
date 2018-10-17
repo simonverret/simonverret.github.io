@@ -61,7 +61,7 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <p class="cp">
   <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
-  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which drawn spontaneously, at first, directly on the blackboard during a heated discussion with Maxime Charlebois.
+  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, but the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
 </p>
 </div>
 <p></p>

@@ -6,7 +6,7 @@ comments: true
 mathjax: true
 ---
 
-Consider the following $2\times2$ hamiltonian:
+This page is intented as a reminder of useful formulas of the <a href="https://en.wikipedia.org/wiki/Two-state_quantum_system">two level system</a> in quantum mechanics. In particular Eq. \ref{Ufinalform}. Consider the following $2\times2$ hamiltonian:
 \begin{align}
 H=
 \begin{pmatrix}
@@ -76,7 +76,7 @@ U=
 \end{pmatrix},
 \label{umatrix}
 \end{align}
-with the following definintions for $\theta$ and $\phi$:
+with the following definitions for $\theta$ and $\phi$:
 \begin{align}
 \cos \theta &= \frac{d_z}{|\vec d|} 
 &= \frac{\frac{\epsilon_1-\epsilon_2}{2}}{\sqrt{ \big(\frac{\epsilon_1-\epsilon_2}{2} \big)^2 + \Delta^2}}
@@ -130,6 +130,7 @@ U=\begin{pmatrix}
 \frac{\Delta}{\sqrt{|\Delta|^2+(\epsilon_1 - E_{+})^2} } 
 \end{pmatrix}
 }.
+\label{Ufinalform}
 \end{align}
 Strictly speaking, the sign of each element in the matrix depends on which of 
 $|\Delta|$ or $\frac{\epsilon_1-\epsilon_2}{2}$ is larger. Those quantities can be seen respectively as the opposite side and the adjacent side of the triangle defining $\theta$ in equations \eqref{ineq1} and \eqref{ineq2}.

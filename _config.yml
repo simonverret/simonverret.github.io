@@ -17,13 +17,19 @@ title: Simon Verret's
 author: Simon Verret
 email: verret.simon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    My resume, my portfolio, a few thoughts, and some tricks for condensed matter physics.
+    Postdoctoral researcher in condensed matter physics
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SimonVerret
 github_username:  simonverret
 facebook_username: simon.verret
 linkedin_username: simon-verret-5a038913b
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: simonverrets
 
 # Build settings
 markdown: kramdown
