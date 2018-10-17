@@ -43,7 +43,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>March 5th to 9th, 2018, HEC - Université de Montréal</b>
-  | One week training on deep learning: convolutional neural networks (CNN), recurrent neural network (RNN), generative models, with tutorials using the PyTorch library. <a href = "https://ivado.ca/formations/ecole-ivado-mila-apprentissage-profond/">See their website (French)</a>.
+  | One week training on deep learning: convolutional neural networks (CNN), recurrent neural network (RNN) and generative models, with tutorials using the PyTorch library. <a href = "https://ivado.ca/formations/ecole-ivado-mila-apprentissage-profond/">See their website (French)</a>.
 </p>
 </div>
 
