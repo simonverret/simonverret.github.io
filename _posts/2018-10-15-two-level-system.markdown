@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Two level system"
+updated: 2018-10-17
 categories:
 comments: true
 mathjax: true
@@ -16,8 +17,12 @@ H=
 \end{pmatrix}.
 \label{hamiltonian}
 \end{align}
-
-Using the identity matrix $\mathbb 1$, the Pauli matrices vector $\vec \sigma$:
+which can be rewritten as:
+\begin{align}
+H=\epsilon\mathbb{1} + \vec d\cdot \vec \sigma.
+\label{topoham}
+\end{align}
+by using the identity matrix $\mathbb 1$, the Pauli matrices vector $\vec \sigma$:
 \begin{align}
 \sigma_x = 
 \begin{pmatrix}
@@ -42,12 +47,7 @@ and the following definitions:
 \epsilon&=\frac{\epsilon_1+\epsilon_2}{2},\\\
 d_x&=\text{Re}\{\Delta\},\\\
 d_y&=\text{Im}\{\Delta\},\\\
-d_z&=\frac{\epsilon_1-\epsilon_2}{2},
-\end{align}
-hamiltonian \eqref{hamiltonian} can be rewritten:
-\begin{align}
-H=\epsilon\mathbb{1} + \vec d\cdot \vec \sigma.
-\label{topoham}
+d_z&=\frac{\epsilon_1-\epsilon_2}{2}.
 \end{align}
 
 
@@ -66,7 +66,7 @@ E_{\pm}
 which are illustrated below, displaying the so-called "anti crossing".
 
 <img class="center" src="/img/anticrossing.png" title="Anti-crossing"  width="360px"/>
-
+<br>
 
 The eigenvectors of \eqref{topoham} are the columns of the following unitary matrix:
 \begin{align}

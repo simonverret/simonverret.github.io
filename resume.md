@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CV
+updated: 2018-10-17
 permalink: /cv/
 order: 5
 ---
