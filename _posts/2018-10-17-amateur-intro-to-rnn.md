@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Amateur's introduction to RNN"
-updated: 2018-10-17
 categories:
 comments: true
 mathjax: true
