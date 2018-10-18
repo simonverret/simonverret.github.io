@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Two level system"
+title:  "Two-level system"
 updated: 2018-10-17
 categories:
 comments: true

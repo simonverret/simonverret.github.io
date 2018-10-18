@@ -14,7 +14,9 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2014 - 2018, Université de Sherbrooke</b>
-  | With supplementary courses in data structures (IFT-339) and Algorithms and data structures (IFT-436). | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
+  | Thesis on <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  or <a href="https://www.physique.usherbrooke.ca/pages/en/node/8504">Département de physique UdeS</a>
+  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>| With supplementary courses in data structures (IFT-339) and Algorithms and data structures (IFT-436). | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
 </p>
 </div>
 
@@ -22,6 +24,8 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2011 - 2014, Université de Sherbrooke</b>
+  | Thesis on <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  or <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
   | With supplementary course in quantum information and computation (PHQ-737). Two weeks visiting at Harvard University. 
 </p>
 </div>

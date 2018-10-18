@@ -60,7 +60,7 @@ S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French on
 <div class="content">
 <p class="cp">
   <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
-  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
+  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/8504">Département de physique UdeS</a>
   | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
 </p>
 </div>
@@ -74,7 +74,6 @@ S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French on
 <p class="cp">
   <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
   | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
-  
 </p>
 </div>
 <p></p>
