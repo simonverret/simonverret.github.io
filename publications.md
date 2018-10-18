@@ -72,7 +72,7 @@ S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French on
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Savoir UdeS</a>
   | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
 </p>
 </div>
