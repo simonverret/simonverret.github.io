@@ -11,9 +11,9 @@ order: 4
 <h4>PhD and MSc at Université de Sherbrooke (2011-2017)</h4>
 
 <button class="collapsible">
-<b><i>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</i></b><br>
+<b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
 S.Verret, O.Simard, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
-Physical Review B 96, 125139 (2017), 11 pages. <b><i>editors' suggestion</i></b>
+Physical Review B 96, 125139 (2017), 11 pages. <b>editors' suggestion</b>
 </button>
 <div class="content">
 <p class="cp">
@@ -25,7 +25,7 @@ Physical Review B 96, 125139 (2017), 11 pages. <b><i>editors' suggestion</i></b>
 <p></p>
 
 <button class="collapsible">
-<b><i>Hall effect in cuprates with incommensurate collinear spin-density wave</i></b><br>
+<b>Hall effect in cuprates with incommensurate collinear spin-density wave</b><br>
 M.Charlebois, S.Verret, A.Foley, D.Sénéchal, A.-M.S.Tremblay,<br>
 Physical Review B 96, 205132 (2017), 9 pages.
 </button>
@@ -39,7 +39,7 @@ Physical Review B 96, 205132 (2017), 9 pages.
 <p></p>
 
 <button class="collapsible">
-<b><i>Subgap structures and pseudogap in cuprate superconductors : Role of density waves</i></b><br>
+<b>Subgap structures and pseudogap in cuprate superconductors : Role of density waves</b><br>
 S. Verret, M. Charlebois, D. Sénéchal, A.-M.S.Tremblay,<br>
 Physical Review B 95, 054518 (2017), 12 pages.
 </button>
@@ -54,7 +54,7 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <p></p>
 
 <button class="collapsible">
-<b><i>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</i></b><br>
+<b>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
 S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
 </button>
 <div class="content">
@@ -67,7 +67,7 @@ S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French on
 <p></p>
 
 <button class="collapsible">
-<b><i>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</i></b><br>
+<b>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</b><br>
 S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
 </button>
 <div class="content">
@@ -79,7 +79,7 @@ S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French on
 <p></p>
 
 <button class="collapsible">
-<b><i>+ two papers in preparation, stay tuned.</i></b>
+<b>+ two papers in preparation, stay tuned.</b>
 </button>
 <div class="content">
 <p class="cp">
@@ -92,7 +92,7 @@ Both about cluster dynamical mean-field theory (CDMFT). The first on the coexist
 
 <h4>Undergraduate internships, Université Laval (2009-2011)</h4>
 <button class="collapsible">
-<b><i>Differentiation between analyte adsorbtion and homogenous index sensing in WGM biodetection</i></b><br>
+<b>Differentiation between analyte adsorbtion and homogenous index sensing in WGM biodetection</b><br>
 M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
 IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
 </button>
@@ -105,7 +105,7 @@ IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
 <p></p>
 
 <button class="collapsible">
-<b><i>Whispering gallery mode sensing with a dual frequency comb probe</i></b><br>
+<b>Whispering gallery mode sensing with a dual frequency comb probe</b><br>
 V. Michaud-Belleau, J. Roy, S. Potvin, J.-R. Carrier, L. S. Verret, M. Charlebois, J. Genest, and C.N. Allen,<br>
 Optics Express 20 (3) 3066 (2012), 5 pages.
 </button>
@@ -118,7 +118,7 @@ Optics Express 20 (3) 3066 (2012), 5 pages.
 <p></p>
 
 <button class="collapsible">
-<b><i>Toward Automatic Label-Free Whispering Gallery Modes Biodetection with a Quantum Dot-Coated Microsphere Population</i></b><br>
+<b>Toward Automatic Label-Free Whispering Gallery Modes Biodetection with a Quantum Dot-Coated Microsphere Population</b><br>
 M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
 Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 </button>

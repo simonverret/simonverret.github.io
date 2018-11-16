@@ -12,14 +12,14 @@ This page is intented as a reminder of useful formulas of the <a href="https://e
 \begin{align}
 H=
 \begin{pmatrix}
-\epsilon_1 & \Delta^* \\\
-\Delta & \epsilon_2
+\varepsilon_1 & \Delta^* \\\
+\Delta & \varepsilon_2
 \end{pmatrix}.
 \label{hamiltonian}
 \end{align}
 which can be rewritten as:
 \begin{align}
-H=\epsilon\mathbb{1} + \vec d\cdot \vec \sigma.
+H=\varepsilon\mathbb{1} + \vec d\cdot \vec \sigma.
 \label{topoham}
 \end{align}
 by using the identity matrix $\mathbb 1$, the Pauli matrices vector $\vec \sigma$:
@@ -44,10 +44,10 @@ i & 0
 \end{align}
 and the following definitions:
 \begin{align}
-\epsilon&=\frac{\epsilon_1+\epsilon_2}{2},\\\
+\varepsilon&=\frac{\varepsilon_1+\varepsilon_2}{2},\\\
 d_x&=\text{Re}\{\Delta\},\\\
 d_y&=\text{Im}\{\Delta\},\\\
-d_z&=\frac{\epsilon_1-\epsilon_2}{2}.
+d_z&=\frac{\varepsilon_1-\varepsilon_2}{2}.
 \end{align}
 
 
@@ -56,11 +56,11 @@ The eigenvalues of \eqref{topoham}, are:
 \boxed{
 E_{\pm}
 }
-&=\epsilon\pm|\vec d|
+&=\varepsilon\pm|\vec d|
 \\\
 &=
 \boxed{
-\frac{\epsilon_1+\epsilon_2}{2} \pm \sqrt{ \Big(\frac{\epsilon_1-\epsilon_2}{2} \Big)^2 + \Delta^2}
+\frac{\varepsilon_1+\varepsilon_2}{2} \pm \sqrt{ \Big(\frac{\varepsilon_1-\varepsilon_2}{2} \Big)^2 + \Delta^2}
 },
 \end{align}
 which are illustrated below, displaying the so-called "anti crossing".
@@ -80,7 +80,7 @@ U=
 with the following definitions for $\theta$ and $\phi$:
 \begin{align}
 \cos \theta &= \frac{d_z}{|\vec d|} 
-&= \frac{\frac{\epsilon_1-\epsilon_2}{2}}{\sqrt{ \big(\frac{\epsilon_1-\epsilon_2}{2} \big)^2 + \Delta^2}}
+&= \frac{\frac{\varepsilon_1-\varepsilon_2}{2}}{\sqrt{ \big(\frac{\varepsilon_1-\varepsilon_2}{2} \big)^2 + \Delta^2}}
 \\\
 \tan\phi &= \frac{d_y}{d_x}
 &\rightarrow \quad \Delta=|\Delta|\text{e}^{\text{i}\phi}.
@@ -110,31 +110,33 @@ noting that:
 \sqrt{\frac{1\pm\cos\theta}{2}}
 &=
 \sqrt{\frac{|\vec d|\pm d_z}{2|\vec d|} \times\bigg( \frac{|\vec d|\mp d_z}{|\vec d|\mp d_z} \bigg) }
-\\\&=
+\\\
+&=
 %\sqrt{\frac{|\vec d|^2 - d_z^2}{2|\vec d|^2\mp 2|\vec d|d_z} }
-%\\\&=
+%\\&=
 %\sqrt{\frac{|\vec d|^2 - d_z^2}{d_x^2+d_y^2+d_z^2+ |\vec d|^2\mp 2|\vec d|d_z} }
 %\\\&=
 \sqrt{\frac{d_x^2+d_y^2}{d_x^2+d_y^2+(d_z \mp |\vec d|)^2} }
-\\\&=
-\frac{|\Delta|}{\sqrt{|\Delta|^2+(\epsilon_1 - E_{\mp})^2} }.
+\\\
+&=
+\frac{|\Delta|}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{\mp})^2} }.
 \end{align}
 allowing to rewrite \eqref{umatrix} as:
 \begin{align}
 \boxed{
 U=\begin{pmatrix}
-\frac{|\Delta|}{\sqrt{|\Delta|^2+(\epsilon_1 - E_{+})^2} } 
-& - \frac{|\Delta|}{\sqrt{|\Delta|^2+(\epsilon_1 - E_{-})^2} } 
+\frac{|\Delta|}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{+})^2} } 
+& - \frac{|\Delta|}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{-})^2} } 
 \\\
-\frac{\Delta}{\sqrt{|\Delta|^2+(\epsilon_1 - E_{-})^2} } 
+\frac{\Delta}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{-})^2} } 
 &
-\frac{\Delta}{\sqrt{|\Delta|^2+(\epsilon_1 - E_{+})^2} } 
+\frac{\Delta}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{+})^2} } 
 \end{pmatrix}
 }.
 \label{Ufinalform}
 \end{align}
 Strictly speaking, the sign of each element in the matrix depends on which of 
-$|\Delta|$ or $\frac{\epsilon_1-\epsilon_2}{2}$ is larger. Those quantities can be seen respectively as the opposite side and the adjacent side of the triangle defining $\theta$ in equations \eqref{ineq1} and \eqref{ineq2}.
+$|\Delta|$ or $\frac{\varepsilon_1-\varepsilon_2}{2}$ is larger. Those quantities can be seen respectively as the opposite side and the adjacent side of the triangle defining $\theta$ in equations \eqref{ineq1} and \eqref{ineq2}.
 
 Finally, note the vector basis was defined so that
 \begin{align}

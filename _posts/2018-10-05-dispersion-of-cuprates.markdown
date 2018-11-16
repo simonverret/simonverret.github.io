@@ -8,7 +8,7 @@ mathjax: true
 
 It is often useful to explore the simplest model describing high temperature superconducting cuprates. In 2D, this model is simply given by the following energy function:
 
-$$ \xi_{\vec k} = -2t(\cos k_x + \cos k_y) - 2t'(\cos (kx+k_y) + \cos (kx+k_y)) - \mu$$
+$$ \xi_{\vec k} = -2t(\cos k_x + \cos k_y) - 2t'(\cos (k_x+k_y) + \cos (k_x-k_y)) - \mu$$
 
 Of course, such a simple model does not contain superconductivity. As a function of $k_x$ and $k_y$, this energy function yields:
 

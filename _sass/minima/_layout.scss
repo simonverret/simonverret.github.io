@@ -138,11 +138,11 @@
   * Blockquotes
   */
  blockquote {
-   color: $grey-color;
+   color: #ff7700;
    border-left: 4px solid $grey-color-light;
    padding-left: $spacing-unit / 2;
    @include relative-font-size(1.125);
-   letter-spacing: -1px;
+  //  letter-spacing: -1px;
    font-style: italic;
  
    > :last-child {
@@ -689,12 +689,16 @@ my custom
   border: none;
   text-align: left;
   outline: none;
-  border-left: 4px solid $background-color;
+  border-left: 4px solid  $grey-color-light;
   font-size: $body-font-size*1.0;
 }
 
-.active, .collapsible:hover {
-  border-left: 4px solid $grey-color-light;
+// .active, .collapsible:hover {
+//   border-left: 4px solid $grey-color-light;
+// }
+
+.collapsible:hover {
+  border-left: 4px solid $grey-color-dark;
 }
 
 .collapsible:after {
@@ -723,8 +727,22 @@ my custom
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.cNote {
+  font-size: $body-font-size*0.875;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 0px;
 }
+
+.cNoteButton {
+  background-color: $grey-color-light;
+  font-size: $body-font-size*0.875;
+}
+
 
 .MathJax {
   font-size: 1em;
