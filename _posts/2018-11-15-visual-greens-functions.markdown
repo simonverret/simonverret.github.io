@@ -8,7 +8,7 @@ mathjax: true
 
 Last May, I was invited to give the first talk of CIFAR's quantum materials summer school with an introduction to Green's function. My slides were really appreciated, so I made a post out of them. Sharing this post is one of the main reasons I put this website together, so don't hesitate to post your questions in the comments section at the end. 
 
-Disclaimer: this intro is very different from the "standard" presentation of Green's functions. It was intended to help those who prefer plots to equations, like me. I refer two books at the end for more conventional approaches.
+Disclaimer: this intro is very different from the "standard" presentation of Green's functions. In particular, it does require to know second quatization, and for this reasons cannot be extended to interacting systems, which is the usual reason to work with Green's function. I refer two books at the end for standard, more complete approaches.
 
 <br>
 
@@ -111,6 +111,47 @@ with hat denoting matrices and $(\epsilon + i\eta)$ implicitly multiplying an id
 
 <img class="center" src="/img/greenGap.gif"  title="Two-by-two Green's function compared to the corresponding eigen values and eigenvectors with a varying gap size" width="1200px"/>
 
+On the left, eigenvalues and eigenvectors are shown, with $\Delta$ varying in time. On the right, the 8 components of the corresponding Green's function are shown. Three features of the plots are particularly interesting:
+- First, the real part of $G$ has divergences at the eigenvalues of the system. This is often stated in another way: **the poles of $G$ are the excitations of the system**.
+- Second, the Green's function has zeros at the position of the crossing levels. That is: $\text{Re}G_{11}(k,\epsilon)$ (top left colorplot) has zeros (white line) following $\varepsilon_2(k)=-k$, whereas $\text{Re}G_{22}(k,\epsilon)$ has zeros following $\varepsilon_1(k)=k$.
+- Third and finally, the spectral weight ($-\text{Im}G$) is only non zero at the eigenenvalues $E^\pm(k)$. Furthermore, when the gap is non-zero, the relative amplitude of ($-\text{Im}G$) on each eigenvalues varies as a function of $k$. We can show that this variation is determined by the coefficients of the eigenvectors.
+
+<body>
+<button class="collapsible cNoteButton">
+Proof: relation between the spectral weight and the eigenvectors
+</button><div class="content cNote">
+  The key is to express the elements of $-\text{Im}G$ in terms of the diagonalized Hamiltonian $\hat{H} = \hat{U}^{\dagger} \hat{E} \hat{U}$ (The columns of $\hat{U}$ are the eigenvectors and $\hat{E}$ the diagonal matrix of eigenvalues). Let's use $E_n$ in the place of $E^{\pm}$ to make the matrix product clearer:
+    <p>
+    \begin{align}
+    -\text{Im}\hat{G}(\epsilon) 
+    &= -\text{Im}\big\{ \hat{U}^{\dagger} \big[(\epsilon + i\eta) - \hat{E}\big]^{-1}  \hat{U}\big\}
+    \end{align}
+    \begin{align}
+    -\text{Im} G_{i,j}(\epsilon)
+    &= -\text{Im}\big\{ \sum_{n} U^*_{n,i}\frac{1}{\epsilon + i\eta - E_n}U_{n,j}\big\}
+    \end{align}
+    For $G_{i,i}(\epsilon)$, rationalizing the denominator yields:
+    \begin{align}
+    -\text{Im} G_{i,i}
+    &=
+    \sum_{n} |U_{n,i}|^2 \frac{\eta}{(\epsilon - E_n)^2 + \eta^2}
+    \\\
+    &=
+    \sum_{n} |U_{n,i}|^2 \pi \delta(\epsilon-E_n),  
+    \end{align}
+    </p>
+  where we used the equivalence between the Dirac delta function and a Lorentzian of zero width, $\pi\delta(x) = \lim_{\eta\rightarrow0} \eta/(x^2 - \eta^2)$. Going back to the $\pm$ notation, the last line reads:
+    <p>
+    \begin{align}
+    -\frac{1}{\pi}\text{Im} G_{i,j}(\epsilon)
+    &= |v^+_i|^2\delta(\epsilon-E^+) + |v^-_i|^2\delta(\epsilon-E^-)
+    \end{align} 
+    </p>
+  <p></p>
+</div>
+<p></p>
+</body>
+
 
 <body>
 <button class="collapsible cNoteButton">
@@ -123,41 +164,6 @@ The eigenvectors traverse a "discontinuity" at the frame when the gap reach zero
 </ul></p>
 The Green's function has none of these problems: the evolution is perfectly smooth, for all components because the matrix inversion is uniquely defined at every $k$ and $\Delta$.
 <p></p>
-</div>
-<p></p>
-</body>
-
-
-On the left, eigenvalues and eigenvectors are shown, with $\Delta$ varying in time. On the right, the 8 components of the corresponding Green's function are shown. Three features of the plots are particularly interesting:
-- First, the real part of $G$ has divergences at the eigenvalues of the system. This is often stated in another way: **the poles of $G$ are the excitations of the system**.
-- Second, the Green's function has zeros at the position of the crossing levels. That is: $\text{Re}G_{11}(k,\epsilon)$ (top left colorplot) has zeros (white line) at $\varepsilon_2(k)=-k$, whereas $\text{Re}G_{22}(k,\epsilon)$ (middle right colorplot) has zeros (white line) at $\varepsilon_1(k)=k$.
-- Third and finally, when the gap is non-zero the spectral weight ($-\text{Im}G$) is only finite at the eigenenvalues $E^\pm(k)$, but it fades out as a function of $k$. In fact, the decreasing weight is determined by the coefficients of the eigenvectors.
-
-<body>
-<button class="collapsible cNoteButton">
-Proof: relation between the spectral weight and the eigenvectors
-</button><div class="content cNote">
-  The key is to express the elements of $-\text{Im}G$ in terms of the diagonalized Hamiltonian $\hat{H} = \hat{U}^{\dagger} \hat{E} \hat{U}$ (The columns of $\hat{U}$ are the eigenvectors and $\hat{E}$ the diagonal matrix of the eigenvalues):
-    <p>
-    \begin{align}
-    -\text{Im}\hat{G}(\epsilon) 
-    &= -\text{Im}\big\{ \hat{U}^{\dagger} \big[(\epsilon + i\eta) - \hat{E}\big]^{-1}  \hat{U}\big\}
-    \end{align}
-    \begin{align}
-    -\text{Im} G_{i,j}(\epsilon)
-    &= \sum_{n} U^*_{n,i}\frac{\eta}{(\epsilon - E_n)^2 - \eta^2}U_{n,j}
-    \label{finiteEta}
-    \\\
-    &= \pi \sum_{n} U^*_{n,i}U_{n,j}\delta(\epsilon-E_n)   
-    \end{align}
-    For $G_{i,i}(\epsilon)$, this is the same as:
-    \begin{align}
-    -\frac{1}{\pi}\text{Im} G_{i,i}
-    &= |v^+_i|^2\delta(\epsilon-E^+) + |v^-_i|^2\delta(\epsilon-E^-)
-    \end{align}
-    </p>
-  Note that we used the equivalence between the Dirac delta function and a Lorentzian of zero width, $\pi\delta(x) = \lim_{\eta\rightarrow0} \eta/(x^2 - \eta^2)$. We also used $E_n$ in the place of $E^{\pm}$ to make the matrix product clearer. 
-  <p></p>
 </div>
 <p></p>
 </body>
