@@ -2,13 +2,57 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2018-10-17
+updated: 2018-11-22
 order: 4
 ---
 
 <body>
 
+
+<h4>Theses</h4>
+
+<button class="collapsible">
+<b>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
+S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/8504">Département de physique UdeS</a>
+  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
+</p>
+</div>
+<p></p>
+
+<button class="collapsible">
+<b>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</b><br>
+S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Savoir UdeS</a>
+  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
+</p>
+</div>
+<p></p>
+
+<br>
+
 <h4>PhD and MSc at Université de Sherbrooke (2011-2017)</h4>
+
+<button class="collapsible">
+<b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
+B Michon, C Girod, S Badoux, J Kačmarčík, Q Ma, M Dragomir, HA Dabkowska, BD Gaulin, J-S Zhou, S Pyon, T Takayama, H Takagi, <b>S Verret</b>, N Doiron-Leyraud, C Marcenat, L Taillefer, T Klein,<br>
+arXiv:1804.08502 (2018), 8 pages.
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://arxiv.org/abs/1804.08502">ArXiv</a>
+  | This paper presents groundbeaking experiments for the specific heat in cuprates. I contributed theoretical calculations that show these experiments cannot be explained with the van Hove singularity expected in this system because of three dimensional considerations.
+</p>
+</div>
+<p></p>
+
 
 <button class="collapsible">
 <b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
@@ -53,30 +97,6 @@ Physical Review B 95, 054518 (2017), 12 pages.
 </div>
 <p></p>
 
-<button class="collapsible">
-<b>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
-S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
-</button>
-<div class="content">
-<p class="cp">
-  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
-  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/8504">Département de physique UdeS</a>
-  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
-</p>
-</div>
-<p></p>
-
-<button class="collapsible">
-<b>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</b><br>
-S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
-</button>
-<div class="content">
-<p class="cp">
-  <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Savoir UdeS</a>
-  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
-</p>
-</div>
-<p></p>
 
 <button class="collapsible">
 <b>+ two papers in preparation, stay tuned.</b>
@@ -118,7 +138,7 @@ Optics Express 20 (3) 3066 (2012), 5 pages.
 <p></p>
 
 <button class="collapsible">
-<b>Toward Automatic Label-Free Whispering Gallery Modes Biodetection with a Quantum Dot-Coated Microsphere Population</b><br>
+<b>Toward automatic label-free whispering gallery modes biodetection with a quantum dot-coated microsphere population</b><br>
 M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
 Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 </button>
@@ -136,10 +156,51 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 
 
 
+<br>
+
+<h1 class="post-title">Selected Talks & Posters</h1>
+
+<h4>PhD and MSc at Université de Sherbrooke (2011-2017)</h4>
 
 
+<button class="collapsible">
+<b>A visual introduction to green's function</b><br>
+S.Verret<br>
+CIFAR's Quantum Material Summer School, Montreal, may 2018 &<br>
+RQEMP Summer School, Sherbrooke, august 2018
+</button>
+<div class="content">
+<p class="cp">
+  See the <a href="../2018/11/15/visual-greens-functions.html">blog post</a> that I made from this talk.
+</p>
+</div>
+<p></p>
 
+<button class="collapsible">
+<b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
+S.Verret, O.Simard, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
+Gordon Research Seminar on superconductivity, New Hamshire, June 2017
+</button>
+<div class="content">
+<p class="cp">
+  Based on the paper of the same name (see above) | <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
+  | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
+</p>
+</div>
+<p></p>
 
+<button class="collapsible">
+<b>Density waves cause subgap tructures but no pseudogap in superconducting cuprates (Poster)</b><br>
+S.Verret, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
+Engineering Quantum Matter (conference), St-Andrews, Scotland, June 2016
+</button>
+<div class="content">
+<p class="cp">
+  Based on my paper <i>Subgap structures and pseudogap in cuprate superconductors : Role of density waves</i> (see above) | <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
+  | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
+</p>
+</div>
+<p></p>
 
 
 
