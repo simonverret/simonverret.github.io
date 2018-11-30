@@ -2,43 +2,41 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2018-11-22
+updated: 2018-11-30
 order: 4
 ---
 
 <body>
 
 
-<h4>Theses</h4>
+
 
 <button class="collapsible">
-<b>Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
-S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
+<b>In preparation, stay tuned.</b>
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
-  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/8504">Département de physique UdeS</a>
-  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
+On the intrinsic breaking of translational invariance in cluster dynamical mean-field theory (CDMFT).
 </p>
 </div>
 <p></p>
 
+
+
+<h4>2018</h4>
+
 <button class="collapsible">
-<b>Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</b><br>
-S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
+<b>Coexistence of Superconductivity and Antiferromagnetism in the Hubbard model for cuprates</b><br>
+B Foley, <b>S Verret</b>, A.-M.S.Tremblay, D.Sénéchal,<br>
+arXiv:1804.08502 (2018), 8 pages.
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Savoir UdeS</a>
-  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
+  <a href="https://arxiv.org/abs/1811.12363">ArXiv</a>
+  | This paper is the fruit of very long hard work by Alexandre Foley on a new parametrization of CDMFT to study the coexistance of antiferromagnetism and superconductivity in the Hubbard Model. This new parametrization is compared to my Master's thesis results which used an older 'simpler' parametrization.
 </p>
 </div>
 <p></p>
-
-<br>
-
-<h4>PhD and MSc at Université de Sherbrooke (2011-2017)</h4>
 
 <button class="collapsible">
 <b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
@@ -53,6 +51,21 @@ arXiv:1804.08502 (2018), 8 pages.
 </div>
 <p></p>
 
+<button class="collapsible">
+<b>THESIS : Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
+S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Savoir UdeS</a>
+  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/8504">Département de physique UdeS</a>
+  | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
+</p>
+</div>
+<p></p>
+
+
+<h4>2017</h4>
 
 <button class="collapsible">
 <b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
@@ -98,19 +111,23 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <p></p>
 
 
+<h4>2014</h4>
+
 <button class="collapsible">
-<b>+ two papers in preparation, stay tuned.</b>
+<b>MASTER'S THESIS: Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</b><br>
+S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
 </button>
 <div class="content">
 <p class="cp">
-Both about cluster dynamical mean-field theory (CDMFT). The first on the coexistence between superconductivity and antiferromagnetism in cuprates. The other on the intrinsic breaking of translational invariance in CDMFT.
+  <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Savoir UdeS</a>
+  | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
 </p>
 </div>
 <p></p>
 
-<br>
 
-<h4>Undergraduate internships, Université Laval (2009-2011)</h4>
+<h4>2013</h4>
+
 <button class="collapsible">
 <b>Differentiation between analyte adsorbtion and homogenous index sensing in WGM biodetection</b><br>
 M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
@@ -124,6 +141,8 @@ IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
 </div>
 <p></p>
 
+<h4>2012</h4>
+
 <button class="collapsible">
 <b>Whispering gallery mode sensing with a dual frequency comb probe</b><br>
 V. Michaud-Belleau, J. Roy, S. Potvin, J.-R. Carrier, L. S. Verret, M. Charlebois, J. Genest, and C.N. Allen,<br>
@@ -136,6 +155,8 @@ Optics Express 20 (3) 3066 (2012), 5 pages.
 </p>
 </div>
 <p></p>
+
+<h4>2010</h4>
 
 <button class="collapsible">
 <b>Toward automatic label-free whispering gallery modes biodetection with a quantum dot-coated microsphere population</b><br>
@@ -158,9 +179,7 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 
 <br>
 
-<h1 class="post-title">Selected Talks & Posters</h1>
-
-<h4>PhD and MSc at Université de Sherbrooke (2011-2017)</h4>
+<h1 class="post-title">Selected talks & posters</h1>
 
 
 <button class="collapsible">
