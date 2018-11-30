@@ -27,7 +27,7 @@ On the intrinsic breaking of translational invariance in cluster dynamical mean-
 
 <button class="collapsible">
 <b>Coexistence of Superconductivity and Antiferromagnetism in the Hubbard model for cuprates</b><br>
-B Foley, <b>S Verret</b>, A.-M.S.Tremblay, D.Sénéchal,<br>
+A Foley, <b>S Verret</b>, A.-M.S.Tremblay, D.Sénéchal,<br>
 arXiv:1804.08502 (2018), 8 pages.
 </button>
 <div class="content">
