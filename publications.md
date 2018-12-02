@@ -12,7 +12,7 @@ order: 4
 
 
 <button class="collapsible">
-<b>In preparation, stay tuned.</b>
+<b>One paper in preparation, stay tuned!</b>
 </button>
 <div class="content">
 <p class="cp">
@@ -27,7 +27,7 @@ On the intrinsic breaking of translational invariance in cluster dynamical mean-
 
 <button class="collapsible">
 <b>Coexistence of Superconductivity and Antiferromagnetism in the Hubbard model for cuprates</b><br>
-A Foley, <b>S Verret</b>, A.-M.S.Tremblay, D.Sénéchal,<br>
+A.&nbsp;Foley, <b>S.&nbsp;Verret</b>, A.-M.S.&nbsp;Tremblay, D.&nbsp;Sénéchal,<br>
 arXiv:1804.08502 (2018), 8 pages.
 </button>
 <div class="content">
@@ -40,7 +40,7 @@ arXiv:1804.08502 (2018), 8 pages.
 
 <button class="collapsible">
 <b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
-B Michon, C Girod, S Badoux, J Kačmarčík, Q Ma, M Dragomir, HA Dabkowska, BD Gaulin, J-S Zhou, S Pyon, T Takayama, H Takagi, <b>S Verret</b>, N Doiron-Leyraud, C Marcenat, L Taillefer, T Klein,<br>
+B.&nbsp;Michon, C.&nbsp;Girod, S.&nbsp;Badoux, J.&nbsp;Kačmarčík, Q.&nbsp;Ma, M.&nbsp;Dragomir, H.A.&nbsp;Dabkowska, B..D&nbsp;Gaulin, J.-S.&nbsp;Zhou, S.&nbsp;Pyon, T.&nbsp;Takayama, H.&nbsp;Takagi, <b>S.&nbsp;Verret</b>, .N&nbsp;Doiron-Leyraud, C.&nbsp;Marcenat, L.&nbsp;Taillefer, T.&nbsp;Klein,<br>
 arXiv:1804.08502 (2018), 8 pages.
 </button>
 <div class="content">
@@ -53,7 +53,7 @@ arXiv:1804.08502 (2018), 8 pages.
 
 <button class="collapsible">
 <b>THESIS : Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
-S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French only).
+<b>S. Verret</b>, Université de Sherbrooke (2018) 119 pages (French only).
 </button>
 <div class="content">
 <p class="cp">
@@ -69,7 +69,7 @@ S. Verret (my PhD Thesis), Université de Sherbrooke (2018) 119 pages (French on
 
 <button class="collapsible">
 <b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
-S.Verret, O.Simard, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
+<b>S.&nbsp;Verret</b>, O.&nbsp;Simard, M.&nbsp;Charlebois, D.&nbsp;Sénéchal, A.-M.S.&nbsp;Tremblay,<br>
 Physical Review B 96, 125139 (2017), 11 pages. <b>editors' suggestion</b>
 </button>
 <div class="content">
@@ -83,7 +83,7 @@ Physical Review B 96, 125139 (2017), 11 pages. <b>editors' suggestion</b>
 
 <button class="collapsible">
 <b>Hall effect in cuprates with incommensurate collinear spin-density wave</b><br>
-M.Charlebois, S.Verret, A.Foley, D.Sénéchal, A.-M.S.Tremblay,<br>
+M.&nbsp;Charlebois, <b>S.&nbsp;Verret</b>, A.&nbsp;Foley, D.&nbsp;Sénéchal, A.-M.S.&nbsp;Tremblay,<br>
 Physical Review B 96, 205132 (2017), 9 pages.
 </button>
 <div class="content">
@@ -97,7 +97,7 @@ Physical Review B 96, 205132 (2017), 9 pages.
 
 <button class="collapsible">
 <b>Subgap structures and pseudogap in cuprate superconductors : Role of density waves</b><br>
-S. Verret, M. Charlebois, D. Sénéchal, A.-M.S.Tremblay,<br>
+<b>S.&nbsp;Verret</b>, M.&nbsp;Charlebois, D.&nbsp;Sénéchal, A.-M.S.&nbsp;Tremblay,<br>
 Physical Review B 95, 054518 (2017), 12 pages.
 </button>
 <div class="content">
@@ -115,7 +115,7 @@ Physical Review B 95, 054518 (2017), 12 pages.
 
 <button class="collapsible">
 <b>MASTER'S THESIS: Couplage interplan et compétition de phases dans le modèle de Hubbard des cuprates</b><br>
-S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French only).
+<b>S.&nbsp;Verret</b>, Université de Sherbrooke (2014) 120 pages (French only).
 </button>
 <div class="content">
 <p class="cp">
@@ -130,7 +130,7 @@ S. Verret (my MSc Thesis), Université de Sherbrooke (2014) 120 pages (French on
 
 <button class="collapsible">
 <b>Differentiation between analyte adsorbtion and homogenous index sensing in WGM biodetection</b><br>
-M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
+M.&nbsp;Charlebois, A.&nbsp;Paquet, L.<b>S.&nbsp;Verret</b>, K.&nbsp;Boissinot, M.&nbsp;Boissinot, M.G.&nbsp;Bergeron, C.N.&nbsp;Allen,<br>
 IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
 </button>
 <div class="content">
@@ -145,7 +145,7 @@ IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
 
 <button class="collapsible">
 <b>Whispering gallery mode sensing with a dual frequency comb probe</b><br>
-V. Michaud-Belleau, J. Roy, S. Potvin, J.-R. Carrier, L. S. Verret, M. Charlebois, J. Genest, and C.N. Allen,<br>
+V.&nbsp;Michaud-Belleau, J.&nbsp;Roy, S.&nbsp;Potvin, J.-R.&nbsp;Carrier, L.<b>S.&nbsp;Verret</b>, M.&nbsp;Charlebois, J.&nbsp;Genest, and C.N.&nbsp;Allen,<br>
 Optics Express 20 (3) 3066 (2012), 5 pages.
 </button>
 <div class="content">
@@ -160,7 +160,7 @@ Optics Express 20 (3) 3066 (2012), 5 pages.
 
 <button class="collapsible">
 <b>Toward automatic label-free whispering gallery modes biodetection with a quantum dot-coated microsphere population</b><br>
-M. Charlebois, A. Paquet, L. S. Verret, K. Boissinot, M. Boissinot, M. G. Bergeron, C. N. Allen,<br>
+M.&nbsp;Charlebois, A.&nbsp;Paquet, L.<b>S.&nbsp;Verret</b>, K.&nbsp;Boissinot, M.&nbsp;Boissinot, M.G.&nbsp;Bergeron, C.N.&nbsp;Allen,<br>
 Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 </button>
 <div class="content">
@@ -184,7 +184,7 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 
 <button class="collapsible">
 <b>A visual introduction to green's function</b><br>
-S.Verret<br>
+<b>S.&nbsp;Verret</b><br>
 CIFAR's Quantum Material Summer School, Montreal, may 2018 &<br>
 RQEMP Summer School, Sherbrooke, august 2018
 </button>
@@ -197,7 +197,7 @@ RQEMP Summer School, Sherbrooke, august 2018
 
 <button class="collapsible">
 <b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
-S.Verret, O.Simard, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
+<b>S.&nbsp;Verret</b>, O.&nbsp;Simard, M.&nbsp;Charlebois, D.&nbsp;Sénéchal, A.-M.S.&nbsp;Tremblay,<br>
 Gordon Research Seminar on superconductivity, New Hamshire, June 2017
 </button>
 <div class="content">
@@ -210,7 +210,7 @@ Gordon Research Seminar on superconductivity, New Hamshire, June 2017
 
 <button class="collapsible">
 <b>Density waves cause subgap tructures but no pseudogap in superconducting cuprates (Poster)</b><br>
-S.Verret, M.Charlebois, D.Sénéchal, A.-M.S.Tremblay,<br>
+S.&nbsp;Verret, M.&nbsp;Charlebois, D.&nbsp;Sénéchal, A.-M.S.&nbsp;Tremblay,<br>
 Engineering Quantum Matter (conference), St-Andrews, Scotland, June 2016
 </button>
 <div class="content">
