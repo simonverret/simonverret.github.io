@@ -22,6 +22,21 @@ On the intrinsic breaking of translational invariance in cluster dynamical mean-
 <p></p>
 
 
+<h4>2019</h4>
+
+<button class="collapsible">
+<b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
+B.&nbsp;Michon, C.&nbsp;Girod, S.&nbsp;Badoux, J.&nbsp;Kačmarčík, Q.&nbsp;Ma, M.&nbsp;Dragomir, H.A.&nbsp;Dabkowska, B..D&nbsp;Gaulin, J.-S.&nbsp;Zhou, S.&nbsp;Pyon, T.&nbsp;Takayama, H.&nbsp;Takagi, <b>S.&nbsp;Verret</b>, .N&nbsp;Doiron-Leyraud, C.&nbsp;Marcenat, L.&nbsp;Taillefer, T.&nbsp;Klein,<br>
+Nature (2019), 8 pages.
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://www.nature.com/articles/s41586-019-0932-x">Nature</a>
+  | <a href="https://arxiv.org/abs/1804.08502">ArXiv</a>
+  | This paper presents groundbeaking experiments for the specific heat in cuprates. I contributed theoretical calculations that show these experiments cannot be explained with the van Hove singularity expected in this system because of three dimensional considerations.
+</p>
+</div>
+<p></p>
 
 <h4>2018</h4>
 
@@ -39,21 +54,9 @@ arXiv:1804.08502 (2018), 8 pages.
 <p></p>
 
 <button class="collapsible">
-<b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
-B.&nbsp;Michon, C.&nbsp;Girod, S.&nbsp;Badoux, J.&nbsp;Kačmarčík, Q.&nbsp;Ma, M.&nbsp;Dragomir, H.A.&nbsp;Dabkowska, B..D&nbsp;Gaulin, J.-S.&nbsp;Zhou, S.&nbsp;Pyon, T.&nbsp;Takayama, H.&nbsp;Takagi, <b>S.&nbsp;Verret</b>, .N&nbsp;Doiron-Leyraud, C.&nbsp;Marcenat, L.&nbsp;Taillefer, T.&nbsp;Klein,<br>
-arXiv:1804.08502 (2018), 8 pages.
-</button>
-<div class="content">
-<p class="cp">
-  <a href="https://arxiv.org/abs/1804.08502">ArXiv</a>
-  | This paper presents groundbeaking experiments for the specific heat in cuprates. I contributed theoretical calculations that show these experiments cannot be explained with the van Hove singularity expected in this system because of three dimensional considerations.
-</p>
-</div>
-<p></p>
-
-<button class="collapsible">
 <b>THESIS : Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
-<b>S. Verret</b>, Université de Sherbrooke (2018) 119 pages (French only).
+<b>S. Verret</b>, Université de Sherbrooke (2018), 119 pages (French only).<br>
+Awarded best thesis of the Science Faculty.
 </button>
 <div class="content">
 <p class="cp">

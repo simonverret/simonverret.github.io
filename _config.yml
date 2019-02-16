@@ -33,6 +33,10 @@ disqus:
 
 # Build settings
 markdown: kramdown
+
+# kramdown:
+#     math_engine: mathjaxnode
+
 # highlighter: pygments
 highlighter: rouge
 
