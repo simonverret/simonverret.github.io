@@ -36,7 +36,7 @@ At first glance, the reader might understand that $\vec U$ and $\vec W$ are weig
 \vec h^{(t)} &= \tanh(\vec a^{(t)})\\\
 \vec o^{(t)} &= \vec c + \vec V\vec h^{(t)}
 \end{align}
-not only answers that they are added, and then the result is passed to the non-linear gate, we now also know it is a tanh gate. Moreover, two offsets are unnecessary in this context; only one is needed. In short, the diagrammatic notation cannot be directly translated to the maths. I consider this a big prolem compared, for example, to Feynmann diagrams, which becam famous and widely used mainly because they translate directly to equations.
+not only answers that they are added, and then the result is passed to the non-linear gate, we now also know it is a tanh gate. Moreover, two offsets are unnecessary in this context; only one is needed. In short, the diagrammatic notation cannot be directly translated to the maths. I consider this a big prolem compared, for example, to Feynman diagrams, which became famous and widely used mainly because they translate directly to equations.
 
 <br>
 
@@ -47,7 +47,7 @@ In the winter of 2018, I followed a course on tensor network methods for strongl
 Here are the basics: vector have one leg (because they have one index), matrix have two, and more general tensors have as many as their rank. You can then illustrate a tensor product by connecting the legs corresponding to the index summed.
 <img class="center" src="/img/neuralTensorNetwork-03.png"  title="basics of the tensor network notation" width="800px"/>
 
-Since I began working on neural networks, I always try to draw the tensor network diagram corresponding to various architecture visited in <a href='https://www.deeplearningbook.org/'>the Deep Learning book</a>. I try to clean it of all ambiguity. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
+Since I began working on neural networks, I always try to draw the tensor network diagram corresponding to various architecture visited in <a href='https://www.deeplearningbook.org/'>the Deep Learning book</a>. I try to clean the diagrammatic representation of all ambiguity. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
 \begin{align}
 h_{i}=\sigma\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 \end{align} 
@@ -55,7 +55,7 @@ which can be depicted with the two equivalent diagrams (to show that the orienta
 <img class="center" src="/img/neuralTensorNetwork-04.png"  title="tensor network diagram for a single hidden unit" width="800px"/>
 Here is how the deep neural network illustrated at the beginning would look like:
 <img class="center" src="/img/neuralTensorNetwork-05.png"  title="tensor network diagram for a deep MLP" width="800px"/>
-with $g^{(k)}$ telling what non-linearity is used at each layer. Note that I had to add element-wise operations to the notation, illustrated as teardrops with their corner indicating the ouput of the operation. I also augmented the notation with arrowheads to represent non-linear functions.
+with $g^{(k)}$ telling what non-linear gate is used at each layer. Note that I had to add element-wise operations to the notation, illustrated as teardrops with their corner indicating the ouput of the operation. I also augmented the notation with arrowheads to represent non-linear functions.
 
 <br>
 
