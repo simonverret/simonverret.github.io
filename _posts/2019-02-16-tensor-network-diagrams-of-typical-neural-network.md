@@ -30,7 +30,7 @@ Problems of these diagrams
 ---
 To be quite honest, I do not like this diagrammatic convention, because you need to know the equations represented to be able to understand the diagram. A good example is when the reccurent neural network (RNN) is introduced:
 <img class="center" src="/img/deepLearningBook-10-3.png"  title="diagrammatic representation of a RNN" width="800px"/>
-At first glance, the reader might understand that $\vec U$ and $\vec W$ are weights applied respectively on the input $x^{(t)}$ recieved at time $t$ and hidden state $h^{(t-1)}$ computed at time $t-1$, but what happens exactly to the results of these two? are they added, multiplied or concatenated to form $h^{(t)}$? Are they separately passed into a non-linear gate? Although the picture makes it unclear, a rapid glace at the equations:
+At first glance, the reader might understand that $\vec U$ and $\vec W$ are weights applied respectively on the input $x^{(t)}$ recieved at time $t$ and hidden state $h^{(t-1)}$ computed at time $t-1$, but what happens exactly to the results of these two? are they added, multiplied or concatenated to form $h^{(t)}$? Are they separately passed into a non-linear gate? Although the picture makes it unclear, the equations:
 \begin{align}
 \vec a^{(t)} &= \vec b + \vec W\vec h^{(t-1)} + \vec U\vec x^{(t)}\\\ 
 \vec h^{(t)} &= \tanh(\vec a^{(t)})\\\
