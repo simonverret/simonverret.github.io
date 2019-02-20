@@ -51,11 +51,10 @@ Since I began working on neural networks, I always try to draw the tensor networ
 \begin{align}
 h_{i}=\sigma\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 \end{align} 
-which can be depicted with the two equivalent diagrams (to show that the orientation of the elements are not important):
 <img class="center" src="/img/neuralTensorNetwork-04.png"  title="tensor network diagram for a single hidden unit" width="800px"/>
 Here is how the deep neural network illustrated at the beginning would look like:
 <img class="center" src="/img/neuralTensorNetwork-05.png"  title="tensor network diagram for a deep MLP" width="800px"/>
-with $g^{(k)}$ telling what non-linear gate is used at each layer. Note that I had to add element-wise operations to the notation, illustrated as teardrops with their corner indicating the ouput of the operation. I also augmented the notation with arrowheads to represent non-linear functions.
+with $g^{(k)}$ telling what non-linear gate is used at each layer. Note that I augmented the notation with element-wise operations, illustrated as teardrops (with their corner indicating the ouput of the operation), and with the non-linear functions, illustrated as arrowheads.
 
 <br>
 
