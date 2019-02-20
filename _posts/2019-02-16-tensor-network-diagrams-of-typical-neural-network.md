@@ -60,8 +60,6 @@ with $g^{(k)}$ telling what non-linear gate is used at each layer. Note that I a
 
 Tensor network notation for (RNN)
 ---
-Here are more diagrams. I plan to add more descriptions in the near future, but you should nevertheless be able to read most of them right away.
-
 Here is a RNN's hidden unit, following the Deep Learning book, equation 10.8-10.9, unified here in a single equation:
 <p>
 \begin{align}
@@ -69,7 +67,7 @@ h^{(t)}_i &=\tanh\left(b_{i}+\sum_{j}W^{\phantom t}_{i,j}h_{j}^{(t-1)}+\sum_{j}U
 \end{align}
 </p>
 <img class="center" src="/img/neuralTensorNetwork-06.png"  title="tensor network diagram for the hidden unit of a RNN" width="800px"/>
-Here is a full RNN following the Deep Learning book, equation 10.8-10.11 unified here in a single equation, with the previous diagram explicitely appearing for $h_{j}^{(t)}$.
+while the full RNN (with the previous diagram explicitely appearing for $h_{j}^{(t)}$), looks like:
 <p>
 \begin{align}
 y_{i}^{(t)}&=\operatorname{softmax}\left(c_{i}+\sum_{j}V_{i,j}h_{j}^{(t)}\right)
