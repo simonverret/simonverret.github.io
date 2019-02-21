@@ -26,7 +26,7 @@ On the intrinsic breaking of translational invariance in cluster dynamical mean-
 
 <button class="collapsible">
 <b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
-B.&nbsp;Michon, C.&nbsp;Girod, S.&nbsp;Badoux, J.&nbsp;Kačmarčík, Q.&nbsp;Ma, M.&nbsp;Dragomir, H.A.&nbsp;Dabkowska, B..D&nbsp;Gaulin, J.-S.&nbsp;Zhou, S.&nbsp;Pyon, T.&nbsp;Takayama, H.&nbsp;Takagi, <b>S.&nbsp;Verret</b>, .N&nbsp;Doiron-Leyraud, C.&nbsp;Marcenat, L.&nbsp;Taillefer, T.&nbsp;Klein,<br>
+B.&nbsp;Michon, C.&nbsp;Girod, S.&nbsp;Badoux, J.&nbsp;Kačmarčík, Q.&nbsp;Ma, M.&nbsp;Dragomir, H.A.&nbsp;Dabkowska, B.D.&nbsp;Gaulin, J.-S.&nbsp;Zhou, S.&nbsp;Pyon, T.&nbsp;Takayama, H.&nbsp;Takagi, <b>S.&nbsp;Verret</b>, .N&nbsp;Doiron-Leyraud, C.&nbsp;Marcenat, L.&nbsp;Taillefer, T.&nbsp;Klein,<br>
 Nature (2019), 8 pages.
 </button>
 <div class="content">
@@ -43,7 +43,7 @@ Nature (2019), 8 pages.
 <button class="collapsible">
 <b>Coexistence of Superconductivity and Antiferromagnetism in the Hubbard model for cuprates</b><br>
 A.&nbsp;Foley, <b>S.&nbsp;Verret</b>, A.-M.S.&nbsp;Tremblay, D.&nbsp;Sénéchal,<br>
-arXiv:1804.08502 (2018), 8 pages.
+arXiv:1804.08502 (2018), accepted in Physical Review B, 8 pages.
 </button>
 <div class="content">
 <p class="cp">

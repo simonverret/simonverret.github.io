@@ -47,7 +47,7 @@ In the winter of 2018, I followed a course on tensor network methods for strongl
 Here are the basics: vector have one leg (because they have one index), matrix have two, and more general tensors have as many as their rank. You can then illustrate a tensor product by connecting the legs corresponding to the index summed.
 <img class="center" src="/img/neuralTensorNetwork-03.png"  title="basics of the tensor network notation" width="800px"/>
 
-Since I began working on neural networks, I always try to draw the tensor network diagram corresponding to various architecture visited in <a href='https://www.deeplearningbook.org/'>the Deep Learning book</a>. I try to clean the diagrammatic representation of all ambiguity. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
+Since I began working on neural networks, I always try to draw the tensor network diagram corresponding to various architecture visited in <a href='https://www.deeplearningbook.org/'>the DL book</a>. I try to clean the diagrammatic representation of all ambiguity. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
 \begin{align}
 h_{i}=\sigma\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 \end{align} 
@@ -60,7 +60,7 @@ with $g^{(k)}$ telling what non-linear gate is used at each layer. Note that I a
 
 Tensor network notation for (RNN)
 ---
-Here is a RNN's hidden unit, following the Deep Learning book, equation 10.8-10.9, unified here in a single equation:
+Here is a RNN's hidden unit, following <a href='https://www.deeplearningbook.org/'>the DL book</a>'s equations 10.8-10.9 (same as above), but here unified in a single index notation equation:
 <p>
 \begin{align}
 h^{(t)}_i &=\tanh\left(b_{i}+\sum_{j}W^{\phantom t}_{i,j}h_{j}^{(t-1)}+\sum_{j}U^{\phantom t}_{i,j}x_{j}^{(t)}\right)
@@ -81,7 +81,7 @@ In the above diagram, the loop means that the intermediate output $\vec h$ at ti
 
 Long short-term memory (LSTM)
 ---
-I do not explain the LSTM unit here, since the <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">introduction by Chris Colah</a> is excellent, and well known. However, I still find his illustration a little bit ambiguous, so here is the corresponding tensor network I came up with. I follow equations 10.40-10.44 of the deep learning book.
+I do not explain the LSTM unit here, since the <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">introduction by Chris Colah</a> is excellent, and well known. However, I still find his illustration a little bit ambiguous, so here is the corresponding tensor network I came up with. Here, I follow <a href='https://www.deeplearningbook.org/'>the DL book</a>'s equations 10.40-10.44.
 The first step is to draw the internal state, as it is the most complicated diagram:
 \begin{align}
 s_{i}^{(t)}=f_{i}^{(t)}s_{i}^{(t-1)}+g_{i}^{(t)}\sigma\bigg(b_{i}+\sum_{j}U_{i,j}x_{j}^{(t)}+\sum_{j}W_{i,j}h_{j}^{(t-1)}\bigg)
