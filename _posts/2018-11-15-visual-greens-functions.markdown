@@ -9,7 +9,7 @@ mathjax: true
 
 Last May, I was invited to give the first talk of CIFAR's quantum materials summer school with an introduction to Green's function. My slides were really appreciated, so I made a post out of them. Sharing this post is one of the main reasons I put this website together, so don't hesitate to post your questions in the comments section at the end. 
 
-Disclaimer: this intro is very different from the "standard" presentation of Green's functions. In particular, it does require to know second quantization, and for this reasons cannot be extended to interacting systems, which is the usual reason to work with Green's function. I refer two books at the end for standard, more complete approaches.
+Disclaimer: this intro is very different from the "standard" presentation of Green's functions. In particular, here you are not required to know about second quantization, and for this reason  my introduction cannot be extended to interacting systems, which is the usual reason to work with Green's function. I refer two books at the end for standard, more complete approaches.
 
 <br>
 
