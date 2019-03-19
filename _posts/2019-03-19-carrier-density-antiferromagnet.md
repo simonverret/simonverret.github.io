@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Carrier Number in a 2D Antiferromagnet"
+title:  "Carrier density in a 2D antiferromagnet"
 categories:
 comments: true
 mathjax: true
