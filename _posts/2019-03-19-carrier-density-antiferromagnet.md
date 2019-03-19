@@ -2,6 +2,7 @@
 layout: post
 title:  "Carrier density in a 2D antiferromagnet"
 categories:
+updated: 2019-03-19
 comments: true
 mathjax: true
 ---
@@ -16,6 +17,6 @@ The left picture is to reminds that the Brillouin zone (BZ) contains 2 states pe
 
 If we open the AF gap and keep the chemical potential fixed, both volumes get smaller. This change in size usually results in a change of doping. In the AF mean-field picture, there is no garantee that these reductions cancel each other to preserve $p=q-x$. In fact, in computations, one needs to readjust the chemical potential for every value of gap considered, to find $p$ again in the reconstructed system. This is important: the carrier number is not $p$ because the pocket has a volume of $p$, it is $p$ because we want the doping in the whole system to be conserved.
 
-The reason that the Hall number goes from $1+p$ to $p$, in the AF scenario, is that the upper band, the one associated with the blue electon pockets, completely leaves the Fermi surface at some point. The single band with $1+p$ carriers loses $1$ entire carrier per unit-cell when undergoing the reconstruction. The leftover lower band, associated with the red hole pockets, contains $p$ carrier, not because the leftover volume is $p$, but because it has to be $p$ if we want a doping of $p$ in the new two-band system.
+The reason that the Hall number goes from $1+p$ to $p$, in the AF scenario, is that the upper band, the one associated with the blue electon pockets, completely leaves the Fermi surface at some point. The single band with $1+p$ carriers loses $1$ entire carrier per unit-cell when undergoing the reconstruction. The leftover lower band, associated with the red hole pockets, contains $p$ carrier, not because the leftover volume is $p$ (for a given chemical potential), but because we want a doping of $p$ in the new two-band system.
 
 In cuprates, antiferromagnetism does not extend that far in doping, and thus this picture should not hold. However, if Mott physics is involved, there is a good change that the split in two bands remains a good approximation to explain some experiments. What remains unclear, in that case, is if the upper band will remain a sharp band, or become incoherent spectral weight, and also if the bottom band will actually form a close pocket. To my knowledge, these remain open questions.
