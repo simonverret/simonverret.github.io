@@ -38,20 +38,21 @@ Nature (2019), 8 pages.
 </div>
 <p></p>
 
-<h4>2018</h4>
-
 <button class="collapsible">
 <b>Coexistence of Superconductivity and Antiferromagnetism in the Hubbard model for cuprates</b><br>
 A.&nbsp;Foley, <b>S.&nbsp;Verret</b>, A.-M.S.&nbsp;Tremblay, D.&nbsp;Sénéchal,<br>
-arXiv:1804.08502 (2018), accepted in Physical Review B, 8 pages.
+Physical Review B 99, 184510 (2019), 11 pages.
 </button>
 <div class="content">
 <p class="cp">
   <a href="https://arxiv.org/abs/1811.12363">ArXiv</a>
+  | <a href="https://link.aps.org/doi/10.1103/PhysRevB.99.184510">Physical Review B</a>
   | This paper is the fruit of very long hard work by Alexandre Foley on a new parametrization of CDMFT to study the coexistance of antiferromagnetism and superconductivity in the Hubbard Model. This new parametrization is compared to my Master's thesis results which used an older 'simpler' parametrization.
 </p>
 </div>
 <p></p>
+
+<h4>2018</h4>
 
 <button class="collapsible">
 <b>THESIS : Rôle des ondes de densité dans les modèles théoriques pour cuprates supraconducteurs</b><br>
