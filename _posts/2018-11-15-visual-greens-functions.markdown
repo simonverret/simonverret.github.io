@@ -2,14 +2,14 @@
 layout: post
 title:  "Visual Introduction to Green's Functions"
 categories:
-updated: 2018-11-17
+updated: 2019-07-29
 comments: true
 mathjax: true
 ---
 
-Last May, I was invited to give the first talk of CIFAR's quantum materials summer school with an introduction to Green's function. My slides were really appreciated, so I made a post out of them. Sharing this post is one of the main reasons I put this website together, so don't hesitate to post your questions in the comments section at the end. 
+Just after finishing my PhD, in the spring of 2018, I was invited to give the first talk of the [CIFAR's quantum materials summer school](https://www.physique.usherbrooke.ca/cifar2018/). I had wanted to craft an introduction to Green's function for a long time. My slides were really appreciated, so I made this post out of them. Sharing this post is one of the main reasons I put this website together, so don't hesitate to post your questions in the comments section at the end if you have some.
 
-Disclaimer: this intro is very different from the "standard" presentation of Green's functions. In particular, here you are not required to know about second quantization, and for this reason  my introduction cannot be extended to interacting systems, which is the usual reason to work with Green's function. I refer two books at the end for standard, more complete approaches.
+Disclaimer: this intro is very different from the "standard" presentation of Green's functions. In particular, knowledge about second quantization is not required. For this reason, my introduction cannot be easily extended to interacting systems, which is the usual reason to work with Green's function. I recommend two books at the end of this page for a more standard and more complete introduction to the subject.
 
 <br>
 
@@ -38,7 +38,7 @@ G(\vec k, \epsilon) = \frac{1}{\epsilon + \text{i}\eta - \varepsilon(\vec k)}.
 \label{simplestGreen}
 \end{align}
 
-It is a function of two variables: momentum $\vec k$ and energy $\epsilon$ (or the frequency $\omega = \epsilon/\hbar$ when setting $\hbar=1$). The dispersion relation enters directly in the denominator, and is accompanied by an imaginary term $i\eta$ which we'll consider in a moment. For now, only notice that because of this imaginary term, the Green's function has a real and an imaginary part. Therefore, in the one-dimensional case ($\vec k \rightarrow k$), we need two 3D plots to properly illustrate the Green's function: one for $\text{Re}\{G\}$ as a function of $k$ and $\omega$, and one for $\text{Im}\{G\}$ as a function of $k$ and $\omega$:
+It is a function of two variables: momentum $\vec k$ and energy $\epsilon$ (or the frequency $\omega = \epsilon/\hbar$ when setting $\hbar=1$). The dispersion relation enters directly in the denominator, and is accompanied by an imaginary term $i\eta$ which we'll consider in a moment. For now, only notice that because of this imaginary term, the Green's function has a real and an imaginary part. Therefore, in the one-dimensional case ($\vec k \rightarrow k$), we need two 3D plots to properly illustrate the Green's function: one for $\text{Re}\{G\}$ as a function of $k$ and $\epsilon$, and one for $\text{Im}\{G\}$ as a function of $k$ and $\epsilon$:
 
 <img class="center" src="/img/greenFree.gif"  title="The simplest Green's function" width="550px"/>
 
@@ -55,7 +55,7 @@ Now, what is this imaginary term, with the $\eta$ parameter? Well, you should fi
 
 The colorplots on the left are the same as above, and what is plotted on the right are cuts of these colorplots, at $k=\pi/2$, where I added black arrows. Thus, along these arrows, $\text{Re}G$ and $-\text{Im}G$ follow the dependence shown as a function of $\epsilon$ on the right.
 
-This shows that the role of $\eta$ is to broaden the Green's function in energy. If it was zero, the real part of $G$ would simply be a $1/\epsilon$ divergence, and the imaginary part would be a Dirac delta. (This is a example of the [Sokhotski–Plemelj theorem](https://en.wikipedia.org/wiki/Sokhotski%E2%80%93Plemelj_theorem):
+This shows that the role of $\eta$ is to broaden the Green's function in energy. If it was zero, the real part of $G$ would simply be a $1/\epsilon$ divergence, and the imaginary part would be a Dirac delta. (This is an example of the [Sokhotski–Plemelj theorem](https://en.wikipedia.org/wiki/Sokhotski%E2%80%93Plemelj_theorem):
 \begin{align}
 \lim_{\eta\rightarrow 0}\frac{1}{z+i\eta} \rightarrow \mathcal{P}\frac{1}{z} - i\pi\delta(z),
 \end{align}
@@ -92,7 +92,7 @@ Where are the gaps?
 
 This is all good so far, but where are the gaps I mentioned at the beginning? As far as I know, _all_ gaps encountered in quantum mechanics are different realizations of _avoided crossing_ of energy levels, also known as _anti-crossings_. This phenomenon is described by the two-level Hamiltonian:
 \begin{align}
-\hat{H} = 
+\boldsymbol{H} = 
 \begin{pmatrix}
 \varepsilon_1 & \Delta \\\
 \Delta & \varepsilon_2
@@ -105,10 +105,10 @@ Here we take $\Delta$ real. This matrix has eigenvalues $E^{\pm}$ and eigenvecto
 
 But how do you plot the gap? One way is with to use the Green's function. The Green's function of Hamiltonian \eqref{hamiltonian} is given by:
 \begin{align}
-\hat{G}(\epsilon) = [\epsilon + i\eta - \hat{H}]^{-1},
+\boldsymbol{G}(\epsilon) = [\epsilon + i\eta - \boldsymbol{H}]^{-1},
 \label{matrixGreen}
 \end{align}
-with hat denoting matrices and $(\epsilon + i\eta)$ implicitly multiplying an identity matrix. That's right, the Green's function of the two-level system is a matrix. As a consequence, in the one-dimensional case considered above, we need 8 distinct 3D plots to show all the components of $\text{Re}G$ and $\text{Im}G$. Let's arrange them in $2\times2$ grids of plots that correspond to the $2\times2$ matrix:
+with bold denoting matrices and $(\epsilon + i\eta)$ implicitly multiplying an identity matrix. That's right, the Green's function of the two-level system is a matrix. As a consequence, in the one-dimensional case considered above, we need 8 distinct 3D plots to show all the components of $\text{Re}G$ and $\text{Im}G$. Let's arrange them in $2\times2$ grids of plots that correspond to the $2\times2$ matrix:
 
 <img class="center" src="/img/greenGap.gif"  title="Two-by-two Green's function compared to the corresponding eigen values and eigenvectors with a varying gap size" width="1200px"/>
 
@@ -121,11 +121,11 @@ On the left, eigenvalues and eigenvectors are shown, with $\Delta$ varying in ti
 <button class="collapsible cNoteButton">
 Proof: relation between the spectral weight and the eigenvectors
 </button><div class="content cNote">
-  The key is to express the elements of $-\text{Im}G$ in terms of the diagonalized Hamiltonian $\hat{H} = \hat{U}^{\dagger} \hat{E} \hat{U}$ (The columns of $\hat{U}$ are the eigenvectors and $\hat{E}$ the diagonal matrix of eigenvalues). Let's use $E_n$ in the place of $E^{\pm}$ to make the matrix product clearer:
+  The key is to express the elements of $-\text{Im}G$ in terms of the diagonalized Hamiltonian $\boldsymbol{H} = \boldsymbol{U}^{\dagger} \boldsymbol{E} \boldsymbol{U}$ (The columns of $\boldsymbol{U}$ are the eigenvectors and $\boldsymbol{E}$ the diagonal matrix of eigenvalues). Let's use $E_n$ in the place of $E^{\pm}$ to make the matrix product clearer:
     <p>
     \begin{align}
-    -\text{Im}\hat{G}(\epsilon) 
-    &= -\text{Im}\big\{ \hat{U}^{\dagger} \big[(\epsilon + i\eta) - \hat{E}\big]^{-1}  \hat{U}\big\}
+    -\text{Im}\boldsymbol{G}(\epsilon) 
+    &= -\text{Im}\big\{ \boldsymbol{U}^{\dagger} \big[(\epsilon + i\eta) - \boldsymbol{E}\big]^{-1}  \boldsymbol{U}\big\}
     \end{align}
     \begin{align}
     -\text{Im} G_{i,j}(\epsilon)
@@ -173,7 +173,7 @@ The Green's function has none of these problems: the evolution is perfectly smoo
 Finally, to compute the gap, one can simply integrate the imaginary part of the Green's function (the spectral weight) over $k$. Doing so counts all the state weight at a given energy. Using the definition \ref{matrixGreen} even yields an expression for the density of state directly in terms of the Hamiltonian:
 <p>
 \begin{align}
-N(\epsilon) = \int dk \Big[-\frac{1}{\pi}\text{ Im}\big\{[\epsilon + i\eta - \hat{H}(k)]^{-1}\big\}\Big]_{1,1} 
+N(\epsilon) = \int dk \Big[-\frac{1}{\pi}\text{ Im}\big\{[\epsilon + i\eta - \boldsymbol{H}(k)]^{-1}\big\}\Big]_{1,1} 
 \end{align}
 </p>
 Here is the result (right), next to the unintegrated spectral weight (left), with eta varying in time:
@@ -195,7 +195,7 @@ More info: how to get the orange and blue density of states
 
 <br>
 
-Is this all there is to it?
+Is that all there is to it?
 ----
 
 What I presented here is so "elementary" that I don't even think it can be found in textbooks. Green's functions are usually used to treat many-particle systems (many electrons in interaction). Here, I have not even mentioned interaction, nor temperature. For a fun, engaging, and more complete introduction on Green's functions, I strongly recommend Richard Mattuck's [A Guide to Feynman Diagrams in the Many-Body Problem](http://store.doverpublications.com/0486670473.html). For a more conventional introduction (with all the mathematical details), consider Fetter & Walecka [Quantum Theory of Many-Particle Systems](http://store.doverpublications.com/0486428273.html). These two are classics, but there are many others.
