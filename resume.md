@@ -113,7 +113,6 @@ order: 5
 
 
 <br>
-
 <h2>Languages and softwares</h2>
 <ul>
 <li><b>French, English</b> spoken & written</li>
@@ -123,6 +122,7 @@ order: 5
 <li><b>HTML, CSS, Javascript</b> (for this website)</li>
 </ul>
 
+<br>
 <h2>Volunteering & Activities</h2>
 <ul>
 <li>Organizing lunch seminars, 2016-2017 (Physics Department, Université de Sherbrooke)</li>
