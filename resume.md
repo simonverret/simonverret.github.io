@@ -102,7 +102,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> RESEARCH ASSISTANT - University of Calgary. </b></button>
+<button class="collapsible"><b> RESEARCH ASSISTANT - University of Calgary </b></button>
 <div class="content">
 <p class="cp">
   <b>Summer 2010, Calgary, with NSERC Undergraduate Student Research Award</b>
