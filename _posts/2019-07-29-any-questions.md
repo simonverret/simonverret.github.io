@@ -15,7 +15,7 @@ Usually, when opening for questions, the speaker signals a checkpoint in the tal
 
 To really help your lost passive audience, checkpoints and feedback should work the other way around. A passive audience should indicate that more explaining is needed. People should need to get active for the talk to go forward.
 
-> Instead of the traditional “any questions?” the speaker should ask: "raise your hand if you are following.”
+> Instead of the traditional “any questions?” the speaker could ask: "raise your hand if you are following.”
 
 The speaker could then literally count how many people are comfortable with the pace of the talk. If only few hands rise, one must go back, until people actively ask to go forward. In this way, the speaker transfers his responsibility to make an easy talk to the audience. It is now the audience who decides if things can become harder. They have to raise their hands, once in a while, to signal "I am ready to know more".
 
