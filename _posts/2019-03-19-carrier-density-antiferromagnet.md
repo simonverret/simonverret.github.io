@@ -7,7 +7,9 @@ comments: true
 mathjax: true
 ---
 
-In Badoux _et al._'s <a href="https://www.nature.com/articles/nature16983">2016 Nature paper</a>, the Hall number goes from $p$ to $1+p$ as a function of doping in YBCO. This results seems intuitive to some and counterintuitive to others. Here I want to clarify the picture, at the risk of may be making it less intuitive than often suggested. To see what I mean, consider the following antiferromagnetic (AF) reconstruction (as <a href="https://iopscience.iop.org/article/10.1209/0295-5075/113/27003/meta">suggested by Storey to explain the phenomena</a>):
+In 2016, [Badoux _et al._]("https://www.nature.com/articles/nature16983") showed that, in the high temperature superconductor YBCO, the number of carriers measured by the Hall effect goes from $n_{H}=p$ to $n_{H}=1+p$ as a function of hole doping $p$. The suggested explanation for this phenomenon is an antiferromagnetic (AF) reconstruction of the Fermi surface. This suggestion was [quantitatively explored by Storey](https://iopscience.iop.org/article/10.1209/0295-5075/113/27003/meta), who demonstrated that it describes the $p$ to $1+p$ behaviour perfectly.
+
+Here I want to clarify subtle aspects of this explanation. Let us start by dividing the number of carriers counted in the Brillouin zone in various ways.
 
 <img class="center" src="/img/dividingBrillouin-01.png"  title="dividing the Brillouin zone" width="1000px"/>
 
