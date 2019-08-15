@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Transport Theory Cookbook for Cuprates"
+title:  "Transport Cookbook for Cuprates"
 categories:
 comments: true
 mathjax: true
