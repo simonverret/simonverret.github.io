@@ -99,7 +99,7 @@ This is all good so far, but where are the gaps I mentioned at the beginning? As
 \end{pmatrix}.
 \label{hamiltonian}
 \end{align}
-Here we take $\Delta$ real. This matrix has eigenvalues $E^{\pm}$ and eigenvectors $\vec v^{\pm}$. (I have an earlier [post]({% post_url 2018-10-15-two-level-system %}) reminding standard results on the two-level system.) Let us consider the one-dimensional case with $\varepsilon_1(k) = k$ and $\varepsilon_2(k) = -k$ (to get an easy crossing). The "gap" simply denotes the absence of states between the two eigenvalues:
+Here we take $\Delta$ real. This matrix has eigenvalues $E^{\pm}$ and eigenvectors $\vec v^{\pm}$ (see my earlier post on [the two-level system]({% post_url 2018-10-15-two-level-system %})). Let us consider the one-dimensional case with $\varepsilon_1(k) = k$ and $\varepsilon_2(k) = -k$ (to get an easy crossing). The "gap" simply denotes the absence of states between the two eigenvalues:
 
 <img class="center" src="/img/eigenGap.gif"  title="Relation between the gap and the eigenvalues" width="640px"/>
 
