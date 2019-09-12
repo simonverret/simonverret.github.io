@@ -204,25 +204,14 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
-<<<<<<< HEAD
     multipart-post (2.1.1)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     octokit (4.14.0)
-=======
-    multipart-post (2.0.0)
-    nokogiri (1.10.4)
-      mini_portile2 (~> 2.4.0)
-    octokit (4.12.0)
->>>>>>> b9e106fb7e323189333fb9a1051318f4e3fe703a
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-<<<<<<< HEAD
     public_suffix (3.1.1)
-=======
-    public_suffix (2.0.5)
->>>>>>> b9e106fb7e323189333fb9a1051318f4e3fe703a
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -247,11 +236,7 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-<<<<<<< HEAD
     unicode-display_width (1.6.0)
-=======
-    unicode-display_width (1.4.0)
->>>>>>> b9e106fb7e323189333fb9a1051318f4e3fe703a
 
 PLATFORMS
   ruby
