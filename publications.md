@@ -2,27 +2,28 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2018-11-30
+updated: 2019-09-24
 order: 4
 ---
 
 <body>
 
+<p></p>
 
-
+<h4>2019</h4>
 
 <button class="collapsible">
-<b>One paper in preparation, stay tuned!</b>
+<b>Intrinsic Cluster-Shaped Density Waves in Cellular Dynamical Mean-Field Theory</b><br>
+<b>S.&nbsp;Verret</b>, J.&nbsp;Roy, A.&nbsp;Foley, M.&nbsp;Charlebois, D.&nbsp;Sénéchal, A.-M.&nbsp;S.&nbsp;Tremblay,<br>
+arXiv:1909.10141, 14 pages.
 </button>
 <div class="content">
 <p class="cp">
-On the intrinsic breaking of translational invariance in cluster dynamical mean-field theory (CDMFT).
+<a href="https://arxiv.org/abs/1909.10141">ArXiv</a>
+  | This paper was 5 years in the making. It all started when André-Marie noticed subgap structures in the superconducting gap obtained with CDMFT and hired Jyotirmoy for an internship to study these. Since similar subgap structures are found in high temperature superconductors, we were very excited about this discovery. After a lot of work trying to explain the source of these subgap structures, we found they are caused by the artificial broken translation invariance inherent to CDMFT; they are an artefact. We were disappointed. However, in cuprates, we know that charge order also breaks translation invariance. Could the artificial translation invariance breaking in CDMFT cause similar effects to the density waves in cuprates? To adress this question correctly, we had to acquire a better understanding of the consequences of charge order and broken translation invariance in lattice models which lead to my my whole PhD work. I am very happy to finally share the work that started it all: an analysis of broken translation invariance in CDMFT.
 </p>
 </div>
-<p></p>
 
-
-<h4>2019</h4>
 
 <button class="collapsible">
 <b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
@@ -36,7 +37,6 @@ Nature (2019), 8 pages.
   | This paper presents groundbeaking experiments for the specific heat in cuprates. I contributed theoretical calculations that show these experiments cannot be explained with the van Hove singularity expected in this system because of three dimensional considerations.
 </p>
 </div>
-<p></p>
 
 <button class="collapsible">
 <b>Coexistence of Superconductivity and Antiferromagnetism in the Hubbard model for cuprates</b><br>
@@ -66,8 +66,8 @@ Awarded best thesis of the Science Faculty.
   | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense on Youtube </a>
 </p>
 </div>
-<p></p>
 
+<p></p>
 
 <h4>2017</h4>
 
@@ -83,7 +83,6 @@ Physical Review B 96, 125139 (2017), 11 pages. <b>editors' suggestion</b>
   | This paper makes clear predictions for the Seebeck coefficient, the Hall coefficient, and specific heat in three models for the pseudogap of high temperature superconductors. To my knowledge, these predictions have not been confirmed experimentally, which reveals a common weakness of these models, as discussed in the paper.
 </p>
 </div>
-<p></p>
 
 <button class="collapsible">
 <b>Hall effect in cuprates with incommensurate collinear spin-density wave</b><br>
@@ -97,7 +96,6 @@ Physical Review B 96, 205132 (2017), 9 pages.
   | The main work for this paper was done by my colleague Maxime Charlebois. He used the code developped for my paper on subgap structures (just below) to study the Hall effect in incomensurate systems. Togheter with colleague Alexandre Foley, we found a way to efficiently compute the electronic velocity in these systems (appendix of the paper) so that Maxime could compute the Hall resistivity.
 </p>
 </div>
-<p></p>
 
 <button class="collapsible">
 <b>Subgap structures and pseudogap in cuprate superconductors : Role of density waves</b><br>
@@ -108,12 +106,12 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <p class="cp">
   <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
-  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, but the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
+  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
   | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
 </p>
 </div>
-<p></p>
 
+<p></p>
 
 <h4>2014</h4>
 
@@ -127,8 +125,8 @@ Physical Review B 95, 054518 (2017), 12 pages.
   | <a href="https://www.physique.usherbrooke.ca/pages/en/node/7495">Département de physique UdeS</a>
 </p>
 </div>
-<p></p>
 
+<p></p>
 
 <h4>2013</h4>
 
@@ -173,7 +171,6 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
   | Full text in open access
 </p>
 </div>
-<p></p>
 
 <br>
 
@@ -197,7 +194,6 @@ RQEMP Summer School, Sherbrooke, august 2018
   See the <a href="../2018/11/15/visual-greens-functions.html">blog post</a> that I made from this talk.
 </p>
 </div>
-<p></p>
 
 <button class="collapsible">
 <b>Phenomenological theories of the low-temperature pseudogap : Hall number, specific heat, and Seebeck coefficient</b><br>
@@ -210,7 +206,6 @@ Gordon Research Seminar on superconductivity, New Hamshire, June 2017
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
 </p>
 </div>
-<p></p>
 
 <button class="collapsible">
 <b>Density waves cause subgap tructures but no pseudogap in superconducting cuprates (Poster)</b><br>
@@ -223,7 +218,6 @@ Engineering Quantum Matter (conference), St-Andrews, Scotland, June 2016
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
 </p>
 </div>
-<p></p>
 
 
 

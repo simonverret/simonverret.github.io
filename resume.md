@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-updated: 2018-11-22
+updated: 2019-09-24
 permalink: /cv/
 order: 5
 ---
@@ -14,6 +14,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2014 - 2018, Sherbrooke</b>
+  | Under Pr André-Marie Tremablay and Pr David Sénéchal
   | With courses: topological insulators (PHY-889), many-body physics (PHY-892) and supplementary courses: data structures (IFT-339) and algorithms and data structures (IFT-436)
   | <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Thesis</a>
   | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense</a>
@@ -43,12 +44,22 @@ order: 5
 <br>
 <h2>Relevant experiences</h2>
 
+<button class="collapsible"><b> POSTDOCTORAL RESEARCH - Université de Montréal</b></button>
+<div class="content">
+<p class="cp">
+  <b>2019, Montreal</b>
+  | Scolarship from <a href="https://ivado.ca/bourses-ivado/bourses-post-doctorales-4/">Institut for the valorisation of data (IVADO)</a> in partnership with <a href="https://www.usherbrooke.ca/iq/">Institut Quantique (IQ)</a> to research Deep learing for the electronic properties of quantum materials under Pr Yoshua Bengio and Pr André-Marie Tremblay.
+  With courses: representation learning (IFT6135) at Université de Montréal and reinforcement learning (COMP-767) at McGill University.
+  I Prepared deep learning tutorials for IQ in Université de Sherbrooke and I was
+  Teacher assistant for the <a href="https://ivado.ca/en/trainings/schools/ivado-mila-deep-learning-school-5th-edition-2/">4th IVADO summer school (2019)</a>.
+</p>
+</div>
 
 <button class="collapsible"><b> POSTDOCTORAL RESEARCH - Université de Sherbrooke </b></button>
 <div class="content">
 <p class="cp">
   <b>2018, Sherbrooke</b>
-  Mathematical modeling of transport phenomena in high temperature superconductors. Followed courses in tensor network methods (PHY-839) and general relativity (PHQ-615)
+  | Mathematical modeling of transport phenomena in high temperature superconductors. Followed courses in tensor network methods (PHY-839) and general relativity (PHQ-615)
   | Relevant codes on github: <a href="https://github.com/simonverret/kxy_kagome">Thermal Hall effect in Python</a>, <a href="https://github.com/simonverret/mroBuddy">Magnetoresistance in C</a>, <a href="https://github.com/gaelgrissonnanche/admr">Magnetoresistance in Python</a>
 </p>
 </div>
