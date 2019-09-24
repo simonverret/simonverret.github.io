@@ -14,7 +14,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2014 - 2018, Sherbrooke</b>
-  | Under Pr André-Marie Tremablay and Pr David Sénéchal
+  | Under Pr André-Marie Tremblay and Pr David Sénéchal
   | With courses: topological insulators (PHY-889), many-body physics (PHY-892) and supplementary courses: data structures (IFT-339) and algorithms and data structures (IFT-436)
   | <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Thesis</a>
   | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense</a>
@@ -26,6 +26,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2011 - 2014, Sherbrooke</b>
+  | Under Pr André-Marie Tremblay and Pr David Sénéchal
   | With courses: advanced condensed matter physics (PHY-730), broken symmetry and coherent states of matter (PHY-740), experimental methods in solid state physics (PHY-760) and supplementary course in quantum information and computation (PHQ-737)
   | <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Thesis</a>.
 </p>
@@ -35,7 +36,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2008 - 2011, Quebec</b>
-  | Internships at Université Laval and University of Calgary (see below)
+  | Internships at Université Laval under Pr Claudine Allen and University of Calgary under Pr Alexander Lvovsky (see below).
 </p>
 </div>
 <p></p>
@@ -59,7 +60,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2018, Sherbrooke</b>
-  | Mathematical modeling of transport phenomena in high temperature superconductors. Followed courses in tensor network methods (PHY-839) and general relativity (PHQ-615)
+  | Mathematical modeling of transport phenomena in high temperature superconductors under Pr André-Marie Tremblay and Pr Louis Taillefer. Followed courses in tensor network methods (PHY-839) and general relativity (PHQ-615)
   | Relevant codes on github: <a href="https://github.com/simonverret/kxy_kagome">Thermal Hall effect in Python</a>, <a href="https://github.com/simonverret/mroBuddy">Magnetoresistance in C</a>, <a href="https://github.com/gaelgrissonnanche/admr">Magnetoresistance in Python</a>
 </p>
 </div>
