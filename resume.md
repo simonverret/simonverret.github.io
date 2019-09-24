@@ -14,8 +14,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2014 - 2018, Sherbrooke</b>
-  | Under Pr André-Marie Tremblay and Pr David Sénéchal
-  | With courses: topological insulators (PHY-889), many-body physics (PHY-892) and supplementary courses: data structures (IFT-339) and algorithms and data structures (IFT-436)
+  | Under Pr André-Marie Tremblay and Pr David Sénéchal, with courses: topological insulators (PHY-889), many-body physics (PHY-892) and supplementary courses: data structures (IFT-339) and algorithms and data structures (IFT-436)
   | <a href="https://savoirs.usherbrooke.ca/handle/11143/12097">Thesis</a>
   | <a href= "https://youtu.be/yXtxbGZ8XJc?t=929"> Thesis defense</a>
   | C++ code published: <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
@@ -26,8 +25,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2011 - 2014, Sherbrooke</b>
-  | Under Pr André-Marie Tremblay and Pr David Sénéchal
-  | With courses: advanced condensed matter physics (PHY-730), broken symmetry and coherent states of matter (PHY-740), experimental methods in solid state physics (PHY-760) and supplementary course in quantum information and computation (PHQ-737)
+  | Under Pr André-Marie Tremblay and Pr David Sénéchal, with courses: advanced condensed matter physics (PHY-730), broken symmetry and coherent states of matter (PHY-740), experimental methods in solid state physics (PHY-760) and supplementary course in quantum information and computation (PHQ-737)
   | <a href="https://savoirs.usherbrooke.ca/handle/11143/79">Thesis</a>.
 </p>
 </div>
