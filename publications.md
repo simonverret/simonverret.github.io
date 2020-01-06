@@ -13,13 +13,14 @@ order: 4
 <h4>2019</h4>
 
 <button class="collapsible">
-<b>Intrinsic Cluster-Shaped Density Waves in Cellular Dynamical Mean-Field Theory</b><br>
+<b>Intrinsic cluster-shaped density waves in cellular dynamical mean-field theory</b><br>
 <b>S.&nbsp;Verret</b>, J.&nbsp;Roy, A.&nbsp;Foley, M.&nbsp;Charlebois, D.&nbsp;Sénéchal, A.-M.&nbsp;S.&nbsp;Tremblay,<br>
-arXiv:1909.10141, 14 pages.
+Physical Review B 100, 224520 (2019), 14 pages.
 </button>
 <div class="content">
 <p class="cp">
-<a href="https://arxiv.org/abs/1909.10141">ArXiv</a>
+  <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.224520">Physical Review B</a>
+  | <a href="https://arxiv.org/abs/1909.10141">ArXiv</a>
   | This paper was 5 years in the making. It all started when André-Marie noticed subgap structures in the superconducting gap obtained with CDMFT and hired Jyotirmoy for an internship to study these. Since similar subgap structures are found in high temperature superconductors, we were very excited about this discovery. After a lot of work trying to explain the source of these subgap structures, we found they are caused by the artificial broken translation invariance inherent to CDMFT; they are an artefact. We were disappointed. However, in cuprates, we know that charge order also breaks translation invariance. Could the artificial translation invariance breaking in CDMFT cause similar effects to the density waves in cuprates? To adress this question correctly, we had to acquire a better understanding of the consequences of charge order and broken translation invariance in lattice models which lead to my my whole PhD work. I am very happy to finally share the work that started it all: an analysis of broken translation invariance in CDMFT.
 </p>
 </div>
