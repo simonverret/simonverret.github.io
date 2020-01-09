@@ -2,7 +2,7 @@
 layout: post
 title:  "Tensor network diagrams of typical neural networks"
 categories:
-updated: 2019-02-19
+updated: 2020-1-9
 comments: true
 mathjax: true
 ---
@@ -36,7 +36,7 @@ At first glance, the reader might understand that $\vec U$ and $\vec W$ are weig
 \vec h^{(t)} &= \tanh(\vec a^{(t)})\\\
 \vec o^{(t)} &= \vec c + \vec V\vec h^{(t)}
 \end{align}
-not only answers that they are added, and then the result is passed to the non-linear gate, we now also know it is a tanh gate. Moreover, two offsets $\vec b$ are unnecessary in this context; only one is needed. In short, the diagrammatic notation cannot be directly translated to the maths. I consider this a big prolem compared, for example, to Feynman diagrams, which became famous and widely used mainly because they translate directly to equations.
+not only answers that they are added (although you can show concatenating yields to the same thing), and then the result is passed to the non-linear gate, we now also know it is a tanh gate. Moreover, two offsets $\vec b$ are unnecessary in this context; only one is needed. In short, the diagrammatic notation cannot be directly translated to the maths. I consider this a big prolem compared, for example, to Feynman diagrams, which became famous and widely used mainly because they translate directly to equations.
 
 <br>
 
@@ -44,10 +44,10 @@ Tensor network notation in physics
 ---
 In the winter of 2018, I followed a course on tensor network methods for strongly correlated electrons given by Glen Evenbly at Université de Sherbrooke. Basically, the course introduces a diagrammatic notation to write tensor products, and uses it to revisit famous methods of strongly correlated physics, among which the numerical renormalization group (NRG), density matrix renormalization group (DMRG), matrix product states (MPS), multi-scale entanglement renormalization ansatz (MERA), etc.
 
-Here are the basics: vector have one leg (because they have one index), matrix have two, and more general tensors have as many as their rank. You can then illustrate a tensor product by connecting the legs corresponding to the index summed.
+Here are the basics: vector have one leg (because they have one index), matrix have two, and more general tensors have as many as their order. You can then illustrate a tensor product by connecting the legs corresponding to the index summed.
 <img class="center" src="/img/neuralTensorNetwork-03.png"  title="basics of the tensor network notation" width="800px"/>
 
-Since I began working on neural networks, I always try to draw the tensor network diagram corresponding to various architecture visited in <a href='https://www.deeplearningbook.org/'>the DL book</a>. I try to clean the diagrammatic representation of all ambiguity. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
+Since I began working on neural networks, I tried to draw the tensor network diagram corresponding to a few architecture visited in <a href='https://www.deeplearningbook.org/'>the DL book</a>. Trying to clean the diagrammatic representation of all ambiguity helped me understand many thiings. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
 \begin{align}
 h_{i}=\sigma\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 \end{align} 
