@@ -9,6 +9,22 @@ order: 4
 <body>
 
 <p></p>
+<h4>2019</h4>
+
+<button class="collapsible">
+<b>Fermi surface transformation at the pseudogap critical point of a cuprate superconductor</b><br>
+Y.&nbsp;Fang, G.&nbsp;Grissonnanche, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, A.&nbsp;Ataei, M.&nbsp;Dion, J.&nbsp;Zhou, D.&nbsp;Graf, M.&nbsp;J.&nbsp;Lawler, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
+ArXiv 2004.01725 (2020), 22 pages + 15 pages in supplementary materials
+</button>
+<div class="content">
+<p class="cp">
+  <!-- <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.224520">Physical Review B</a> -->
+  <a href="https://arxiv.org/abs/2004.01725">ArXiv</a>
+  | My contribution to this work was to help Gaël Grissonnanche write a python program that computes the magnetoresistance in a 3D model of high temperature superconductors. This had already done by this work's advisor Brad Ramshaw, in Cornell, with his PhD student Yawen Fang (first author). Reproducing the results independently in Sherbrooke using another programming language allowed to improve many details, and get confidence in the results. I had already work on transport in cuprates, and I had already worked on three dimensional effects in cuprates, but this project took both aspects to a whole other level.
+</p>
+</div>
+
+<p></p>
 
 <h4>2019</h4>
 
