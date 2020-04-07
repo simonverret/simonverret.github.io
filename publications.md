@@ -2,19 +2,19 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2020-1-06
+updated: 2020-04-07
 order: 4
 ---
 
 <body>
 
 <p></p>
-<h4>2019</h4>
+<h4>2020</h4>
 
 <button class="collapsible">
 <b>Fermi surface transformation at the pseudogap critical point of a cuprate superconductor</b><br>
 Y.&nbsp;Fang, G.&nbsp;Grissonnanche, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, A.&nbsp;Ataei, M.&nbsp;Dion, J.&nbsp;Zhou, D.&nbsp;Graf, M.&nbsp;J.&nbsp;Lawler, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
-ArXiv 2004.01725 (2020), 22 pages + 15 pages in supplementary materials
+ArXiv 2004.01725 (2020), 22 pages
 </button>
 <div class="content">
 <p class="cp">

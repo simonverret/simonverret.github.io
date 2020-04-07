@@ -2,7 +2,7 @@
 layout: post
 title:  "Carrier density in a 2D antiferromagnet"
 categories:
-updated: 2019-03-19
+# updated: 2019-3-19
 comments: true
 mathjax: true
 ---

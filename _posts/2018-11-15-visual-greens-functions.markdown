@@ -2,7 +2,7 @@
 layout: post
 title:  "Visual Introduction to Green's Functions"
 categories:
-updated: 2019-07-29
+updated: 2019-7-29
 comments: true
 mathjax: true
 ---
