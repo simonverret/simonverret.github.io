@@ -9,7 +9,7 @@ mathjax: true
 
 I put up this page to share the following document:
 
-[**Transport Theory Cookbook for Cuprates**](https://github.com/simonverret/transport_cookbook/raw/master/cookbook.pdf).
+[**Transport Theory Cookbook for Cuprates**](https://github.com/simonverret/transport_cookbook/blob/master/cookbook.pdf).
 
 Note that the last pages of this document reproduce my post on the [dispersion of cuprates]({% post_url 2018-10-05-dispersion-of-cuprates %}).
 
