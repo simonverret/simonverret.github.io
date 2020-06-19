@@ -183,7 +183,7 @@ order: 5
 <br>
 <h2>Notable Distinctions</h2>
 <ul>
-<li>Best thesis, Science, University of Sherbrooke (2018)</li>
+<li>Best thesis, Science, Université de Sherbrooke (2018)</li>
 <li>FRQNT PhD scholarship (2013-2015)</li>
 <li>FRQNT MSc scholarship (2011-2012)</li>
 <li>Undergraduate Research Student Award (NSERC, 2009 and 2010)</li>
