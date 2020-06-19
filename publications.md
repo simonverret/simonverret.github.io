@@ -20,7 +20,7 @@ ArXiv 2004.01725 (2020), 22 pages
 <p class="cp">
   <!-- <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.224520">Physical Review B</a> -->
   <a href="https://arxiv.org/abs/2004.01725">ArXiv</a>
-  | My contribution to this work was to help Gaël Grissonnanche write a python program that computes the magnetoresistance in a 3D model of high temperature superconductors. This had already done by this work's advisor Brad Ramshaw, in Cornell, with his PhD student Yawen Fang (first author). Reproducing the results independently in Sherbrooke using another programming language allowed to improve many details, and get confidence in the results. I had already work on transport in cuprates, and I had already worked on three dimensional effects in cuprates, but this project took both aspects to a whole other level.
+  | My contribution to this work was to help Gaël Grissonnanche write a python program that computes the magnetoresistance in a 3D model of high-temperature superconductors. This had already done by this work's advisor Brad Ramshaw, in Cornell, with his PhD student Yawen Fang (first author). Reproducing the results independently in Sherbrooke using another programming language allowed to improve many details, and get confidence in the results. I had already work on transport in cuprates, and I had already worked on three dimensional effects in cuprates, but this project took both aspects to a whole other level.
 </p>
 </div>
 
@@ -37,7 +37,7 @@ Physical Review B 100, 224520 (2019), 14 pages.
 <p class="cp">
   <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.224520">Physical Review B</a>
   | <a href="https://arxiv.org/abs/1909.10141">ArXiv</a>
-  | This paper was 5 years in the making. It all started when André-Marie noticed subgap structures in the superconducting gap obtained with CDMFT and hired Jyotirmoy for an internship to study these. Since similar subgap structures are found in high temperature superconductors, we were very excited about this discovery. After a lot of work trying to explain the source of these subgap structures, we found they are caused by the artificial broken translation invariance inherent to CDMFT; they are an artefact. We were disappointed. However, in cuprates, we know that charge order also breaks translation invariance. Could the artificial translation invariance breaking in CDMFT cause similar effects to the density waves in cuprates? To adress this question correctly, we had to acquire a better understanding of the consequences of charge order and broken translation invariance in lattice models which lead to my my whole PhD work. I am very happy to finally share the work that started it all: an analysis of broken translation invariance in CDMFT.
+  | This paper was 5 years in the making. It all started when André-Marie noticed subgap structures in the superconducting gap obtained with CDMFT and hired Jyotirmoy for an internship to study these. Since similar subgap structures are found in high-temperature superconductors, we were very excited about this discovery. After a lot of work trying to explain the source of these subgap structures, we found they are caused by the artificial broken translation invariance inherent to CDMFT; they are an artefact. We were disappointed. However, in cuprates, we know that charge order also breaks translation invariance. Could the artificial translation invariance breaking in CDMFT cause similar effects to the density waves in cuprates? To adress this question correctly, we had to acquire a better understanding of the consequences of charge order and broken translation invariance in lattice models which lead to my my whole PhD work. I am very happy to finally share the work that started it all: an analysis of broken translation invariance in CDMFT.
 </p>
 </div>
 
@@ -97,7 +97,7 @@ Physical Review B 96, 125139 (2017), 11 pages. <b>editors' suggestion</b>
 <p class="cp">
   <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
-  | This paper makes clear predictions for the Seebeck coefficient, the Hall coefficient, and specific heat in three models for the pseudogap of high temperature superconductors. To my knowledge, these predictions have not been confirmed experimentally, which reveals a common weakness of these models, as discussed in the paper.
+  | This paper makes clear predictions for the Seebeck coefficient, the Hall coefficient, and specific heat in three models for the pseudogap of high-temperature superconductors. To my knowledge, these predictions have not been confirmed experimentally, which reveals a common weakness of these models, as discussed in the paper.
 </p>
 </div>
 
@@ -123,7 +123,7 @@ Physical Review B 95, 054518 (2017), 12 pages.
 <p class="cp">
   <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
   | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
-  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
+  | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high-temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
   | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
 </p>
 </div>

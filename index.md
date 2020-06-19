@@ -8,7 +8,7 @@ order: 1
 
 <div>
 <p>I am currently postdoctoral researcher at the Montreal Institute for Learning Algorithm (MILA) under Professor Yoshua Bengio. I work in partnership with the Institut Quantique (IQ) in Sherbrooke with the short-term goal to uncover new ways to apply deep learning in the research on quantum materials.</p>
-<p>During my PhD on high temperature superconductors, research blogs were precious sources for math proofs, short scripts, and explanations on various physical concepts. Now that I have some tricks of my own to show, I decided to make this website. Feel free to contact me if you have any questions about the content.</p>
+<p>During my PhD on high-temperature superconductors, research blogs were precious sources for math proofs, short scripts, and explanations on various physical concepts. Now that I have some tricks of my own to show, I decided to make this website. Feel free to contact me if you have any questions about the content.</p>
 <p>I plan to make a French version of this website someday. In the meanwhile, you can watch my PhD defense below (in French).</p>
 </div>
 <br>

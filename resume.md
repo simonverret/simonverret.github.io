@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-updated: 2019-09-24
+updated: 2020-06-19
 permalink: /cv/
 order: 5
 ---
@@ -10,7 +10,7 @@ order: 5
 
 <h2>Education</h2>
 
-<button class="collapsible"><b> PhD in PHYSICS - Université de Sherbrooke </b></button>
+<button class="collapsible"><b> PhD in physics - Université de Sherbrooke </b></button>
 <div class="content">
 <p class="cp">
   <b>2014 - 2018, Sherbrooke</b>
@@ -21,7 +21,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> MSc in PHYSICS  - Université de Sherbrooke</b></button>
+<button class="collapsible"><b> MSc in physics  - Université de Sherbrooke</b></button>
 <div class="content">
 <p class="cp">
   <b>2011 - 2014, Sherbrooke</b>
@@ -30,7 +30,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> BSc in PHYSICS - Université Laval</b></button>
+<button class="collapsible"><b> BSc in physics - Université Laval</b></button>
 <div class="content">
 <p class="cp">
   <b>2008 - 2011, Quebec</b>
@@ -43,28 +43,56 @@ order: 5
 <br>
 <h2>Relevant experiences</h2>
 
-<button class="collapsible"><b> POSTDOCTORAL RESEARCH - Université de Montréal</b></button>
+<button class="collapsible"><b> IVADO Postoctoral researcher - Université de Montréal</b></button>
 <div class="content">
 <p class="cp">
-  <b>2019, Montreal</b>
-  | Scolarship from <a href="https://ivado.ca/bourses-ivado/bourses-post-doctorales-4/">Institut for the valorisation of data (IVADO)</a> in partnership with <a href="https://www.usherbrooke.ca/iq/">Institut Quantique (IQ)</a> to research Deep learing for the electronic properties of quantum materials under Pr Yoshua Bengio and Pr André-Marie Tremblay.
-  With courses: representation learning (IFT6135) at Université de Montréal and reinforcement learning (COMP-767) at McGill University.
-  I Prepared deep learning tutorials for IQ in Université de Sherbrooke and I was
-  Teacher assistant for the <a href="https://ivado.ca/en/trainings/schools/ivado-mila-deep-learning-school-5th-edition-2/">4th IVADO summer school (2019)</a>.
+  <b>2019 - Today, Montreal</b>
+  | Scolarship from <a href="https://ivado.ca/en/ivado-scholarships/postdoctoral-scholarships/">Institut for the valorisation of data (IVADO)</a> and <a href="https://www.usherbrooke.ca/iq/">Institut Quantique (IQ)</a> under Pr Yoshua Bengio and Pr André-Marie Tremblay to develop Deep learing methods for the research on electronic properties of quantum materials. Followed courses on representation learning (Université de Montréal IFT6135) and reinforcement learning (McGill University COMP-767)
+  | Current projects:
+  <ul style="margin-top:-20px;">
+    <li>Domain adversarial networks for analytical continuation of transport functions</li>
+    <li>Graph neural networks for predicting materials properties</li>
+    <li>Spectral learning of weighted automata to initialize RNN</li>
+    <!-- <li><a href="https://github.com/simonverret/dee_continuation">Deep learning for analytical continuation (Python)</a></li> -->
+    <!-- <li><a href="https://github.com/oumarkaba/learn_materials">Deep learning for materials properties (Python)</a></li> -->
+    <!-- <li><a href="https://github.com/simonverret/spectral_rnn">Using spectral learning of weighted automata to initialize RNN (Python)</a></li> -->
+    <li><a href="https://github.com/simonverret/pheno-flow-cdmft">Autodifferentiation to fit spectral weight in phenomenological models for superconductors (Python)</a></li>
+    <li><a href="https://github.com/simonverret/flow_monte_carlo">Normalizing flows to accelerate Monte-Carlo methods (Python)</a></li>
+  </ul>
 </p>
 </div>
 
-<button class="collapsible"><b> POSTDOCTORAL RESEARCH - Université de Sherbrooke </b></button>
+<button class="collapsible"><b>Teaching deep learning</b></button>
+<div class="content">
+<p class="cp">
+  <b>2019, Montreal & Sherbrooke</b>
+  | Organizer, teacher or tutor for various events teaching convolutional neural networks and recurrent neural networks:
+  <ul style="margin-top:-20px;">
+    <li><a href="https://colab.research.google.com/drive/1WtWQjUFJ0ylesqeuz007jEhumpyhJdSB"> 3IT deep learning tutorial (Organizer & teacher, 3 days, Université de Sherbrooke)</a></li>
+    <li><a href="https://colab.research.google.com/drive/13LWetRu8AjZid3nucC7VZmkvhgrc6vCF"> Physics deep learning tutorials (Organizer & teacher, 4 days, Université de Sherbrooke)</a></li>
+    <li><a href="http://www.physics.mcgill.ca/ai2019"> McGill's Physics & AI Workshop (tutor, 2 days, McGill's University)</a></li>
+    <li><a href="https://www.ai4goodlab.com"> 2019 AI4Good Lab (tutor, 1 week, Mila)</a></li>
+    <li><a href="https://ivado.ca/en/trainings/schools/ivado-mila-deep-learning-school-5th-edition-2/">4th IVADO summer school 2019 (tutor, 1 week, Mila)</a></li>
+  </ul>
+</p>
+</div>
+
+<button class="collapsible"><b> Postoctoral research - Université de Sherbrooke </b></button>
 <div class="content">
 <p class="cp">
   <b>2018, Sherbrooke</b>
-  | Mathematical modeling of transport phenomena in high temperature superconductors under Pr André-Marie Tremblay and Pr Louis Taillefer. Followed courses in tensor network methods (PHY-839) and general relativity (PHQ-615)
-  | Relevant codes on github: <a href="https://github.com/simonverret/kxy_kagome">Thermal Hall effect in Python</a>, <a href="https://github.com/simonverret/mroBuddy">Magnetoresistance in C</a>, <a href="https://github.com/gaelgrissonnanche/admr">Magnetoresistance in Python</a>
+  | Mathematical modeling of transport phenomena in high-temperature superconductors under Pr André-Marie Tremblay and Pr Louis Taillefer. Followed courses in tensor network methods (PHY-839) and general relativity (PHQ-615)
+  | Relevant codes on github: 
+  <ul style="margin-top:-20px;">
+    <li><a href="https://github.com/gaelgrissonnanche/admr">Magnetoresistance and transport in high-temperature superconductors (Python)</a></li>
+    <li><a href="https://github.com/simonverret/kxy_kagome">Thermal Hall effect in the Kagome lattice (Python)</a></li>
+    <li><a href="https://github.com/simonverret/mroBuddy">Magnetoresistance in high-temperature superconductors (C)</a></li>
+    <li><a href="https://github.com/simonverret/transportBuddy">Transport in high-temperature superconductors (C)</a></li>
+  </ul>
 </p>
 </div>
 
-
-<button class="collapsible"><b> IVADO/MILA WINTER SCHOOL ON DEEP LEARNING </b></button>
+<button class="collapsible"><b> IVADO/MILA winter school on deep learning </b></button>
 <div class="content">
 <p class="cp">
   <b>March 5th to 9th, 2018, HEC - Montréal</b>
@@ -72,7 +100,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> CIFAR OFFICIAL REPORTER </b></button>
+<button class="collapsible"><b> CIFAR official reporter </b></button>
 <div class="content">
 <p class="cp">
   <b>2017, San Francisco - 2018, Montreal</b>
@@ -80,7 +108,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> INVESTIGATION COMMITTEE ON RESEARCH INTEGRITY </b></button>
+<button class="collapsible"><b> Investigation committee on research integrity </b></button>
 <div class="content">
 <p class="cp">
   <b>March to August 2017, Université de Sherbrooke</b>
@@ -88,7 +116,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> CURRICULUM REVISION COMMITTEE </b></button>
+<button class="collapsible"><b> Curriculum revision committee </b></button>
 <div class="content">
 <p class="cp">
   <b>2016, Université de Sherbrooke, Physics Department</b>
@@ -96,7 +124,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> TEACHING ASSISTANT </b></button>
+<button class="collapsible"><b> Teaching assistant </b></button>
 <div class="content">
 <p class="cp">
   <b>2015, Université de Sherbrooke</b>
@@ -104,7 +132,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> RESEARCH ASSISTANT - Université Laval </b></button>
+<button class="collapsible"><b> Research assistant - Université Laval </b></button>
 <div class="content">
 <p class="cp">
   <b>Summer 2009 and 2011, Québec, with NSERC Undergraduate Student Research Award</b>
@@ -112,7 +140,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> RESEARCH ASSISTANT - University of Calgary </b></button>
+<button class="collapsible"><b> Research assistant - University of Calgary </b></button>
 <div class="content">
 <p class="cp">
   <b>Summer 2010, Calgary, with NSERC Undergraduate Student Research Award</b>
@@ -135,6 +163,8 @@ order: 5
 <br>
 <h2>Volunteering & Activities</h2>
 <ul>
+<li>Lab representative, 2019-2020 (Mila)</li>
+<li>Physics discussion group, 2019-2020 (Mila)</li>
 <li>Organizing lunch seminars, 2016-2017 (Physics Department, Université de Sherbrooke)</li>
 <li>President, <a href="http://rqemp.ca/en/index.html">RQMP summer school</a> 2015 </li>
 <li>VP Logistics, <a href="http://rqemp.ca/en/index.html">RQMP summer school</a> 2014</li>
@@ -153,6 +183,7 @@ order: 5
 <br>
 <h2>Notable Distinctions</h2>
 <ul>
+<li>Best thesis, Science, University of Sherbrooke (2018)</li>
 <li>FRQNT PhD scholarship (2013-2015)</li>
 <li>FRQNT MSc scholarship (2011-2012)</li>
 <li>Undergraduate Research Student Award (NSERC, 2009 and 2010)</li>
