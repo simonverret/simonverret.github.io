@@ -187,10 +187,10 @@ order: 5
 <li>Best thesis, Science faculty, Université de Sherbrooke (2018)</li>
 <li>FRQNT PhD scholarship (2013-2015)</li>
 <li>FRQNT MSc scholarship (2011-2012)</li>
+<li>Student excellence (peer voted, Science and Engineering, Université Laval, 2010 and 2011)</li>
 <li>Undergraduate Research Student Award (NSERC, 2009 and 2010)</li>
 <li>Excellence award (Université Laval, 2009)</li>
 <li>Excellence award (Polyvalente de Charlesbourg, 2006)</li>
-<li>Student excellence (peer voted, Science and Engineering, Université Laval, 2010 and 2011)</li>
 <!-- <li>Personality of the year (Université Laval, physics students' association, 2009, 2010 and 2011)</li> -->
 <!-- <li>Personality of the year (Polyvalente de Charlesbourg, 2005)</li> -->
 <!-- grands québecois -->
