@@ -1,33 +1,7 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-
-
- 
-// @font-face {
-//   font-family: "Computer Modern";
-//   src: url('http://spratt.github.io/Computer-Modern/cmserif.otf');
-// }
-// @font-face {
-//   font-family: "Computer Modern";
-//   src: url('http://spratt.github.io/Computer-Modern/cmunsx.otf');
-//   font-weight: bold;
-// }
-// @font-face {
-//   font-family: "Computer Modern";
-//   src: url('http://spratt.github.io/Computer-Modern/cmunsi.otf');
-//   font-style: italic, oblique;
-// }
-// @font-face {
-//   font-family: "Computer Modern";
-//   src: url('http://spratt.github.io/Computer-Modern/cmunbxo.otf');
-//   font-weight: bold;
-//   font-style: italic, oblique;
-// }
-
-
 $base-font-family: Helvetica, Arial, sans-serif;
-$body-font-family: "Computer Modern Serif", Georgia, serif;
+$body-font-family: "Linux Libertine", "Computer Modern Serif", Georgia, serif;
 
 $base-font-size:   16px !default;
 $body-font-size:   17px;
@@ -48,10 +22,10 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    700px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        650px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

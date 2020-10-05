@@ -2,9 +2,16 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2020-04-07
+updated: 2020-10-05
 order: 4
 ---
+
+ <p>See on Google Scholar: <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
+
+Stay tuned for:
+- **Universal analytic continuation of response functions using neural networks (submited to NeurIPS workshop)**
+- **Fermi arcs from periodization of cellular antiferromagnetism (In preparation)**
+
 
 <body>
 
@@ -18,9 +25,8 @@ ArXiv 2004.01725 (2020), 22 pages
 </button>
 <div class="content">
 <p class="cp">
-  <!-- <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.224520">Physical Review B</a> -->
   <a href="https://arxiv.org/abs/2004.01725">ArXiv</a>
-  | My contribution to this work was to help Gaël Grissonnanche write a python program that computes the magnetoresistance in a 3D model of high-temperature superconductors. This had already done by this work's advisor Brad Ramshaw, in Cornell, with his PhD student Yawen Fang (first author). Reproducing the results independently in Sherbrooke using another programming language allowed to improve many details, and get confidence in the results. I had already work on transport in cuprates, and I had already worked on three dimensional effects in cuprates, but this project took both aspects to a whole other level.
+  | For this work, Gaël Grissonanche and I implemented a computation of magnetoresistance in high-temperature superconductors <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">(see it on gihub)</a>. Brad Ramshaw and PhD student Yawen Fang (Cornell) already had a version of this with written in Mathematica. Reproducing the results independently in another programming language allowed to find a few improvements to the method and confirm impressive results.
 </p>
 </div>
 
@@ -190,10 +196,6 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 </div>
 
 <br>
-
-<p>More on <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
-
-
 
 <br>
 

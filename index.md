@@ -6,12 +6,12 @@ order: 1
 
 <img class="center" src="/img/profile.png" width="240px">
 
-<div>
-<p>I am currently postdoctoral researcher at the Montreal Institute for Learning Algorithm (MILA) under Professor Yoshua Bengio. I work in partnership with the Institut Quantique (IQ) in Sherbrooke with the short-term goal to uncover new ways to apply deep learning in the research on quantum materials.</p>
-<p>During my PhD on high-temperature superconductors, research blogs were precious sources for math proofs, short scripts, and explanations on various physical concepts. Now that I have some tricks of my own to show, I decided to make this website. Feel free to contact me if you have any questions about the content.</p>
-<p>I plan to make a French version of this website someday. In the meanwhile, you can watch my PhD defense below (in French).</p>
-</div>
-<br>
+I am a <a href="https://ivado.ca/en/spotlight-on-our-academic-community/?programmes=postdoctoral-research-funding">IVADO postdoc</a> at <a href="https://mila.quebec/en/">Mila (Institut québecois d'intelligence articficielle, Montreal)</a> in partnership with <a href="https://www.usherbrooke.ca/iq/en/">IQ (Institut Quantique, Sherbrooke)</a>. I work under prof Yoshua Bengio and prof André-Marie Tremblay to apply deep learning methods to the research on quantum materials.
+
+During my PhD, other researchers blogs were very useful sources for math proofs, short scripts, and explanations on various physical concepts. I made this website to show some tricks of my own. Feel free to contact me if you have any questions about the content.
+
+I plan to make a French version of this website someday. In the meanwhile, you can watch my PhD defense below (in French).
+
 
 
 <div class="video-container">
