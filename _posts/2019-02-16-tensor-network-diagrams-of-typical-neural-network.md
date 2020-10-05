@@ -2,7 +2,7 @@
 layout: post
 title:  "Tensor network diagrams of typical neural networks"
 categories:
-updated: 2020-1-9
+updated: 2020-10-5
 comments: true
 mathjax: true
 ---
@@ -17,20 +17,19 @@ The starting point of all neural network is the "neuron", i.e. the following ope
 h_{i}=g\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 \label{oneLayer}
 \end{align}
-where $\vec h$ is the ouput vector of the layer, $\vec W$ is the matrix of weights, $\vec b$ is the vector of offsets, and $g(z)$ is the activation function (typically a <a href='https://en.wikipedia.org/wiki/Rectifier_(neural_networks)'>ReLU gate</a>, a <a href='https://en.wikipedia.org/wiki/Sigmoid_function'>sigmoid function</a>, or a tanh function).
+where $\vec h$ is the ouput vector of the layer, $\vec W$ is the matrix of weights, $\vec b$ is the vector of offsets, and $g(z)$ is the activation function (typically a [ReLU gate](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)), [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function), a tanh function, etc.).
 For $l$ layers, the final output of the network would be the output of the last layer $\vec y=\vec h^{(l)}$.
-In the <a href='https://www.deeplearningbook.org/'>the Deep Learning book</a>, the above equation is pictured as:
-<img class="center" src="/img/neuralTensorNetwork-01.png"  title="diagrammatic representation of one neural network layer" width="800px"/>
-with the weights, offsets, and activation function implicit. Within this diagrammatic convention, here is what a fully connected $l$ layers neural network, or ``multi-layer perceptron'' (MLP), looks like:
-<img class="center" src="/img/neuralTensorNetwork-02.png"  title="diagrammatic representation of a fully connected MLP" width="800px"/>
-
+In the [the Deep Learning book](https://www.deeplearningbook.org/), the above equation is pictured as:
+![diagrammatic representation of one neural network layer](/img/neuralTensorNetwork-01.png)
+with the weights, offsets, and activation function implicit. Within this diagrammatic convention, here is what a fully connected $l$ layers neural network, or "multi-layer perceptron" (MLP), looks like:
+![diagrammatic representation of a fully connected MLP](/img/neuralTensorNetwork-02.png)
 <br>
 
 Problems of these diagrams
 ---
-To be quite honest, I do not like this diagrammatic convention, because you need to know the equations represented to be able to understand the diagram. A good example is when the reccurent neural network (RNN) is introduced:
-<img class="center" src="/img/deepLearningBook-10-3.png"  title="diagrammatic representation of a RNN" width="800px"/>
-At first glance, the reader might understand that $\vec U$ and $\vec W$ are weights applied respectively on the input $x^{(t)}$ recieved at time $t$ and hidden state $h^{(t-1)}$ computed at time $t-1$, but what happens exactly to the results of these two? are they added, multiplied or concatenated to form $h^{(t)}$? Are they separately passed into a non-linear gate? Although the picture makes it unclear, the equations:
+At first, I did not like this diagrammatic convention. I thought you need to know the equations represented to be able to understand the diagrams. A good example is when the reccurent neural network (RNN) is introduced:
+![diagrammatic representation of a RNN](/img/deepLearningBook-10-3.png)
+The reader might understand that $\vec U$ and $\vec W$ are weights applied respectively on the input $x^{(t)}$ recieved at time $t$ and hidden state $h^{(t-1)}$ computed at time $t-1$, but what happens exactly to the results of these two? are they added, multiplied or concatenated to form $h^{(t)}$? Are they separately passed into a non-linear gate? Although the picture makes it unclear, the equations:
 \begin{align}
 \vec a^{(t)} &= \vec b + \vec W\vec h^{(t-1)} + \vec U\vec x^{(t)}\\\ 
 \vec h^{(t)} &= \tanh(\vec a^{(t)})\\\
@@ -45,7 +44,7 @@ Tensor network notation in physics
 In the winter of 2018, I followed a course on tensor network methods for strongly correlated electrons given by Glen Evenbly at Université de Sherbrooke. Basically, the course introduces a diagrammatic notation to write tensor products, and uses it to revisit famous methods of strongly correlated physics, among which the numerical renormalization group (NRG), density matrix renormalization group (DMRG), matrix product states (MPS), multi-scale entanglement renormalization ansatz (MERA), etc.
 
 Here are the basics: vector have one leg (because they have one index), matrix have two, and more general tensors have as many as their order. You can then illustrate a tensor product by connecting the legs corresponding to the index summed.
-<img class="center" src="/img/neuralTensorNetwork-03.png"  title="basics of the tensor network notation" width="800px"/>
+![basics of the tensor network notation](/img/neuralTensorNetwork-03.png)
 
 Since I began working on neural networks, I tried to draw the tensor network diagram corresponding to a few architecture visited in <a href='https://www.deeplearningbook.org/'>the DL book</a>. Trying to clean the diagrammatic representation of all ambiguity helped me understand many thiings. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
 \begin{align}
@@ -55,6 +54,25 @@ h_{i}=\sigma\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 Here is how the deep neural network illustrated at the beginning would look like:
 <img class="center" src="/img/neuralTensorNetwork-05.png"  title="tensor network diagram for a deep MLP" width="800px"/>
 with $g^{(k)}$ telling what non-linear gate is used at each layer. Note that I augmented the notation with element-wise operations, illustrated as teardrops (with their corner indicating the ouput of the operation), and with the non-linear functions, illustrated as arrowheads.
+
+
+<br>
+
+Disclaimer
+---
+There is one fundamental difference between the tensor network notation used in physics and the graphical notation used for neural networks. In physics, combining different quantum systems correspond to a tensor product. Because of this, two parallel legs in tensor networks correspond to building the tensor product space of those two dimension.
+<img class="center" src="
+/img/neuralTensorNetwork-12.png
+"  title="
+parallel lines in tensor networks correspond to a tensor product
+" width="800px"/>
+With neural networks, however, the dimension of such tensor product would grow too fast to be practical, and parallel lines (and, often, merging lines) denote a direct sum (a concatenation).
+<img class="center" src="
+/img/neuralTensorNetwork-11.png
+"  title="
+parallel lines in neural networks correspond to a concatenation
+" width="800px"/>
+Because of this, the diagrams I show below are more an exercise to understand neural networks rather than accepted tensor network diagrams of neural networks. This is also why I needed an explicit notation for addition (concatenation) of vectors, which is not standard in tensor network diagrams.
 
 <br>
 
