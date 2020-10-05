@@ -6,16 +6,17 @@ updated: 2020-10-05
 order: 4
 ---
 
- <p>See on Google Scholar: <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
+ <p>Google Scholar: <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
 
-Stay tuned for:
-- **Universal analytic continuation of response functions using neural networks (submited to NeurIPS workshop)**
-- **Fermi arcs from periodization of cellular antiferromagnetism (In preparation)**
+Upcoming:
+- Universal analytic continuation of response functions using neural networks (submited to NeurIPS workshop)
+- Fermi arcs from periodization of cellular antiferromagnetism (in preparation)
 
 
 <body>
 
-<p></p>
+<br>
+
 <h4>2020</h4>
 
 <button class="collapsible">
@@ -30,7 +31,7 @@ ArXiv 2004.01725 (2020), 22 pages
 </p>
 </div>
 
-<p></p>
+<br>
 
 <h4>2019</h4>
 
@@ -73,7 +74,9 @@ Physical Review B 99, 184510 (2019), 11 pages.
   | This paper is the fruit of very long hard work by Alexandre Foley on a new parametrization of CDMFT to study the coexistance of antiferromagnetism and superconductivity in the Hubbard Model. This new parametrization is compared to my Master's thesis results which used an older 'simpler' parametrization.
 </p>
 </div>
-<p></p>
+
+<br>
+
 
 <h4>2018</h4>
 
@@ -90,7 +93,7 @@ Awarded best thesis of the Science Faculty.
 </p>
 </div>
 
-<p></p>
+<br>
 
 <h4>2017</h4>
 
@@ -134,7 +137,7 @@ Physical Review B 95, 054518 (2017), 12 pages.
 </p>
 </div>
 
-<p></p>
+<br>
 
 <h4>2014</h4>
 
@@ -164,7 +167,8 @@ IEEE Sensors Journal 13 (1) 229 (2013), 4 pages.
   | Access required
 </p>
 </div>
-<p></p>
+
+<br>
 
 <h4>2012</h4>
 
@@ -179,7 +183,8 @@ Optics Express 20 (3) 3066 (2012), 5 pages.
   | Access required
 </p>
 </div>
-<p></p>
+
+<br>
 
 <h4>2010</h4>
 

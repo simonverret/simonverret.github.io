@@ -77,7 +77,7 @@ order: 5
 </p>
 </div>
 
-<button class="collapsible"><b> Postoctoral research - Université de Sherbrooke </b></button>
+<button class="collapsible"><b> Postoctoral researcher - Université de Sherbrooke </b></button>
 <div class="content">
 <p class="cp">
   <b>2018, Sherbrooke</b>
@@ -164,8 +164,8 @@ order: 5
 <h2>Volunteering & Activities</h2>
 <ul>
 <li>Lab representative, 2019-2020 (Mila)</li>
-<li>Physics discussion group, 2019-2020 (Mila)</li>
-<li>Organizing lunch seminars, 2016-2017 (Physics Department, Université de Sherbrooke)</li>
+<li>Physics discussion group organizer, 2019-2020 (Mila)</li>
+<li>Lunch seminars organizer, 2016-2017 (Physics Department, Université de Sherbrooke)</li>
 <li>President, <a href="http://rqemp.ca/en/index.html">RQMP summer school</a> 2015 </li>
 <li>VP Logistics, <a href="http://rqemp.ca/en/index.html">RQMP summer school</a> 2014</li>
 <li>VP Finances, <a href="http://jeuxdelaphysique.ca/en/home/">Physics Games</a> 2014 (Sherbrooke)</li>
@@ -183,7 +183,8 @@ order: 5
 <br>
 <h2>Notable Distinctions</h2>
 <ul>
-<li>Best thesis, Science, Université de Sherbrooke (2018)</li>
+<li>IVADO postdoctoral scolarship (2019)</li>
+<li>Best thesis, Science faculty, Université de Sherbrooke (2018)</li>
 <li>FRQNT PhD scholarship (2013-2015)</li>
 <li>FRQNT MSc scholarship (2011-2012)</li>
 <li>Undergraduate Research Student Award (NSERC, 2009 and 2010)</li>
@@ -196,16 +197,7 @@ order: 5
 </ul>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<h2>Publications</h2>
+See my <a href="{% link publications.md %}">publications page</a>
 
