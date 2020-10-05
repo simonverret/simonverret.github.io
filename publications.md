@@ -6,7 +6,7 @@ updated: 2020-10-05
 order: 4
 ---
 
- <p>Google Scholar: <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
+ <p>See on <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
 
 Upcoming:
 - Universal analytic continuation of response functions using neural networks (submited to NeurIPS workshop)
