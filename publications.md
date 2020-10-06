@@ -195,7 +195,7 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2894210/">PubMed</a>
+  <a href="http://www.nanoscalereslett.com/content/5/3/524">Nanoscale Research Letters</a>
   | Full text in open access
 </p>
 </div>
