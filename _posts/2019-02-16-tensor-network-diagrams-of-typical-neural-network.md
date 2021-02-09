@@ -32,7 +32,8 @@ At first, I did not like this diagrammatic convention. I thought you need to kno
 The reader might understand that $\vec U$ and $\vec W$ are weights applied respectively on the input $x^{(t)}$ recieved at time $t$ and hidden state $h^{(t-1)}$ computed at time $t-1$, but what happens exactly to the results of these two? are they added, multiplied or concatenated to form $h^{(t)}$? Are they separately passed into a non-linear gate? Although the picture makes it unclear, the equations:
 \begin{align}
 \vec a^{(t)} &= \vec b + \vec W\vec h^{(t-1)} + \vec U\vec x^{(t)}\\\ 
-\vec h^{(t)} &= \tanh(\vec a^{(t)})\\\
+\vec h^{(t)} &= \tanh(\vec a^{(t)})
+\\\
 \vec o^{(t)} &= \vec c + \vec V\vec h^{(t)}
 \end{align}
 not only answers that they are added (although you can show concatenating yields to the same thing), and then the result is passed to the non-linear gate, we now also know it is a tanh gate. Moreover, two offsets $\vec b$ are unnecessary in this context; only one is needed. In short, the diagrammatic notation cannot be directly translated to the maths. I consider this a big prolem compared, for example, to Feynman diagrams, which became famous and widely used mainly because they translate directly to equations.
