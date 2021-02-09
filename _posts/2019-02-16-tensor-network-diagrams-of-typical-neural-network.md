@@ -48,7 +48,7 @@ In the winter of 2018, I followed a course on tensor network methods for strongl
 Here are the basics: vector have one leg (because they have one index), matrix have two, and more general tensors have as many as their order. You can then illustrate a tensor product by connecting the legs corresponding to the index summed.
 ![basics of the tensor network notation](/img/neuralTensorNetwork-03.png)
 
-Since I began working on neural networks, I tried to draw the tensor network diagram corresponding to a few architecture visited in <a href='https://www.deeplearningbook.org/'>the DL book</a>. Trying to clean the diagrammatic representation of all ambiguity helped me understand many thiings. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
+Since I began working on neural networks, I tried to draw the tensor network diagram corresponding to a few architecture visited in <a href='https://www.deeplearningbook.org/'>the DL book</a>. Trying to clean the diagrammatic representation of all ambiguity helped me understand many things. For example, here is the representation of a simple hidden unit using a sigmoid gate $\sigma(z)$:
 \begin{align}
 h_{i}=\sigma\left(\sum_{j}W_{ij}x_{j}+b_{i}\right)
 \end{align} 
