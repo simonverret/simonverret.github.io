@@ -2,7 +2,7 @@
 layout: post
 title:  "Tensor network diagrams of typical neural networks"
 categories:
-updated: 2020-10-5
+updated: 2021-2-8
 comments: true
 mathjax: true
 ---
@@ -31,9 +31,10 @@ At first, I did not like this diagrammatic convention. I thought you need to kno
 ![diagrammatic representation of a RNN](/img/deepLearningBook-10-3.png)
 The reader might understand that $\vec U$ and $\vec W$ are weights applied respectively on the input $x^{(t)}$ recieved at time $t$ and hidden state $h^{(t-1)}$ computed at time $t-1$, but what happens exactly to the results of these two? are they added, multiplied or concatenated to form $h^{(t)}$? Are they separately passed into a non-linear gate? Although the picture makes it unclear, the equations:
 \begin{align}
-\vec a^{(t)} &= \vec b + \vec W\vec h^{(t-1)} + \vec U\vec x^{(t)}\\\ 
+\vec a^{(t)} &= \vec b + \vec W\vec h^{(t-1)} + \vec U\vec x^{(t)}
+\\\ 
 \vec h^{(t)} &= \tanh(\vec a^{(t)})
-\\\
+\\\ 
 \vec o^{(t)} &= \vec c + \vec V\vec h^{(t)}
 \end{align}
 not only answers that they are added (although you can show concatenating yields to the same thing), and then the result is passed to the non-linear gate, we now also know it is a tanh gate. Moreover, two offsets $\vec b$ are unnecessary in this context; only one is needed. In short, the diagrammatic notation cannot be directly translated to the maths. I consider this a big prolem compared, for example, to Feynman diagrams, which became famous and widely used mainly because they translate directly to equations.
@@ -101,7 +102,7 @@ In the above diagram, the loop means that the intermediate output $\vec h$ at ti
 Long short-term memory (LSTM)
 ---
 I do not explain the LSTM unit here, since the <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">introduction by Chris Colah</a> is excellent, and well known. However, I still find his illustration a little bit ambiguous, so here is the corresponding tensor network I came up with. Here, I follow <a href='https://www.deeplearningbook.org/'>the DL book</a>'s equations 10.40-10.44.
-The first step is to draw the internal state, as it is the most complicated diagram:
+The first step is to draw the internal state, as it is the most complicated diagram (where $\odot$ are element-wise products):
 \begin{align}
 s_{i}^{(t)}=f_{i}^{(t)}s_{i}^{(t-1)}+g_{i}^{(t)}\sigma\bigg(b_{i}+\sum_{j}U_{i,j}x_{j}^{(t)}+\sum_{j}W_{i,j}h_{j}^{(t-1)}\bigg)
 \end{align}
