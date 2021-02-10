@@ -17,10 +17,10 @@ Since cuprates are highly bidimensional, a 2D model is often enough. The non-int
 \epsilon_{\vec k} 
 &= 
 -2t\big(\cos (k_xa) + \cos (k_yb)\big)
-\nonumber\\\
+\nonumber\\\ 
 &\phantom{=\ }
 -4t'\cos (k_xa)\cos (k_yb)
-\nonumber\\\
+\nonumber\\\ 
 &\phantom{=\ }
 -2t''\big(\cos (2k_xa)+\cos (2k_yb)\big)
 \end{align}
@@ -59,7 +59,7 @@ $t'=-0.14t$, $t''=0.07t$, and $t_z0.07t$.
 
 The chemical potential $\mu$ is obtained by solving the integral equation for a given doping $p$:
 \begin{align}
-p &= 1 - n \\\
+p &= 1 - n \\\ 
 &= 1 - \iiint_{BZ} \frac{d^{3}k}{4\pi^{3}} f(\epsilon_{\text{3D}}(\vec k)-\mu)
 \end{align}
 One can put $t_z=0$ to get the 2D case.

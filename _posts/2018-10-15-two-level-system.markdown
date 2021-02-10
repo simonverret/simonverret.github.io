@@ -12,7 +12,7 @@ This page is intented as a reminder of useful formulas of the <a href="https://e
 \begin{align}
 H=
 \begin{pmatrix}
-\varepsilon_1 & \Delta^* \\\
+\varepsilon_1 & \Delta^* \\\ 
 \Delta & \varepsilon_2
 \end{pmatrix}.
 \label{hamiltonian}
@@ -26,27 +26,27 @@ by using the identity matrix $\mathbb 1$, the Pauli matrices vector $\vec \sigma
 \begin{align}
 \sigma_x = 
 \begin{pmatrix}
-0 & 1\\\
+0 & 1\\\ 
 1 & 0
 \end{pmatrix},
 \quad
 \sigma_y = 
 \begin{pmatrix}
-0 & -i\\\
+0 & -i\\\ 
 i & 0
 \end{pmatrix},
 \quad
 \sigma_z = 
 \begin{pmatrix}
-1 & 0\\\
+1 & 0\\\ 
 0 & -1
 \end{pmatrix},
 \end{align}
 and the following definitions:
 \begin{align}
-\varepsilon&=\frac{\varepsilon_1+\varepsilon_2}{2},\\\
-d_x&=\text{Re}\{\Delta\},\\\
-d_y&=\text{Im}\{\Delta\},\\\
+\varepsilon&=\frac{\varepsilon_1+\varepsilon_2}{2},\\\ 
+d_x&=\text{Re}\{\Delta\},\\\ 
+d_y&=\text{Im}\{\Delta\},\\\ 
 d_z&=\frac{\varepsilon_1-\varepsilon_2}{2}.
 \end{align}
 
@@ -57,7 +57,7 @@ The eigenvalues of \eqref{topoham}, are:
 E_{\pm}
 }
 &=\varepsilon\pm|\vec d|
-\\\
+\\\ 
 &=
 \boxed{
 \frac{\varepsilon_1+\varepsilon_2}{2} \pm \sqrt{ \Big(\frac{\varepsilon_1-\varepsilon_2}{2} \Big)^2 + \Delta^2}
@@ -72,7 +72,7 @@ The eigenvectors of \eqref{topoham} are the columns of the following unitary mat
 \begin{align}
 U=
 \begin{pmatrix}
-\cos \frac{\theta}{2} & -\sin \frac{\theta}{2}\\\
+\cos \frac{\theta}{2} & -\sin \frac{\theta}{2}\\\ 
 \text{e}^{\text i \phi}\sin \frac{\theta}{2} & \text{e}^{\text i \phi}\cos \frac{\theta}{2}
 \end{pmatrix},
 \label{umatrix}
@@ -81,7 +81,7 @@ with the following definitions for $\theta$ and $\phi$:
 \begin{align}
 \cos \theta &= \frac{d_z}{|\vec d|} 
 &= \frac{\frac{\varepsilon_1-\varepsilon_2}{2}}{\sqrt{ \big(\frac{\varepsilon_1-\varepsilon_2}{2} \big)^2 + \Delta^2}}
-\\\
+\\\ 
 \tan\phi &= \frac{d_y}{d_x}
 &\rightarrow \quad \Delta=|\Delta|\text{e}^{\text{i}\phi}.
 \end{align}
@@ -89,18 +89,18 @@ Which can be simplified with half-angle identities:
 \begin{align}
 \sin \frac{\theta}{2} &= \pm\sqrt{\frac{1+\cos\theta}{2}}
 &\begin{cases}
-+\quad \text{if } 0\leq\frac{\theta}{2} < \frac{\pi}{2}\\\
--\quad \text{if }  \frac{\pi}{2}\leq\frac{\theta}{2} < \pi\\\
-+\quad \text{if } \pi\leq\frac{\theta}{2} < \frac{3\pi}{2}\\\
++\quad \text{if } 0\leq\frac{\theta}{2} < \frac{\pi}{2}\\\ 
+-\quad \text{if }  \frac{\pi}{2}\leq\frac{\theta}{2} < \pi\\\ 
++\quad \text{if } \pi\leq\frac{\theta}{2} < \frac{3\pi}{2}\\\ 
 -\quad \text{if } \frac{3\pi}{2}\leq\frac{\theta}{2} < 2\pi
 \end{cases}
 \label{ineq1}
-\\\
+\\\ 
 \cos \frac{\theta}{2} &= \pm\sqrt{\frac{1-\cos\theta}{2}}
 &\begin{cases}
-+\quad \text{if } 0\leq\frac{\theta}{2} < \frac{\pi}{2}\\\
--\quad \text{if }  \frac{\pi}{2}\leq\frac{\theta}{2} < \pi\\\
--\quad \text{if } \pi\leq\frac{\theta}{2} < \frac{3\pi}{2}\\\
++\quad \text{if } 0\leq\frac{\theta}{2} < \frac{\pi}{2}\\\ 
+-\quad \text{if }  \frac{\pi}{2}\leq\frac{\theta}{2} < \pi\\\ 
+-\quad \text{if } \pi\leq\frac{\theta}{2} < \frac{3\pi}{2}\\\ 
 +\quad \text{if } \frac{3\pi}{2}\leq\frac{\theta}{2} < 2\pi
 \end{cases}
 \label{ineq2}
@@ -110,14 +110,14 @@ noting that:
 \sqrt{\frac{1\pm\cos\theta}{2}}
 &=
 \sqrt{\frac{|\vec d|\pm d_z}{2|\vec d|} \times\bigg( \frac{|\vec d|\mp d_z}{|\vec d|\mp d_z} \bigg) }
-\\\
+\\\ 
 &=
 %\sqrt{\frac{|\vec d|^2 - d_z^2}{2|\vec d|^2\mp 2|\vec d|d_z} }
 %\\&=
 %\sqrt{\frac{|\vec d|^2 - d_z^2}{d_x^2+d_y^2+d_z^2+ |\vec d|^2\mp 2|\vec d|d_z} }
-%\\\&=
+%\\\ &=
 \sqrt{\frac{d_x^2+d_y^2}{d_x^2+d_y^2+(d_z \mp |\vec d|)^2} }
-\\\
+\\\ 
 &=
 \frac{|\Delta|}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{\mp})^2} }.
 \end{align}
@@ -127,7 +127,7 @@ allowing to rewrite \eqref{umatrix} as:
 U=\begin{pmatrix}
 \frac{|\Delta|}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{+})^2} } 
 & - \frac{|\Delta|}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{-})^2} } 
-\\\
+\\\ 
 \frac{\Delta}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{-})^2} } 
 &
 \frac{\Delta}{\sqrt{|\Delta|^2+(\varepsilon_1 - E_{+})^2} } 
@@ -143,7 +143,7 @@ Finally, note the vector basis was defined so that
 \boxed{
 U^\dagger HU = 
 \begin{pmatrix}
-E_+ & 0\\\
+E_+ & 0\\\ 
 0 & E_-
 \end{pmatrix}
 }.

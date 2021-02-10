@@ -94,7 +94,7 @@ This is all good so far, but where are the gaps I mentioned at the beginning? As
 \begin{align}
 \boldsymbol{H} = 
 \begin{pmatrix}
-\varepsilon_1 & \Delta \\\
+\varepsilon_1 & \Delta \\\  
 \Delta & \varepsilon_2
 \end{pmatrix}.
 \label{hamiltonian}
@@ -136,7 +136,7 @@ Proof: relation between the spectral weight and the eigenvectors
     -\text{Im} G_{i,i}
     &=
     \sum_{n} |U_{n,i}|^2 \frac{\eta}{(\epsilon - E_n)^2 + \eta^2}
-    \\\
+    \\\ 
     &=
     \sum_{n} |U_{n,i}|^2 \pi \delta(\epsilon-E_n),  
     \end{align}
