@@ -1,13 +1,28 @@
 ---
 layout: page
 title: CV
-updated: 2020-06-19
+updated: 2021-04-16
 permalink: /cv/
 order: 5
 ---
 
 <body>
 
+
+<br>
+<h2>Employment</h2>
+
+<button class="collapsible"><b> Scientist - 1QBit</b></button>
+<div class="content">
+<p class="cp">
+  <b>2021 - Now, Sherbrooke</b>
+   Fundamental Research and Development of algorithms and methods related to state of the art deep learning and applied quantum physics. | <a href="https://1qbit.com">1Qbit</a>
+</p>
+</div>
+<p></p>
+
+
+<br>
 <h2>Education</h2>
 
 <button class="collapsible"><b> PhD in physics - Université de Sherbrooke </b></button>
@@ -46,9 +61,9 @@ order: 5
 <button class="collapsible"><b> IVADO Postoctoral researcher - Université de Montréal</b></button>
 <div class="content">
 <p class="cp">
-  <b>2019 - Today, Montreal</b>
+  <b>2019 - 2020, Montreal</b>
   | Scolarship from <a href="https://ivado.ca/en/ivado-scholarships/postdoctoral-scholarships/">Institut for the valorisation of data (IVADO)</a> and <a href="https://www.usherbrooke.ca/iq/">Institut Quantique (IQ)</a> under Pr Yoshua Bengio and Pr André-Marie Tremblay to develop Deep learing methods for the research on electronic properties of quantum materials. Followed courses on representation learning (Université de Montréal IFT6135) and reinforcement learning (McGill University COMP-767)
-  | Current projects:
+  | Projects:
   <ul style="margin-top:-20px;">
     <li>Domain adversarial networks for analytical continuation of transport functions</li>
     <li>Graph neural networks for predicting materials properties</li>

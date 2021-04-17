@@ -2,15 +2,15 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2020-10-05
+updated: 2021-04-16
 order: 4
 ---
 
- <p>See on <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
+<p>See on <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
 
 Upcoming:
-- Universal analytic continuation of response functions using neural networks (submited)
-- Fermi arcs from periodization of cellular antiferromagnetism (in preparation)
+- Universal analytic continuation of response functions using neural networks
+- Fermi arcs v.s. hole pockets: periodization of a cellular two-bands model
 
 
 <body>
@@ -20,14 +20,27 @@ Upcoming:
 <h4>2020</h4>
 
 <button class="collapsible">
+<b>Measurement of the Planckian Scattering Rate</b><br>
+G.&nbsp;Grissonnanche, Y.&nbsp;Fang, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, J.&nbsp;Zhou, D.&nbsp;Graf, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
+ArXiv 2011.13054 (2020), 17 pages
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://arxiv.org/abs/2011.13054">ArXiv</a>
+  | In this work, Gaël greatly extends the analysis allowed by the python code he and I implemented to compute electronic transport in high-temperature superconductors <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">(see it on gihub)</a>.
+</p>
+</div>
+
+
+<button class="collapsible">
 <b>Fermi surface transformation at the pseudogap critical point of a cuprate superconductor</b><br>
 Y.&nbsp;Fang, G.&nbsp;Grissonnanche, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, A.&nbsp;Ataei, M.&nbsp;Dion, J.&nbsp;Zhou, D.&nbsp;Graf, M.&nbsp;J.&nbsp;Lawler, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
-ArXiv 2004.01725 (2020), 22 pages
+ArXiv 2004.01725 (2020), 20 pages
 </button>
 <div class="content">
 <p class="cp">
   <a href="https://arxiv.org/abs/2004.01725">ArXiv</a>
-  | For this work, Gaël Grissonanche and I implemented a computation of magnetoresistance in high-temperature superconductors <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">(see it on gihub)</a>. Brad Ramshaw and PhD student Yawen Fang (Cornell) already had a version of this with written in Mathematica. Reproducing the results independently in another programming language allowed to find a few improvements to the method and confirm impressive results.
+  | For this work, Gaël Grissonanche and I implemented a computation of magnetoresistance in high-temperature superconductors <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">(see it on gihub)</a>. Brad Ramshaw and PhD student Yawen Fang (from Cornell) worked in parallel on a C++ version. Reproducing the results independently in another programming language allowed to find a few improvements to the method and confirm impressive results.
 </p>
 </div>
 
