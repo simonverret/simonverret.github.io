@@ -10,10 +10,25 @@ order: 4
 
 Upcoming:
 - Universal analytic continuation of response functions using neural networks
-- Fermi arcs v.s. hole pockets: periodization of a cellular two-bands model
-
 
 <body>
+
+<br>
+
+
+<h4>2021</h4>
+
+<button class="collapsible">
+<b>Fermi arcs vs hole pockets: periodization of a cellular two-band model</b><br>
+<b>S.&nbsp;Verret</b>, J.&nbsp;Roy, A.&nbsp;Foley, D.&nbsp;Sénéchal, A.-M.&nbsp;S.&nbsp;Tremblay, M.&nbsp;Charlebois<br>
+ArXiv 2107.01344 (2021), 8 pages
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://arxiv.org/abs/2107.01344">ArXiv</a>
+  | This project was mostly completed in the month of december 2018, during my first postdoc. It took more than two years of heated discussion with my collaborators to finally agree on the way to present it. You can find the code allowting to reproduce the results on <a href="https://github.com/mnmpdadish/c2B">gihub</a>.
+</p>
+</div>
 
 <br>
 
