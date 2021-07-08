@@ -2,19 +2,15 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2021-04-16
+updated: 2021-07-07
 order: 4
 ---
 
 <p>See on <a href="https://scholar.google.ca/citations?hl=en&user=YBaQbjAAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
 
-Upcoming:
-- Universal analytic continuation of response functions using neural networks
-
 <body>
 
 <br>
-
 
 <h4>2021</h4>
 
