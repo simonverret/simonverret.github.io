@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-updated: 2021-07-07
+updated: 2021-07-08
 order: 4
 ---
 
@@ -25,6 +25,20 @@ ArXiv 2107.01344 (2021), 8 pages
   | This project was mostly completed in the month of december 2018, during my first postdoc. It took more than two years of heated discussion with my collaborators to finally agree on the way to present it. You can find the code allowting to reproduce the results on <a href="https://github.com/mnmpdadish/c2B">gihub</a>.
 </p>
 </div>
+
+
+<button class="collapsible">
+<b>Out-of-plane Seebeck coefficient of the cuprate La<sub>1.6−x</sub>Nd<sub>0.4</sub>Sr<sub>x</sub>CuO<sub>4</sub> across the pseudogap critical point: particle-hole asymmetry and Fermi surface transformation</b><br>
+A.&nbsp;Gourgout, G.&nbsp;Grissonnanche, F.&nbsp;Laliberté, A.&nbsp;Ataei, L.&nbsp;Chen, <b>S.&nbsp;Verret</b>, J.-S.&nbsp;Zhou, J.&nbsp;Mravlje, A.&nbsp;Georges, N.&nbsp;Doiron-Leyraud, L.&nbsp;Taillefer<br>
+ArXiv 2106.05959 (2021), 12 pages
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://arxiv.org/abs/2106.05959">ArXiv</a>
+  My contribution to this work was many insightful conversations with Adrien, Gaël, and Louis Taillefer, during my postdoc in Sherbrooke, as well as the code Gaël and I put together which was used again in this work to demonstrate how counter-intuitive the results of Seebeck conductivity in cuprates are.
+</p>
+</div>
+
 
 <br>
 
