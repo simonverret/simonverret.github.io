@@ -6,7 +6,7 @@ order: 1
 
 <img class="center" src="/img/profile.png" width="240px">
 
-I am currently a Scientist at <a href="https://1qbit.com">1Qbit</a>, in their Sherbrooke office, redefining intractable with a very impressive team of researchers.
+I am currently a Scientist at <a href="https://1qbit.com">1QBit</a>, in their Sherbrooke office, redefining intractable with a very impressive team of researchers.
 
 For 2019 and 2020, I was a <a href="https://ivado.ca/en/spotlight-on-our-academic-community/?programmes=postdoctoral-research-funding">IVADO postdoc</a> at <a href="https://mila.quebec/en/">Mila (Institut québecois d'intelligence articficielle, Montreal)</a> in partnership with <a href="https://www.usherbrooke.ca/iq/en/">IQ (Institut Quantique, Sherbrooke)</a>, where I worked under prof Yoshua Bengio and prof André-Marie Tremblay to apply deep learning methods to the research on quantum materials.
 
