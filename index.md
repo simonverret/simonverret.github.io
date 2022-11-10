@@ -25,6 +25,6 @@ Ce site ne contient malheureusement rien en Français pour l'instant. Vous pouve
 
 <div>
 <p>
-Crédits: l'introduction de ma soutenance est un emprunt de <a href="http://matt.might.net/articles/phd-school-in-pictures/">"illustrated guide to a Ph.D."</a> par Matt Might, et l'histoire des matériaux est fortement inspiré du livre <a href="https://www.nap.edu/catalog/21869/stuff-matters">"Stuff Matters"</a> par Mark Miodownik.
+Crédits: l'introduction de ma soutenance est un emprunt de <a href="http://matt.might.net/articles/phd-school-in-pictures/">"illustrated guide to a Ph.D."</a> par Matt Might, et l'histoire des matériaux est fortement inspirée du livre <a href="https://www.nap.edu/catalog/21869/stuff-matters">"Stuff Matters"</a> par Mark Miodownik.
 </p>
 </div>
