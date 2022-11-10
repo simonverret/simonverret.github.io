@@ -8,7 +8,7 @@ order: 1
 
 I am currently AI Research Lead at <a href="https://1qbit.com">1QBit</a>, in their Sherbrooke office, working on physics-inspired machine learning algorithms.
 
-For 2019 and 2020, I was a <a href="https://ivado.ca/en/spotlight-on-our-academic-community/?programmes=postdoctoral-research-funding">IVADO postdoc</a> at <a href="https://mila.quebec/en/">Mila (Institut québecois d'intelligence articficielle, Montreal)</a> in partnership with <a href="https://www.usherbrooke.ca/iq/en/">IQ (Institut Quantique, Sherbrooke)</a>, where I worked under prof Yoshua Bengio and prof André-Marie Tremblay to apply deep learning methods to the research on quantum materials.
+From 2019 to 2020, I was a <a href="https://ivado.ca/en/spotlight-on-our-academic-community/?programmes=postdoctoral-research-funding">IVADO postdoc</a> at <a href="https://mila.quebec/en/">Mila (Institut québecois d'intelligence articficielle, Montreal)</a> in partnership with <a href="https://www.usherbrooke.ca/iq/en/">IQ (Institut Quantique, Sherbrooke)</a>, where I worked under prof Yoshua Bengio and prof André-Marie Tremblay to apply deep learning methods to the research on quantum materials.
 
 During my PhD, research blogs were very useful sources for math proofs, short scripts, and explanations on various physical concepts. I made this website to show some tricks of my own. Please contact me if you have any questions about the content.
 
@@ -25,7 +25,6 @@ Ce site ne contient malheureusement rien en Français pour l'instant. Vous pouve
 
 <div>
 <p>
-Credits: the introduction is basically exactly 
-Matt Might's <a href="http://matt.might.net/articles/phd-school-in-pictures/">"illustrated guide to a Ph.D."</a>, and the history of materials is heavily inspired from the excellent book <a href="https://www.nap.edu/catalog/21869/stuff-matters">"Stuff Matters"</a> by Mark Miodownik.
+Crédits: l'introduction de ma soutenance est un emprunt de <a href="http://matt.might.net/articles/phd-school-in-pictures/">"illustrated guide to a Ph.D."</a> par Matt Might, et l'histoire des matériaux est fortement inspiré du livre <a href="https://www.nap.edu/catalog/21869/stuff-matters">"Stuff Matters"</a> par Mark Miodownik.
 </p>
 </div>
