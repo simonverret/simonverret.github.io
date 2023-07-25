@@ -22,7 +22,7 @@ ArXiv 2107.01344 (2021), 8 pages
 <div class="content">
 <p class="cp">
   <a href="https://arxiv.org/abs/2107.01344">ArXiv</a>
-  | This project was mostly completed in the month of december 2018, during my first postdoc. It took more than two years of heated discussion with my collaborators to finally agree on the way to present it. You can find the code allowting to reproduce the results on <a href="https://github.com/mnmpdadish/c2B">gihub</a>.
+  | This project was mostly completed in the month of december 2018, during my first postdoc. It took more than two years of heated discussion with my collaborators to finally agree on the way to present it. You can find the code to reproduce the results on <a href="https://github.com/mnmpdadish/c2B">gihub</a>.
 </p>
 </div>
 
