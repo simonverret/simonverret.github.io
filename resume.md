@@ -12,14 +12,21 @@ order: 5
 <br>
 <h2>Employment</h2>
 
+<button class="collapsible"><b> AI Research Lead - 1QBit</b></button>
+<div class="content">
+<p class="cp">
+  <b>2022 - Now, Sherbrooke</b>
+   Supervision of 8 researchers working on the development and optimization of diffusion models adapted to memristor and FPGA processors, grant writing, hiring management, employee training, performance reviews, organization of meetings
+</p>
+</div>
+
 <button class="collapsible"><b> Scientist - 1QBit</b></button>
 <div class="content">
 <p class="cp">
-  <b>2021 - Now, Sherbrooke</b>
-   Fundamental Research and Development of algorithms and methods related to state of the art deep learning and applied quantum physics. | <a href="https://1qbit.com">1Qbit</a>
+  <b>2021 - 2022, Sherbrooke</b>
+   Research on the application of stochastic differential equations in deep learning, grant writing, software development, Scrum project management
 </p>
 </div>
-<p></p>
 
 
 <br>
@@ -62,17 +69,17 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>2019 - 2020, Montreal</b>
-  | Scolarship from <a href="https://ivado.ca/en/ivado-scholarships/postdoctoral-scholarships/">Institut for the valorisation of data (IVADO)</a> and <a href="https://www.usherbrooke.ca/iq/">Institut Quantique (IQ)</a> under Pr Yoshua Bengio and Pr André-Marie Tremblay to develop Deep learing methods for the research on electronic properties of quantum materials. Followed courses on representation learning (Université de Montréal IFT6135) and reinforcement learning (McGill University COMP-767)
+  | Scolarship from <a href="https://ivado.ca/en/ivado-scholarships/postdoctoral-scholarships/">Institut for the valorisation of data (IVADO)</a> and <a href="https://www.usherbrooke.ca/iq/">Institut Quantique (IQ)</a> under Pr Yoshua Bengio and Pr André-Marie Tremblay to develop deep learing methods for the research on electronic properties of quantum materials. Followed courses on representation learning (Université de Montréal IFT6135) and reinforcement learning (McGill University COMP-767)
   | Projects:
   <ul style="margin-top:-20px;">
-    <li>Domain adversarial networks for analytical continuation of transport functions</li>
+    <li><a href="https://github.com/simonverret/deep_continuation">Temperature-agnostic analytical continuation of transport functions</a></li>
     <li>Graph neural networks for predicting materials properties</li>
     <li>Spectral learning of weighted automata to initialize RNN</li>
-    <!-- <li><a href="https://github.com/simonverret/dee_continuation">Deep learning for analytical continuation (Python)</a></li> -->
+    <!-- <li><a href="https://github.com/simonverret/deep_continuation">Deep learning for analytical continuation (Python)</a></li> -->
     <!-- <li><a href="https://github.com/oumarkaba/learn_materials">Deep learning for materials properties (Python)</a></li> -->
     <!-- <li><a href="https://github.com/simonverret/spectral_rnn">Using spectral learning of weighted automata to initialize RNN (Python)</a></li> -->
-    <li><a href="https://github.com/simonverret/pheno-flow-cdmft">Autodifferentiation to fit spectral weight in phenomenological models for superconductors (Python)</a></li>
-    <li><a href="https://github.com/simonverret/flow_monte_carlo">Normalizing flows to accelerate Monte-Carlo methods (Python)</a></li>
+    <li><a href="https://github.com/simonverret/pheno-flow-cdmft">Autodifferentiation to fit spectral weight</a></li>
+    <li><a href="https://github.com/simonverret/flow_monte_carlo">Normalizing flows to accelerate Monte-Carlo</a></li>
   </ul>
 </p>
 </div>
@@ -127,7 +134,7 @@ order: 5
 <div class="content">
 <p class="cp">
   <b>March to August 2017, Université de Sherbrooke</b>
-  | Selected by the University's president to investigate an intellectual property conflict: read complaints, witnesses examination and testimonies and redaction of a report (confidential), under the supervision of a lawyer in intellectual property.
+  | Selected by the University Dean to investigate an intellectual property dispute: reading of complaints, questioning and hearing of testimony, and drafting of a report under the supervision of one of Canada's leading intellectual property Lawyer.
 </p>
 </div>
 

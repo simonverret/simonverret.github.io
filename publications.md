@@ -12,47 +12,36 @@ order: 4
 
 <br>
 
-<h4>2021</h4>
+
+<h4>2023</h4>
+
+<button class="collapsible">
+<b>Prediction of large magnetic moment materials with graph neural networks and random forests</b><br>
+S.-O.&nbsp;Kaba, B.&nbsp;Groleau-Par\'e, M.-A.&nbsp;Gauthier, A.-M. S.&nbsp;Tremblay, <b>S.&nbsp;Verret</b>, C.&nbsp;Gauvin-Ndiaye<br>
+Phys. Rev. Mater. 7 (4), 044407
+</button>
+<div class="content">
+<p class="cp">
+  <a href="hhttps://link.aps.org/doi/10.1103/PhysRevMaterials.7.044407">Physical Review Materials</a>
+  | <a href="https://arxiv.org/abs/2111.14712">ArXiv</a>
+  | My first published work using deep learning. Oumar did most of the heavy lifting on this, and the team in Sherbrooke complemented by learning and teaching us classical machine learning methods. <a href="https://github.com/simonverret/materials_data_api_scripts">My code to download materials dataset</a> for this project became my most reused code.
+</p>
+</div>
+
+
+<h4>2022</h4>
+
 
 <button class="collapsible">
 <b>Fermi arcs vs hole pockets: periodization of a cellular two-band model</b><br>
 <b>S.&nbsp;Verret</b>, J.&nbsp;Roy, A.&nbsp;Foley, D.&nbsp;Sénéchal, A.-M.&nbsp;S.&nbsp;Tremblay, M.&nbsp;Charlebois<br>
-ArXiv 2107.01344 (2021), 8 pages
+Physical Review B 105 (3), 035117
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://arxiv.org/abs/2107.01344">ArXiv</a>
-  | This project was mostly completed in the month of december 2018, during my first postdoc. It took more than two years of heated discussion with my collaborators to finally agree on the way to present it. You can find the code to reproduce the results on <a href="https://github.com/mnmpdadish/c2B">gihub</a>.
-</p>
-</div>
-
-
-<button class="collapsible">
-<b>Out-of-plane Seebeck coefficient of the cuprate La<sub>1.6−x</sub>Nd<sub>0.4</sub>Sr<sub>x</sub>CuO<sub>4</sub> across the pseudogap critical point: particle-hole asymmetry and Fermi surface transformation</b><br>
-A.&nbsp;Gourgout, G.&nbsp;Grissonnanche, F.&nbsp;Laliberté, A.&nbsp;Ataei, L.&nbsp;Chen, <b>S.&nbsp;Verret</b>, J.-S.&nbsp;Zhou, J.&nbsp;Mravlje, A.&nbsp;Georges, N.&nbsp;Doiron-Leyraud, L.&nbsp;Taillefer<br>
-ArXiv 2106.05959 (2021), 12 pages
-</button>
-<div class="content">
-<p class="cp">
-  <a href="https://arxiv.org/abs/2106.05959">ArXiv</a>
-  My contribution to this work was many insightful conversations with Adrien, Gaël, and Louis Taillefer, during my postdoc in Sherbrooke, as well as the code Gaël and I put together which was used again in this work to demonstrate how counter-intuitive the results of Seebeck conductivity in cuprates are.
-</p>
-</div>
-
-
-<br>
-
-<h4>2020</h4>
-
-<button class="collapsible">
-<b>Measurement of the Planckian Scattering Rate</b><br>
-G.&nbsp;Grissonnanche, Y.&nbsp;Fang, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, J.&nbsp;Zhou, D.&nbsp;Graf, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
-ArXiv 2011.13054 (2020), 17 pages
-</button>
-<div class="content">
-<p class="cp">
-  <a href="https://arxiv.org/abs/2011.13054">ArXiv</a>
-  | In this work, Gaël greatly extends the analysis allowed by the python code he and I implemented to compute electronic transport in high-temperature superconductors <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">(see it on gihub)</a>.
+  <a href="https://doi.org/10.1103/PhysRevB.105.035117">PRB</a>
+  | <a href="https://arxiv.org/abs/2107.01344">ArXiv</a>
+  | My favourite project (and the least cited one). It was mostly completed in December 2018, during my first postdoc. It took three years until we could agree on the way to present it. You can find the code to reproduce the results on <a href="https://github.com/mnmpdadish/c2B">gihub</a>.
 </p>
 </div>
 
@@ -60,14 +49,49 @@ ArXiv 2011.13054 (2020), 17 pages
 <button class="collapsible">
 <b>Fermi surface transformation at the pseudogap critical point of a cuprate superconductor</b><br>
 Y.&nbsp;Fang, G.&nbsp;Grissonnanche, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, A.&nbsp;Ataei, M.&nbsp;Dion, J.&nbsp;Zhou, D.&nbsp;Graf, M.&nbsp;J.&nbsp;Lawler, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
-ArXiv 2004.01725 (2020), 20 pages
+Nature Physics 18 (5), 558-564
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://arxiv.org/abs/2004.01725">ArXiv</a>
-  | For this work, Gaël Grissonanche and I implemented a computation of magnetoresistance in high-temperature superconductors <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">(see it on gihub)</a>. Brad Ramshaw and PhD student Yawen Fang (from Cornell) worked in parallel on a C++ version. Reproducing the results independently in another programming language allowed to find a few improvements to the method and confirm impressive results.
+  <a href="https://doi.org/10.1038/s41567-022-01514-1">Nature</a>
+  | <a href="https://arxiv.org/abs/2004.01725">ArXiv</a>
+  | For this work, Gaël Grissonanche and I implemented a <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">computation of magnetoresistance in high-temperature superconductors</a>. Brad Ramshaw and PhD student Yawen Fang (from Cornell) worked in parallel on a C++ version. Reproducing the results independently allowed to find a few improvements to the method and confirm impressive results.
 </p>
 </div>
+
+
+<button class="collapsible">
+<b>Seebeck coefficient in a cuprate superconductor: particle-hole asymmetry in the strange metal phase and Fermi surface transformation in the pseudogap phase</b><br>
+A.&nbsp;Gourgout, G.&nbsp;Grissonnanche, F.&nbsp;Laliberté, A.&nbsp;Ataei, L.&nbsp;Chen, <b>S.&nbsp;Verret</b>, J.-S.&nbsp;Zhou, J.&nbsp;Mravlje, A.&nbsp;Georges, N.&nbsp;Doiron-Leyraud, L.&nbsp;Taillefer<br>
+Physical Review X 12 (1), 011037
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://doi.org/10.1103/PhysRevX.12.011037">PRX</a>
+  | <a href="https://arxiv.org/abs/2106.05959">ArXiv</a>
+  | This paper showcase counter-intuitive results for measurements of the thermopower in cuprates superconductors. My contributions are the code for phenomenological modeling of the experiments and many insightful discussion with Adrien, Gaël, Antoine, Jernej and Louis.
+</p>
+</div>
+
+
+<br>
+
+<h4>2021</h4>
+
+<button class="collapsible">
+<b>Linear-in temperature resistivity from an isotropic Planckian scattering rate</b><br>
+G.&nbsp;Grissonnanche, Y.&nbsp;Fang, A.&nbsp;Legros, <b>S.&nbsp;Verret</b>, F.&nbsp;Laliberte, C.&nbsp;Collignon, J.&nbsp;Zhou, D.&nbsp;Graf, P.&nbsp;Goddard, L.&nbsp;Taillefer, B.&nbsp;J.&nbsp;Ramshaw<br>
+Nature 595, 667 (2021), 
+</button>
+<div class="content">
+<p class="cp">
+  <a href="https://doi.org/10.1038/s41586-021-03697-8">Nature</a>
+  | <a href="https://arxiv.org/abs/2011.13054">ArXiv</a>
+  | In this paper, we show that conductivity in the stange metal phase of cuprates can be modeled with Boltzmann transport theory, something most people thought impossible. Our code for the phenomenological model is available <a href="https://github.com/gaelgrissonnanche/cuprates_transport.git">on gihub</a>.
+</p>
+</div>
+
+
 
 <br>
 
@@ -90,12 +114,12 @@ Physical Review B 100, 224520 (2019), 14 pages.
 <button class="collapsible">
 <b>Thermodynamic signatures of quantum criticality in cuprates</b><br>
 B.&nbsp;Michon, C.&nbsp;Girod, S.&nbsp;Badoux, J.&nbsp;Kačmarčík, Q.&nbsp;Ma, M.&nbsp;Dragomir, H.A.&nbsp;Dabkowska, B.D.&nbsp;Gaulin, J.-S.&nbsp;Zhou, S.&nbsp;Pyon, T.&nbsp;Takayama, H.&nbsp;Takagi, <b>S.&nbsp;Verret</b>, .N&nbsp;Doiron-Leyraud, C.&nbsp;Marcenat, L.&nbsp;Taillefer, T.&nbsp;Klein,<br>
-Nature (2019), 8 pages.
+Nature 567, 218–222 (2019), 8 pages.
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://www.nature.com/articles/s41586-019-0932-x">Nature</a>
-  | <a href="https://arxiv.org/abs/1804.08502">ArXiv</a>
+  <a href="https://arxiv.org/abs/1804.08502">ArXiv</a>
+  | <a href="https://www.nature.com/articles/s41586-019-0932-x">Nature</a>
   | This paper presents groundbeaking experiments for the specific heat in cuprates. I contributed theoretical calculations that show these experiments cannot be explained with the van Hove singularity expected in this system because of three dimensional considerations.
 </p>
 </div>
@@ -107,8 +131,8 @@ Physical Review B 99, 184510 (2019), 11 pages.
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://arxiv.org/abs/1811.12363">ArXiv</a>
-  | <a href="https://link.aps.org/doi/10.1103/PhysRevB.99.184510">Physical Review B</a>
+  <a href="https://link.aps.org/doi/10.1103/PhysRevB.99.184510">Physical Review B</a>
+  | <a href="https://arxiv.org/abs/1811.12363">ArXiv</a>
   | This paper is the fruit of very long hard work by Alexandre Foley on a new parametrization of CDMFT to study the coexistance of antiferromagnetism and superconductivity in the Hubbard Model. This new parametrization is compared to my Master's thesis results which used an older 'simpler' parametrization.
 </p>
 </div>
@@ -142,8 +166,8 @@ Physical Review B 96, 125139 (2017), 11 pages. <b>editors' suggestion</b>
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
-  | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
+  <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
+  | <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
   | This paper makes clear predictions for the Seebeck coefficient, the Hall coefficient, and specific heat in three models for the pseudogap of high-temperature superconductors. To my knowledge, these predictions have not been confirmed experimentally, which reveals a common weakness of these models, as discussed in the paper.
 </p>
 </div>
@@ -155,8 +179,8 @@ Physical Review B 96, 205132 (2017), 9 pages.
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
-  | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
+  <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.125139">Physical Review B</a>
+  | <a href="https://arxiv.org/abs/1707.04632">ArXiv</a>
   | The main work for this paper was done by my colleague Maxime Charlebois. He used the code developped for my paper on subgap structures (just below) to study the Hall effect in incomensurate systems. Togheter with colleague Alexandre Foley, we found a way to efficiently compute the electronic velocity in these systems (appendix of the paper) so that Maxime could compute the Hall resistivity.
 </p>
 </div>
@@ -168,8 +192,8 @@ Physical Review B 95, 054518 (2017), 12 pages.
 </button>
 <div class="content">
 <p class="cp">
-  <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
-  | <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
+  <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.054518">Physical Review B</a>
+  | <a href="https://arxiv.org/abs/1610.01109">ArXiv</a>
   | This paper was a large scale exploration of density waves and their effects on the superconducting gap of high-temperature superconductors. Although it was not the first time such results were reported, the large space of parameters explored sheds new light on the issue. The main highlight of the paper is without doubt the last figure, which was first drawn spontaneously on a blackboard during a heated discussion with Maxime Charlebois.
   | Code published on <a href="https://physique.usherbrooke.ca/codes_sources/"> physique.usherbrooke.ca/codes_sources/</a>, look for "oneBuddy.tar.gz".
 </p>
@@ -240,7 +264,7 @@ Nanoscale Research Letters 5 (3) 524 (2010), 9 pages.
 
 <br>
 
-<br>
+<!-- <br>
 
 <h1 class="post-title">Selected talks & posters</h1>
 
@@ -283,7 +307,7 @@ Engineering Quantum Matter (conference), St-Andrews, Scotland, June 2016
 
 
 
-
+ -->
 
 
 
