@@ -32,3 +32,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 #gem "rouge" , git: "https://github.com/jneen/rouge", branch: "master"
 # gem 'pygments.rb', '~> 0.6.0'
 
+
+gem "webrick", "~> 1.8"
